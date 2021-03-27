@@ -5,8 +5,40 @@
   .phb {
     width: 210mm;
     height: 296.8mm;
+    font-family: Alegreya;
+    font-size: 11px;
+    font-variant-numeric: lining-nums;
   }
   .phb:after { content: ""; }
+  
+  .phb h1, .phb h2, .phb h3, .phb h4 {
+      font-family: Alegreya SC;
+  }
+  
+  .phb h5 {
+      font-family: Alegreya Sans SC;
+      font-weight: bold;
+  }
+  
+  .phb table {
+      font-family: Alegreya Sans;
+  }
+  
+  .phb .partpage h1 {
+      font-family: Nodesto Cyrillic;
+  }
+  
+  .phb .partpage h5 {
+      font-family: Alegreya Sans;
+  }
+  
+  .phb h1 + p::first-letter{
+      font-family: Volbera;
+  }
+  
+  .phb p {
+      line-height: 1.15;
+  }
 
 
 /* TABLE OF CONTENTS  */
@@ -23,7 +55,7 @@
     display: block;
   }
   .toc li span:nth-child(2):after {
-    font-family: BookSanity;
+    font-family: Alegreya;
     font-size: 0.317cm;
     font-weight: normal;
     color: black;
@@ -36,7 +68,7 @@
   /* Style TOC page numbers*/
   .toc li span:first-child {
     float: right;
-    font-family: BookSanity;
+    font-family: Alegreya;
     font-size: 0.317cm;
     font-weight: normal;
     color: black;
@@ -244,7 +276,7 @@
 
 \pagebreak
 
-## Credits
+## Участники проекта
 *Contributors listed by community usernames.*
 <div style='margin-top:-20px;'></div>
 
@@ -285,6 +317,8 @@
 <br><span style="margin-left:12px"></span> material for 5th Edition Dungeons and Dragons. Without
 <br><span style="margin-left:12px"></span> it, this project would've likely never been considered.
 
+<br> **Перевод:** Майя Эверетт
+
 <div style='margin-top:24px'></div>
 <div style="text-align:Center">
 
@@ -296,7 +330,7 @@
 <div style='margin-top:1000px'></div>
 <div style="text-align:Right"> 
 
-## Foreword </div>
+## Предисловие </div>
 We've made this book in an attempt to bring the beloved Warcraft franchise into the 5th edition of D&D. It is a task that has taken us months to do, and it'll likely take many more still. Everyone involved are working this in their spare time, aiming to bring a genuine recreation of *Warcraft* as a D&D 5th Edition tabletop RPG.
 
 This book is made to compliment official D&D 5th edition books, including the **Player's Handbook, Dungeon Master's Guide**, and **Monster Manual**. It has been built on the framework set by those books, and designed to be brought in as any supplement book would. Without any more work than to just use the material presented.
@@ -338,7 +372,7 @@ With each coming update, all changes will be noted in the Changelog — Link is 
 <div style='margin-top:70px'></div>
 <div class='wide'> 
 
-#### Legal Stuff
+#### Юридическая информация
 DUNGEONS & DRAGONS, D&D, Wizards of the Coast, Forgotten Realms, Ravenloft, Eberron, the dragon ampersand, Ravnica and all other Wizards of the Coast product names, and their respective logos are trademarks of Wizards of the Coast in the USA and other countries.
 <br> This work contains material that is copyright Wizards of the Coast and/or other authors. Such material is used with permission under the Community Content Agreement for Dungeon Masters Guild.
 <br> All other original material in this work is copyright 2019 by [your legal name or company name] and published under the Community Content Agreement for Dungeon Masters Guild.
@@ -348,73 +382,73 @@ DUNGEONS & DRAGONS, D&D, Wizards of the Coast, Forgotten Realms, Ravenloft, Eber
 
 <div style="text-align: Center">
 
-# Table of Contents
+# Оглавление
 </div>
 
 <div class='toc'>
 
-- ### [<span>4</span><span>Part I: Heroes                                    </span>](#p4)
-  - #### [<span>5</span><span>Chapter 1: Races                               </span>](#p5)
-     - [<span>5</span><span>Choosing a Side                                  </span>](#p5)
-     - [<span>6</span><span>Choosing a Race                                  </span>](#p6)
-     - [<span>6</span><span>Languages                                        </span>](#p6)
-     - [<span>7</span><span>*Races of the Alliance*                          </span>](#p7)
-       - [<span>8</span><span>Human                                          </span>](#p8)
-       - [<span>10</span><span>Dwarf                                         </span>](#p10)
-       - [<span>12</span><span>Night Elf                                     </span>](#p12)
-       - [<span>15</span><span>Gnome                                         </span>](#p14)
-       - [<span>16</span><span>Draenei                                       </span>](#p16)
-       - [<span>18</span><span>Worgen                                        </span>](#p18)
-     - [<span>20</span><span>*Races of the Horde*                            </span>](#p20)
-       - [<span>21</span><span>Orc                                           </span>](#p21)
-       - [<span>23</span><span>Forsaken                                      </span>](#p23)
-       - [<span>25</span><span>Tauren                                        </span>](#p25)
-       - [<span>37</span><span>Troll                                         </span>](#p27)
-       - [<span>39</span><span>Blood Elf                                     </span>](#p29)
-       - [<span>31</span><span>Goblin                                        </span>](#p31)
-     - [<span>33</span><span>*Allied Races*                                  </span>](#p33)
-       - [<span>34</span><span>Nightborne                                    </span>](#p34)
-       - [<span>36</span><span>Pandaren                                      </span>](#p36)
-       - [<span>38</span><span>Void Elf                                      </span>](#p38)
-       - [<span>39</span><span>Vulpera                                       </span>](#p39)
-  - #### [<span>##</span><span>Chapter 2: Classes                            </span>](#p##)
-     - [<span>##</span><span>Death Knight                                    </span>](#p##)
-     - [<span>##</span><span>Demon Hunter                                    </span>](#p##)
-     - [<span>##</span><span>Druid                                           </span>](#p##)
-     - [<span>##</span><span>Hunter                                          </span>](#p##)
-     - [<span>##</span><span>Mage                                            </span>](#p##)
-     - [<span>##</span><span>Monk                                            </span>](#p##)
-     - [<span>##</span><span>Paladin                                         </span>](#p##)
-     - [<span>##</span><span>Priest                                          </span>](#p##)
-     - [<span>##</span><span>Rogue                                           </span>](#p##)
-     - [<span>##</span><span>Shaman                                          </span>](#p##)
-     - [<span>##</span><span>Warlock                                         </span>](#p##)
-     - [<span>##</span><span>Warrior                                         </span>](#p##)
-  - #### [<span>##</span><span>Chapter 3: New Backgrounds                    </span>](#p##)
-     - [<span>##</span><span>Dark Apothecary                                 </span>](#p##)
-     - [<span>##</span><span>Double Agent                                    </span>](#p##)
-     - [<span>##</span><span>Faction Fostered                                </span>](#p##)
-     - [<span>##</span><span>Kirin Tor Apprentice                            </span>](#p##)
-  - #### [<span>##</span><span>Chapter 4: New Equipment                      </span>](#p##)
-     - [<span>##</span><span>Starting Equipment                              </span>](#p##)
-     - [<span>##</span><span>Exotic Weapons                                  </span>](#p##)
-     - [<span>##</span><span>New Adventuring Gear and Tools                  </span>](#p##)
-  - #### [<span>##</span><span>Chapter 5: Customization Options              </span>](#p##)
-     - [<span>##</span><span>New Feats                                       </span>](#p##)
-     - [<span>##</span><span>Racial Feats                                    </span>](#p##)
+- ### [<span>4</span><span>Часть I: Герои                                    </span>](#p4)
+  - #### [<span>5</span><span>Глава 1: Расы                               </span>](#p5)
+     - [<span>5</span><span>Выбор стороны                                  </span>](#p5)
+     - [<span>6</span><span>Выбор расы                                  </span>](#p6)
+     - [<span>6</span><span>Языки                                        </span>](#p6)
+     - [<span>7</span><span>*Расы Альянса*                          </span>](#p7)
+       - [<span>8</span><span>Человек                                          </span>](#p8)
+       - [<span>10</span><span>Дворф                                         </span>](#p10)
+       - [<span>12</span><span>Ночной эльф                                     </span>](#p12)
+       - [<span>15</span><span>Гном                                         </span>](#p14)
+       - [<span>16</span><span>Дреней                                       </span>](#p16)
+       - [<span>18</span><span>Ворген                                        </span>](#p18)
+     - [<span>20</span><span>*Расы Орды*                            </span>](#p20)
+       - [<span>21</span><span>Орк                                           </span>](#p21)
+       - [<span>23</span><span>Отрёкшийся                                      </span>](#p23)
+       - [<span>25</span><span>Таурен                                        </span>](#p25)
+       - [<span>37</span><span>Тролль                                         </span>](#p27)
+       - [<span>39</span><span>Эльф крови                                     </span>](#p29)
+       - [<span>31</span><span>Гоблин                                        </span>](#p31)
+     - [<span>33</span><span>*Союзные расы*                                  </span>](#p33)
+       - [<span>34</span><span>Ночнорождённый                                    </span>](#p34)
+       - [<span>36</span><span>Пандарен                                      </span>](#p36)
+       - [<span>38</span><span>Эльф Бездны                                      </span>](#p38)
+       - [<span>39</span><span>Вульпера                                       </span>](#p39)
+  - #### [<span>##</span><span>Глава 2: Классы                            </span>](#p##)
+     - [<span>##</span><span>Рыцарь смерти                                    </span>](#p##)
+     - [<span>##</span><span>Охотник на демонов                                    </span>](#p##)
+     - [<span>##</span><span>Друид                                           </span>](#p##)
+     - [<span>##</span><span>Охотник                                          </span>](#p##)
+     - [<span>##</span><span>Маг                                            </span>](#p##)
+     - [<span>##</span><span>Монах                                            </span>](#p##)
+     - [<span>##</span><span>Паладин                                         </span>](#p##)
+     - [<span>##</span><span>Жрец                                          </span>](#p##)
+     - [<span>##</span><span>Разбойник                                           </span>](#p##)
+     - [<span>##</span><span>Шаман                                          </span>](#p##)
+     - [<span>##</span><span>Чернокнижник                                         </span>](#p##)
+     - [<span>##</span><span>Воин                                         </span>](#p##)
+  - #### [<span>##</span><span>Глава 3: Новые предыстории                    </span>](#p##)
+     - [<span>##</span><span>Тёмный аптекарь                                 </span>](#p##)
+     - [<span>##</span><span>Двойной агент                                    </span>](#p##)
+     - [<span>##</span><span>Взращённый фракцией                                </span>](#p##)
+     - [<span>##</span><span>Ученик Кирин-Тора                            </span>](#p##)
+  - #### [<span>##</span><span>Глава 4: Новое снаряжение                      </span>](#p##)
+     - [<span>##</span><span>Стартовое снаряжение                              </span>](#p##)
+     - [<span>##</span><span>Экзотическое оружие                                  </span>](#p##)
+     - [<span>##</span><span>Новое снаряжение и инструменты                  </span>](#p##)
+  - #### [<span>##</span><span>Глава 5: Индивидуальные опции              </span>](#p##)
+     - [<span>##</span><span>Новые черты                                       </span>](#p##)
+     - [<span>##</span><span>Расовые черты                                    </span>](#p##)
 
 \columnbreak
 
-- ### [<span>##</span><span>Part II: Magic                                  </span>](#p##)
-  - #### [<span>##</span><span>Chapter 6: Spells                            </span>](#p##)
-     - [<span>##</span><span>Spell Lists                                    </span>](#p##)
-     - [<span>##</span><span>Spell Descriptions                             </span>](#p##)
-- ### [<span>##</span><span>Part III: Variant Rules                         </span>](#p##)
- - [<span>##</span><span>Hero Points                                        </span>](#p##)
- - [<span>##</span><span>Mana                                               </span>](#p##)
-- ### [<span>##</span><span>Appendix A: Shapeshifts                         </span>](#p##)
-- ### [<span>##</span><span>Appendix B: Demon Companions                    </span>](#p##)
-- ### [<span>##</span><span>Appendix C: World Map                           </span>](#p##)
+- ### [<span>##</span><span>Часть II: Магия                                  </span>](#p##)
+  - #### [<span>##</span><span>Глава 6: Заклинания                            </span>](#p##)
+     - [<span>##</span><span>Списки заклинаний                                    </span>](#p##)
+     - [<span>##</span><span>Описания заклинаний                             </span>](#p##)
+- ### [<span>##</span><span>Часть III: Вариантные правила                         </span>](#p##)
+ - [<span>##</span><span>Очки героя                                        </span>](#p##)
+ - [<span>##</span><span>Мана                                               </span>](#p##)
+- ### [<span>##</span><span>Приложение A: Формы друида                         </span>](#p##)
+- ### [<span>##</span><span>Приложение B: Демоны-<br>спутники                    </span>](#p##)
+- ### [<span>##</span><span>Приложение C: Карта мира                           </span>](#p##)
 </div>
 
 <style> .phb#p3:after { display:none; } </style>
@@ -423,8 +457,8 @@ DUNGEONS & DRAGONS, D&D, Wizards of the Coast, Forgotten Realms, Ravenloft, Eber
 
 <div class='partpage'>
 
-# Part I 
-##### Creating a Hero
+# Часть I 
+##### Создание героя
 </div>
 
 <style> .phb#p4:after { display:none; } </style>
@@ -432,7 +466,7 @@ DUNGEONS & DRAGONS, D&D, Wizards of the Coast, Forgotten Realms, Ravenloft, Eber
 
 \pagebreak
 
-# Chapter 1: Races
+# Глава 1: Расы
 Armies and factions have always defined the Warcraft world, and two of the most powerful factions on Azeroth today are the Alliance and Horde. Most players belong to one faction or the other, although anomalies do exist.
 
 ## Choosing a Side
@@ -445,7 +479,7 @@ Although every race has an affiliation, there are excep&shy;tions. Creating a ch
  - The character fled from their faction.
  - The character witnessed members of their faction <br> doing something they found reprehensible.
 
-### The Alliance
+### Альянс
 The Alliance have proven themselves to be fierce comba&shy;tants, often giving their lives when called for. The faction is not a uniform governmental body, but is a coalition of mutual military and economic aid. Diplomacy is key within the Alliance and decisions are traditionally made by being voted on by the Alliance's most influential members. Storm&shy;wind is described as the most powerful force in the now multiracial Alliance. With it becoming the de facto leader of the remaining human kingdoms and entering a powerful alliance with the strongest dwarven kingdom, Ironforge, Stormwind has thus been shown to be the most influential kingdom and therefore the de facto driving force of Alliance politics. Therefore, Stormwind is undisputedly looked to for maintaining the Alliance and its policies. Stormwind is where the main superpowers of the Alliance conference to discuss world issues and mutual defense. The majority of Alliance citizens also recognize Stormwind City as the heart of the Alliance. The High King coordinates the workings of the Alliance's armies in order to safeguard the Alliance's interests and defense. 
 
 Even now, as always, humans are the glue that hold the Alliance together, being the most numerous and diplomatic of the member races. The armies of Stormwind are primarily stationed in the southern Eastern Kingdoms, securing regions such as Elwynn Forest, Duskwood, Westfall, and the Redridge Mountains, as well as having outposts and bases stationed at key points in Lordaeron, Northrend, and Kalimdor. The armies of Ironforge are mainly stationed in Khaz Modan along with their gnome allies, and the night elven armies are mainly defending 
@@ -461,7 +495,7 @@ Even now, as always, humans are the glue that hold the Alliance together, being 
 
 <div style='margin-top:233px;'></div>
 
-### The Horde 
+### Орда
 The Horde makes no compromises when it comes to excellence, and the power and ferocity of their warriors is legendary. Misunderstood by many as evil, the Horde possesses a strong code of honor and strict laws for disobedience. All members of the Horde have to swear a blood oath to join  the faction and are thus obligated to follow the warchief's commands and support the warchief in war if the warchief calls upon them for aid. The position of warchief can be attained by having the previous warchief choose a succes&shy;sor or challenging the current warchief to a Mak'gora: a prearranged duel with deadly weapons between two people following a formal procedure in the presence of witnesses and traditionally fought until one party yields or is killed, usually to settle a quarrel involving a point of honor. Above all else, the title warchief is granted to those who display strength and decisive action.
 
 The warchief may accept ambassadors and advisors from all the different tribes and members of the Horde to makes sure their voice is heard in the running of the fledg&shy;ling hegemony but ultimately, only the warchief may have the final say in matters concerning the entire Horde. Each race within the Horde choose a single leader to govern their people and their people's kingdoms and also to repre&shy;sent their people in the high Horde echelon.
@@ -484,7 +518,7 @@ Culturally, orcs and tauren believe in redemption more than most other races on 
 
 \pagebreak
 
-## Choosing a Race
+## Выбор расы
 Not every intelligent race of the multiverse is appropriate for a player-controlled adventurer. The ones presented in this book are the races most well known to become adven&shy;turers and heroes, spread throughout every corner of Azeroth's continents.
 
 Your choice of race affects many different aspects of your character. It establishes fundamental qualities that exist throughout your character's adventuring career. When making this decision, keep in mind the kind of character you want to play. For example, a gnome could be a good choice for a sneaky rogue, a dwarf makes a tough warrior, and an elf can be a master of arcane magic.
@@ -523,32 +557,32 @@ Many races have subraces. Members of a subrace have the traits of the parent rac
 ### Languages
 Dozens of languages can be heard across Azeroth, and every tongue has dialects and regional variants. In order for its races to communicate intelligibly, the Common tongue is essential. But other languages remain widely used in homes and within the borders of certain regions.
 
-##### Standard Languages
-|&nbsp; Language   | Typical Speakers | Script |
+##### Стандартные языки
+|&nbsp; Язык   | Типичные носители | Письменность |
 |:------------------|:------------|:-----------|
-|&nbsp; Common      | Humans      | Common     |
-|&nbsp; Darnassian  | Night Elves | Darnassian |
-|&nbsp; Draenei     | Draenei     | Eredic     |
-|&nbsp; Dwarven     | Dwarves     | Dwarvish   |
-|&nbsp; Goblin      | Goblins     | Common     |
-|&nbsp; Gnomish     | Gnomes      | Common     |
-|&nbsp; Gutterspeak | Forsaken    | —          |
-|&nbsp; Mogu        | Pandaren    | Mogu       |
-|&nbsp; Orcish      | Orcs        | Common     |
-|&nbsp; Shalassian  | Nightborne  | Darnassian |
-|&nbsp; Taur-ahe    | Taurens     | Taur-ahe   |
-|&nbsp; Thalassian  | High Elves  | Darnassian |
-|&nbsp; Zandali     | Trolls      | Zandali    |
+|&nbsp; Всеобщий      | Люди      | Всеобщая     |
+|&nbsp; Гномский     | Гномы      | Всеобщая     |
+|&nbsp; Гоблинский      | Гоблины     | Всеобщая     |
+|&nbsp; Дарнасский  | Ночные эльфы | Дарнасская |
+|&nbsp; Дренейский     | Дренеи     | Эредическая     |
+|&nbsp; Дворфийский     | Дворфы     | Дворфийский   |
+|&nbsp; Зандали     | Тролли      | Зандали    |
+|&nbsp; Могу        | Пандарены    | Могу       |
+|&nbsp; Орочий      | Орки        | Всеобщая     |
+|&nbsp; Талассийский  | Высшие эльфы  | Дарнасская |
+|&nbsp; Таурахэ    | Таурены     | Таурахэ   |
+|&nbsp; Шалассийский  | Ночнорождённые  | Дарнасская |
+|&nbsp; Язык трущоб | Отрёкшиеся    | —          |
 
-##### Exotic Languages
-|&nbsp; Language    | Typical Speakers | Script        |
+##### Экзотические языки
+|&nbsp; Язык    | Типичные носители | Письменность        |
 |:------------------|:-----------------|:--------------|
-|&nbsp; Celestial   | Celestials       | Celestial     |
-|&nbsp; Draconic    | Dragons          | Draconic      |
-|&nbsp; Eredun      | Demons           | Eredic        |
-|&nbsp; Giant       | Ogres            | —             |
-|&nbsp; Kalimag     | Elementals       | Kalimag       |
-|&nbsp; Low Common  | Lesser Races     | Common        |
+|&nbsp; Великаний       | Огры            | —             |
+|&nbsp; Драконий    | Драконы          | Драконья      |
+|&nbsp; Небесный   | Небожители       | Небесная     |
+|&nbsp; Калимаг     | Элементали       | Калимаг       |
+|&nbsp; Низший всеобщий  | Примитивные расы     | Всеобщая        |
+|&nbsp; Эредан      | Демоны           | Эредическая        |
 
 <img src='https://www.gmbinder.com/images/1Hhc7zP.jpg' style='position:absolute; top:700px; right:-80px; width:500px' />
 <img src='https://www.gmbinder.com/images/huxbNse.png' style='position:absolute; top:200px; right:0px; width:900px; transform:scaley(-1)' />
@@ -662,7 +696,7 @@ It's hard to make generalizations about humans, no matter where you were born yo
 ***Alignment.*** Humans tend toward no particular alignment. The best and the worst are found among them.
 
 ***Size.*** Humans range from barely 5 to well over 6 feet tall and weigh an average of 175 pounds. Your size is Medium. To set your height and weight randomly, start with rolling the size modifier:
-<div style="margin-top: -18px; font-family: ScalySans, sans-serif">
+<div style="margin-top: -18px; font-family: Alegreya Sans, sans-serif">
 
 <br>&nbsp;&nbsp;&nbsp; ***Size Modifier:*** 2d10
 <br>&nbsp;&nbsp;&nbsp; ***Height:*** 4 feet + 8 inches + your size modifier in inches
@@ -758,7 +792,7 @@ Your dwarf character has the following racial traits.
 ***Alignment.*** Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that all deserve to share in the benefits of a just order.
 
 ***Size.*** Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium. To set your height and weight randomly, start with rolling the size modifier:
-<div style="margin-top: -18px; font-family: ScalySans, sans-serif">
+<div style="margin-top: -18px; font-family: Alegreya Sans, sans-serif">
 
 <br>&nbsp;&nbsp;&nbsp; ***Size Modifier:*** 2d4
 <br>&nbsp;&nbsp;&nbsp; ***Height:*** 3 feet + 8 inches + your size modifier in inches
@@ -857,49 +891,52 @@ Night elves are members of the Alliance, they pledged their allegiance after the
 
 \pagebreakNum
 
-#### An Ancient Hatred
-Many night elves still remember the atrocities brought upon their kin by the highborne elves during the War of the Ancient and show a weariness towards arcane magic and its users. They look down upon their ancient brethren, the high elves—also known as blood elves—with disgust and suspicion. However, despite their grudge, they have been able to work together in the past when deemed a necessity for survival.
+#### Древняя ненависть
+Многие ночные эльфы всё ещё помнят о злодеяниях, которые Высокорождённые эльфы сотворили с их сородичами во время Войны Древних, и настроены враждебно к тайной магии и тем, кто её использует. Они смотрят на своих дальних родственников, высших эльфов — также известных как эльфы крови, — с отвращением и подозрением. Тем не менее, несмотря на свои обиды, они объединялись со своими врагами в прошлом, когда это было необходимо для выживания.
 
-### Night Elf Names
-Night elven names commonly carry a hidden meaning and are often derived from Darnassian words or phrases. Few night elves keep track of family names and surnames are derived from feats done by the night elf's ancestors, it is rare for a night elf to take a new surname as many takes pride in their forefather's achievements.
+### Имена ночных эльфов
+Имена ночных эльфов нередко носят скрытый смысл и часто основаны на словах и фразах дарнасского языка. Мало кто из ночных эльфов отслеживает фамилии, и зачастую они даются в честь деяний предков ночного эльфа. Смена фамилии — редкость среди ночных эльфов, поскольку многие гордятся свершениями своих предков.
 <div style='margin-top:-5px;'></div>
 
-**Male Names:** Alegorn, Daros, Eiron, Mathrengyl, Mardant, <br>&nbsp;&nbsp;&nbsp; Gasul, Lanoth, Khardona, Andissiel, Sillarn
-<br>**Female Names:** Astaia, Saelienne, Jeen'ra, Lelanai, Keina, <br>&nbsp;&nbsp;&nbsp; Alathea, Lotherias, Cordessa, Aquinne
-<br>**Family Names:** Moonlance, Shadewhisper, Nightrunner, <br>&nbsp;&nbsp;&nbsp; Bearwalker, Briarbow, Moonblade, Proudstrider
+**Мужские имена:** Алегорн, Дарос, Эйрон, Матренгил, <br>&nbsp;&nbsp;&nbsp; Мардант, Гасул, Ланот, Кардона, Андиссиэл, Силларн
+<br>**Женские имена:** Астайя, Саэлинна, Джин'ра, Леланай, <br>&nbsp;&nbsp;&nbsp; Кейна, Алатея, Лотериас, Кордесса, Аквинна
+<br>**Фамилии:** Лунное Копьё, Шёпот Тени, Ночная Вестница, <br>&nbsp;&nbsp;&nbsp; Медвежья Лапа, Вересковый Лук, Лунный Клинок, <br>&nbsp;&nbsp;&nbsp; Гордый Странник
 
-### Night Elf Traits
-Your night elf character has the following racial traits.
+### Особенности ночных эльфов
+Ваш персонаж — ночной эльф обладает следующими расовыми особенностями.
 
-***Ability Score Increase.*** Your Dexterity score increases by 2, and your Wisdom score increases by 1.
+***Увеличение характеристик.*** Значение вашей Ловкости увеличивается на 2, и значение вашей
+Мудрости увеличивается на 1.
 
-***Age.*** Night elves reach physical maturity at the pace of humans, but the night elven understanding of adulthood goes beyond physical growth. Night elves typically claim adulthood and an adult name around the age of 100, and can live to become thousands of years old. 
+***Возраст.*** Несмотря на то, что физически ночные эльфы взрослеют в том же возрасте, что и люди, их понимание о взрослении выходит за рамки физического развития и располагается в сфере житейского опыта. Обычно ночной эльф получает статус взрослого и взрослое имя в возрасте 100 лет и может прожить тысячелетия.
 
-***Alignment.*** Night elves live in close ties with the natural world, they have an unprecedented connection to nature and protect it fiercely, pulling many night elves towards good. They love freedom and variety, making most lean toward the gentler aspects of chaos as well.
+***Мировоззрение.*** Ночные эльфы живут в тесной близости с природным миром, имеют беспрецедентную связь с природой и яростно её защищают, что располагает многих из них на стороне добра. Они любят свободу и разнообразие, поэтому большинство из них тяготеет к добрым аспектам хаоса.
 
-***Size.*** Night elves are between 7 and 8 feet tall and weigh between 200 and 240 pounds. Your size is medium. To set your height and weight randomly, start with rolling the size modifier:
-<div style="margin-top: -18px; font-family: ScalySans, sans-serif">
+***Размер.*** Рост ночных эльфов колеблется между 7 и 8 футами (213 и 244 сантиметрами), а весят они от 200 до 240 фунтов (от 90 до 109 кг). Чтобы установить свой рост и вес случайным образом, начните с броска на модификатор размера:
+<div style="margin-top: -18px; font-family: Alegreya Sans, sans-serif">
 
-<br>&nbsp;&nbsp;&nbsp; ***Size Modifier:*** 2d8
-<br>&nbsp;&nbsp;&nbsp; ***Height:*** 6 feet + 7 inches + your size modifier in inches
-<br>&nbsp;&nbsp;&nbsp; ***Weight in Pounds:*** 140 + (2d6 x your size modifier)
+<br>&nbsp;&nbsp;&nbsp; ***Модификатор размера:*** 2к8
+<br>&nbsp;&nbsp;&nbsp; ***Рост:*** 6 футов + 7 дюймов + ваш модификатор размера в дюймах
+<br>&nbsp;&nbsp;&nbsp; ***Вес в фунтах:*** 140 + (2к6 x ваш модификатор размера)
 </div>
 
 <div style='margin-top:-3px;'></div>
 
-&nbsp;&nbsp;&nbsp; ***Speed.*** Your base walking speed is 35 feet.
+&nbsp;&nbsp;&nbsp;&nbsp; ***Скорость.*** Ваша базовая скорость перемещения — 35 футов.
 
-***Superior Darkvision.*** Accustomed to twilit forests <br> and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. Your night elven heritage makes your darkvision un&shy;usual: everything you see in darkness is in a shade of violet.
 
-***Kaldorei Weapon Training.*** You have proficiency with the longbow, moon sword, moonglaive, and warglaive.
+***Превосходное тёмное зрение.*** Привыкнув к сумраку леса и ночному небу, вы обладаете превосходным зрением в темноте и при тусклом освещении. На расстоянии в 120 футов вы при тусклом освещении можете
+видеть так, как будто это яркое освещение, и в темноте так, как будто это тусклое освещение. Ваше ночноэльфийское происхождение делает ваше тёмное зрение немного необычным: всё, что вы видите, предстаёт в оттенках фиолетового.
 
-***Keen Senses.*** You are proficient in the Perception skill.
+***Владение калдорайским оружием.*** Вы владеете длинным луком, лунным мечом, лунной глефой и парным клинком.
 
-***Mask of the Wild.*** You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.
+***Обострённые чувства.*** Вы владеете навыком Восприятие.
 
-***Shadowmeld.*** You have advantage on Dexterity (Stealth) checks made while you are heavily obscured by darkness.
+***Маскировка в дикой местности.*** Вы можете предпринять попытку спрятаться, даже если вы слабо заслонены листвой, сильным дождём, снегопадом, туманом или другими природными явлениями.
 
-***Languages.*** You can speak, read, and write Common and Darnassian. Darnassian is fluid, with subtle intonations and intricate grammar. Its literature is rich and varied, and their songs and poems are famous among other races.
+***Слияние с тенью.*** Вы совершаете с преимуществом проверки Ловкости (Скрытность), совершаемые, когда вы сильно заслонены темнотой.
+
+***Языки.*** Вы можете говорить, читать и писать на всеобщем и дарнасском языках. Дарнасский язык текучий, с утончёнными интонациями и сложной грамматикой. Дарнасская литература богата и разнообразна, а стихи и песни известны среди представителей других рас. 
 
 <img src='https://www.gmbinder.com/images/CmjXePR.jpg' style='position:absolute; top:-20px; right:-230px; width:785px' />
 <img src='https://www.gmbinder.com/images/E8GrMME.png' style='position:absolute; top:0px; right:-20px; width:900px' />
@@ -977,7 +1014,7 @@ Your gnome character has the following racial traits.
 ***Alignment.*** Gnomes are good-hearted, and even the tricksters amongst them are more playful than vicious. Those of evil alignment are often the result of madness. An innovative idea that consumed them.
 
 ***Size.*** Gnomes are between 3 and 4 feet tall and average about 40 pounds. Your size is Small. To set your height and weight randomly, start with rolling the size modifier:
-<div style="margin-top: -18px; font-family: ScalySans, sans-serif">
+<div style="margin-top: -18px; font-family: Alegreya Sans, sans-serif">
 
 <br>&nbsp;&nbsp;&nbsp; ***Size Modifier:*** 2d4
 <br>&nbsp;&nbsp;&nbsp; ***Height:*** 2 feet + 11 inches + your size modifier in inches
@@ -1116,7 +1153,7 @@ Your draenei character has the following racial traits.
 ***Alignment.*** Draenei are mostly good. Those who strive towards law are sages, priests, paladins, vindicators, or scholars. Those who tend toward chaos are warriors, rangers, or in other ways people more fond of pure fighting.
  
 ***Size.*** Draenei are between 7 and 8 feet tall and weigh between 240 and 300 pounds. Your size is Medium. To set your height and weight randomly, start with rolling the size modifier:
-<div style="margin-top: -18px; font-family: ScalySans, sans-serif">
+<div style="margin-top: -18px; font-family: Alegreya Sans, sans-serif">
 
 <br>&nbsp;&nbsp;&nbsp; ***Size Modifier:*** 2d6
 <br>&nbsp;&nbsp;&nbsp; ***Height:*** 6 feet + 5 inches + your size modifier in inches
@@ -1233,7 +1270,7 @@ Your worgen character has the following racial traits.
 ***Alignment.*** Worgen tend to become chaotic, while originating from humans, the infection of their blood with the wolves has made them more unpredictable.
 
 ***Size.*** Like humans, they vary widely in height and build, most standing well over 6 feet tall, and weigh around 250 pounds. Your size is Medium. To set your height and weight randomly, start with rolling the size modifier:
-<div style="margin-top: -18px; font-family: ScalySans, sans-serif">
+<div style="margin-top: -18px; font-family: Alegreya Sans, sans-serif">
 
 <br>&nbsp;&nbsp;&nbsp; ***Size Modifier:*** 2d10
 <br>&nbsp;&nbsp;&nbsp; ***Height:*** 6 feet + 2 inches + your size modifier in inches
@@ -1332,7 +1369,7 @@ Your orc character has the following racial traits.
 ***Alignment.*** Orcs might not have an innate tendency toward evil, but many end up there. Evil or not, many orcs lean toward a chaotic alignment.
 
 ***Size.*** Orcs are between 6 and 7 feet tall and muscularly built, averaging around 300 pounds. Your size is Medium. To set your height and weight randomly, start with rolling the size modifier:
-<div style="margin-top: -18px; font-family: ScalySans, sans-serif">
+<div style="margin-top: -18px; font-family: Alegreya Sans, sans-serif">
 
 <br>&nbsp;&nbsp;&nbsp; ***Size Modifier:*** 2d8
 <br>&nbsp;&nbsp;&nbsp; ***Height:*** 5 feet + 10 inches + your size modifier in inches
@@ -1555,7 +1592,7 @@ Your tauren character has the following racial traits.
 ***Alignment.*** Most tauren are lawful, keeping to their tribal code. Those who are evil are shunned upon, most either outlaws or corrupted in some form.
 
 ***Size.*** Tauren are between 8 and 10 feet tall and weigh between 400 and 600 pounds. Your size is Medium, yet you tower over most other humanoids. To set your height and weight randomly, start with rolling the size modifier:
-<div style="margin-top: -18px; font-family: ScalySans, sans-serif">
+<div style="margin-top: -18px; font-family: Alegreya Sans, sans-serif">
 
 <br>&nbsp;&nbsp;&nbsp; ***Size Modifier:*** 2d12
 <br>&nbsp;&nbsp;&nbsp; ***Height:*** 7 feet + 11 inches + your size modifier in inches
@@ -1679,7 +1716,7 @@ Your troll character has the following racial traits.
 ***Alignment.*** Trolls are a neutral race and their alignment can vary drastically between subraces. Most trolls tend to be lawful, with each tribe often having particular customs and rules for tribesmen to abide by.
 
 ***Size.*** Trolls are between 7 and 8 feet tall and weigh between 200 and 300 pounds. Your size is Medium. To set your height and weight randomly, start with rolling the size modifier:
-<div style="margin-top: -18px; font-family: ScalySans, sans-serif">
+<div style="margin-top: -18px; font-family: Alegreya Sans, sans-serif">
 
 <br>&nbsp;&nbsp;&nbsp; ***Size Modifier:*** 2d10
 <br>&nbsp;&nbsp;&nbsp; ***Height:*** 5 feet + 8 inches + your size modifier in inches
@@ -1817,7 +1854,7 @@ Your blood elf character has the following racial traits.
 ***Alignment.*** Blood elves live in a society where ranks and titles carry tremendous weight and where strict laws have been put in place for them to follow, pushing them towards lawful alignments. Personal desires varies drastically, and both those of good and evil alignment exist.
 
 ***Size.*** Blood elves are between 5 and 6 feet tall and weigh between 125 and 175 pounds. Your size is Medium. To set your height and weight randomly, start with rolling the size modifier:
-<div style="margin-top: -18px; font-family: ScalySans, sans-serif">
+<div style="margin-top: -18px; font-family: Alegreya Sans, sans-serif">
 
 <br>&nbsp;&nbsp;&nbsp; ***Size Modifier:*** 2d10
 <br>&nbsp;&nbsp;&nbsp; ***Height:*** 4 feet + 9 inches + your size modifier in inches
@@ -1866,7 +1903,7 @@ Your blood elf character has the following racial traits.
 
 Slaves of the jungle trolls on their home isle, forced to mine kaja'mite ore out of the volcanic bowels of Mount Kajaro. The ore had an unexpected effect on the goblins, granting them cunning intelligence. They began to rebel in secret, engineering artifacts, and brewing alchemical substances to successfully overthrow their oppressors and claim Kezan their homeland.
 
-<span style="margin-left:10px"></span> Their prior prison become an expanding empire in the
+<span style="margin-left:8px"></span> Their prior prison become an expanding empire in the
 <span style="margin-left:30px"></span> mines they had dugged. To their dismay, the effects of 
 <span style="margin-left:35px"></span> the kaja'mite ore wore off, and their increased intelli-
 <span style="margin-left:35px"></span> gence waned, as the ore itself became scarce and 
@@ -1930,7 +1967,7 @@ Your goblin character has the following racial traits.
 ***Alignment.*** Most goblins lean towards chaotic neutral. They rarely show a sense of moral or consideration for the consequences of their actions, preferring to live in the moment and leave the troubles to tomorrow.
 
 ***Size.*** Goblins are between 3 and 4 feet and weigh between 40 and 80 pounds. Your size is Small. To set your height and weight randomly, start with rolling the size modifier:
-<div style="margin-top: -18px; font-family: ScalySans, sans-serif">
+<div style="margin-top: -18px; font-family: Alegreya Sans, sans-serif">
 
 <br>&nbsp;&nbsp;&nbsp; ***Size Modifier:*** 2d4
 <br>&nbsp;&nbsp;&nbsp; ***Height:*** 2 feet + 12 inches + your size modifier in inches
@@ -2030,7 +2067,7 @@ Your nightborne character has the following racial traits.
 ***Alignment.*** Order and structure are key to nightborne societies, they believe that reputation and status are of the utmost concern and that mortality and principles of right and wrong are viewed too often in that light. Most night&shy;borne are lawful.
 
 ***Size.*** Nightborne are between 7 and 8 feet tall and weigh between 180 and 220 pounds. Your size is Medium. To set your height and weight randomly, start with rolling the size modifier:
-<div style="margin-top: -18px; font-family: ScalySans, sans-serif">
+<div style="margin-top: -18px; font-family: Alegreya Sans, sans-serif">
 
 <br>&nbsp;&nbsp;&nbsp; ***Size Modifier:*** 2d8
 <br>&nbsp;&nbsp;&nbsp; ***Height:*** 6 feet + 8 inches + your size modifier in inches
@@ -2130,7 +2167,7 @@ Your pandaren character has the following racial traits.
 ***Alignment.*** Pandaren are a peaceful and sociable race that for the most parts tend to their own, making most pandarens neutral or good aligned. Pandarens are rare of an evil alignment and finding an evil pandaren is often the product of foul magic influencing its mind.
 
 ***Size.*** Pandaren are between 5 and 7 feet tall and weigh between 250 and 400 pounds. Your size is Medium. To set your height and weight randomly, start with rolling the size modifier:
-<div style="margin-top: -18px; font-family: ScalySans, sans-serif">
+<div style="margin-top: -18px; font-family: Alegreya Sans, sans-serif">
 
 <br>&nbsp;&nbsp;&nbsp; ***Size Modifier:*** 2d10
 <br>&nbsp;&nbsp;&nbsp; ***Height:*** 5 feet + 2 inches + your size modifier in inches
@@ -2218,7 +2255,7 @@ Your void elf character has the following racial traits.
 ***Alignment.*** Although chaos and unpredictability is pro&shy;minent in many void elves, they have maintained a lawful alignment similar to blood elves. Those that succumb to the void often turn chaotic in their alignment.
 
 ***Size.*** Blood elves are between 5 and 6 feet tall and weigh between 125 and 175 pounds. Your size is Medium. To set your height and weight randomly, start with rolling the size modifier:
-<div style="margin-top: -18px; font-family: ScalySans, sans-serif">
+<div style="margin-top: -18px; font-family: Alegreya Sans, sans-serif">
 
 <br>&nbsp;&nbsp;&nbsp; ***Size Modifier:*** 2d10
 <br>&nbsp;&nbsp;&nbsp; ***Height:*** 4 feet + 9 inches + your size modifier in inches
@@ -2290,7 +2327,7 @@ Your vulpera character has the following racial traits.
 &nbsp;&nbsp;&nbsp; ***Alignment.*** Most vulpera lean towards true neutral, they keep to themselves and care for the wellbeing of their own. However, their affection for other beings can often be inter&shy;preted as acts of kindness, even if it is not done out of the kindness of their hearts. 
 
 ***Size.*** Vulpera are between 3 and 4 feet and average about 50 pounds. Your size is Small. To set your height and weight randomly, start with rolling the size modifier:
-<div style="margin-top: -18px; font-family: ScalySans, sans-serif">
+<div style="margin-top: -18px; font-family: Alegreya Sans, sans-serif">
 
 <br>&nbsp;&nbsp;&nbsp; ***Size Modifier:*** 2d4
 <br>&nbsp;&nbsp;&nbsp; ***Height:*** 2 feet + 8 inches + your size modifier in inches
