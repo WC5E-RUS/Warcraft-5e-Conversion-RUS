@@ -291,7 +291,7 @@ The game traits of the monstrous races are unusual in that some of these races h
 
 **Гноллы** are a simple-minded but vicious race of humanoid hyenas, they are a deeply pack driving race who love to let others do the hard work for them.
 
-**Гарпии** – жестокие летающие существа, что гнездятся в труднодоступных местах и убивают любых незваних гостей.
+**Гарпии** – жестокие летающие существа, что гнездятся в труднодоступных местах и убивают любых незваных гостей.
 
 **Кобольды** – are a diminutive race who dwell in and around caverns and mines. They are not intelligent by mosts races standards and notorious for being cowardice.
 
@@ -318,7 +318,7 @@ The game traits of the monstrous races are unusual in that some of these races h
 
 ***Возраст.*** Фурболги достигают зрелости к 30 годам, и живут до 250 лет.
 
-***Мировоззрение.*** Общество фурболгов строится вокруг вождя племени и общины, с установленными законами и образом жизни. Раса фурболгов не любит войны и никогда не рвется в бой, подталкивая их к нейтралитету.
+***Мировоззрение.*** Общество фурболгов строится вокруг вождя племени и общины, с установленными законами и образом жизни. Раса фурболгов не любит войны и никогда не рвется в бой, подталкивая ее представителей к нейтралитету.
 
 ***Размер.*** Рост фурболгов между 7 и 9 футами, а вес от 310 до 360 фунтов. Ваш размер Средний.
 
@@ -332,7 +332,7 @@ The game traits of the monstrous races are unusual in that some of these races h
 
 ***Природный доспех.*** When you aren't wearing armor, your AC is 12 + your Dexterity modifier. A shield's benefits apply as normal while you use your natural armor.
 
-***Мощное телосложение.*** Вы считаетесь на один размер больше когда определяется ваша грузоподъемность и вес, который вы можете толкать, тянуть или поднимать.
+***Мощное телосложение.*** Вы считаетесь на один размер больше, когда определяется ваша грузоподъемность и вес, который вы можете толкать, тянуть или поднимать.
 
 ***Языки.*** Вы можете говорить, читать и писать на Дарнасском и Урсине. Урсин – родной язык фурболгов, сочетающий в себе часть дарнасского языка с различными рычаниями и ревом.
 
@@ -366,7 +366,7 @@ The game traits of the monstrous races are unusual in that some of these races h
 ***Языки.*** You can speak Low Common and Gnoll. Gnoll does not have a script, the language is made up of different barks used within the gnoll tribe. The gnoll spoken by one gnoll tribe may differ from that of another.
 <div style='margin-top:-6px;'></div>
 
-#### Harpy
+#### Особенности гарпий
 Ваш персонаж-гарпия обладает следующими особенностями.
 
 ***Увеличение характеристик.*** Your Dexterity increases by 2, and your Wisdom increases by 1.
@@ -379,7 +379,7 @@ The game traits of the monstrous races are unusual in that some of these races h
 
 ***Скорость.*** Ваша базовая скорость передвижения равна 25 футам.
 
-***Полёт.*** Вы можете летать со скоростью 40 футов. Для этого вы не должны носить ни средний, ни тяжёлый доспех.
+***Полет.*** Вы можете летать со скоростью 40 футов. Для этого вы не должны носить ни средний, ни тяжёлый доспех.
 
 ***Темное зрение.*** На расстоянии в 60 футов вы при тусклом освещении можете видеть так, как будто это яркое освещение, и в темноте так, как будто это тусклое освещение. В темноте вы не можете различать цвета, только оттенки серого.
 
@@ -390,7 +390,7 @@ The game traits of the monstrous races are unusual in that some of these races h
 ***Languages.*** You can speak, read, and write Darnassian and Low Common.
 <div style='margin-top:-6px;'></div>
 
-#### Kobold
+#### Особенности кобольдов
 Ваш персонаж-кобольд обладает следующими особенностями.
 
 ***Увеличение характеристик.*** Your Dexterity score increases by 2, your Constitution score increases by 1, and your Charisma score is reduced by 2.
@@ -513,7 +513,7 @@ Your serpentine tail can't wield weapons or shields or <br> do anything that req
 >
 > If you make an attack with a weapon using two hands, or if you use two-weapon fighting, you gain no benefits from holding a shield until the start of your next turn.
 
-#### Quilboar
+#### Особенности свинобразов
 Ваш персонаж-свинобраз обладает следующими особенностями.
 
 ***Увеличение характеристик.*** Your Constitution score increases by 2, your Dexterity score increases by 1, and your Charisma score is reduced by 2.
