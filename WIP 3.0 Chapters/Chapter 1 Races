@@ -24,7 +24,7 @@
       font-family: Alegreya Sans;
   }
   
-  .phb .partpage h1 {
+  .phb .partpage h1, .phb .cover-header {
       font-family: Nodesto Cyrillic;
   }
   
@@ -224,7 +224,7 @@
     width: 700px;
     margin: auto;
     color: white;
-    font-family: NodestoCaps,nodesto,sans-serif;
+    font-family: Nodesto Cyrillic,nodesto,sans-serif;
     font-weight: normal;
     font-size: 72px;
     line-height: 72px;
@@ -248,7 +248,7 @@
     width: 500px;
     margin: auto;
     color: white;
-    font-family: NodestoCaps,nodesto,sans-serif;
+    font-family: Nodesto Cyrillic,nodesto,sans-serif;
     font-weight: normal;
     text-align: center;
     text-shadow: 1px 1px 2px #000, -1px 1px 2px #000, 0px 0px 2px #000;
@@ -317,7 +317,7 @@
 <br><span style="margin-left:12px"></span> material for 5th Edition Dungeons and Dragons. Without
 <br><span style="margin-left:12px"></span> it, this project would've likely never been considered.
 
-<br> **Перевод:** Майя Эверетт
+<br> **Перевод:** Майя Эверетт, Александр Акатьев
 
 <div style='margin-top:24px'></div>
 <div style="text-align:Center">
@@ -467,48 +467,37 @@ DUNGEONS & DRAGONS, D&D, Wizards of the Coast, Forgotten Realms, Ravenloft, Eber
 \pagebreak
 
 # Глава 1: Расы
-Armies and factions have always defined the Warcraft world, and two of the most powerful factions on Azeroth today are the Alliance and Horde. Most players belong to one faction or the other, although anomalies do exist.
+Армии и фракции всегда определяли мир Warcraft, и две самые могущественные фракции в Азероте сегодня — это Альянс и Орда. Большинство игроков принадлежат к той или иной фракции, хотя существуют и исключения.
 
-## Choosing a Side
-At character creation, every player must choose their character’s faction. It is as much a part of the hero as their class or background. All characters in a party are usually of the same faction.
+## Выбор стороны
+При создании персонажа каждый игрок должен выбрать фракцию. Это такая же часть героя, как и его класс или происхождение. Все персонажи в партии обычно принадлежат к одной фракции.
 
-Although every race has an affiliation, there are excep&shy;tions. Creating a character outside their normal affiliation is challenging, but offers a great roleplay opportunities for the player. Some suggestions are listed below.
+Хотя у каждой расы есть принадлежность, существуют исключения. Создание персонажа вне его обычной фракции является сложной задачей, но предлагает игроку большие возможности для отыгрыша роли. Некоторые советы по такому подходу перечислены ниже.
 
- - The character was born into the faction.
- - The character was saved or befriended by <br> members of the faction.
- - The character fled from their faction.
- - The character witnessed members of their faction <br> doing something they found reprehensible.
+- Персонаж родился во фракции.
+- Персонаж был спасён или подружился с членами фракции.
+- Персонаж бежал из своей фракции.
+- Персонаж был свидетелем того, как члены их фракции делали то, что они считали предосудительным.
 
 ### Альянс
-The Alliance have proven themselves to be fierce comba&shy;tants, often giving their lives when called for. The faction is not a uniform governmental body, but is a coalition of mutual military and economic aid. Diplomacy is key within the Alliance and decisions are traditionally made by being voted on by the Alliance's most influential members. Storm&shy;wind is described as the most powerful force in the now multiracial Alliance. With it becoming the de facto leader of the remaining human kingdoms and entering a powerful alliance with the strongest dwarven kingdom, Ironforge, Stormwind has thus been shown to be the most influential kingdom and therefore the de facto driving force of Alliance politics. Therefore, Stormwind is undisputedly looked to for maintaining the Alliance and its policies. Stormwind is where the main superpowers of the Alliance conference to discuss world issues and mutual defense. The majority of Alliance citizens also recognize Stormwind City as the heart of the Alliance. The High King coordinates the workings of the Alliance's armies in order to safeguard the Alliance's interests and defense. 
+Члены Альянса зарекомендовали себя как неистовые бойцы, часто отдающие свои жизни, когда это необходимо. Фракция не является единым государственным органом, но представляет собой коалицию взаимной военной и экономической помощи. Дипломатия играет ключевую роль в Альянсе, и решения традиционно принимаются путём голосования наиболее влиятельных членов. Штормград считается самой мощной сила в многорасовом Альянсе. Будучи де-факто лидером оставшихся человеческих королевств и вступив в могущественный союз с сильнейшим королевством дварфов, Стальгорном, Штормград, таким образом, оказался самым влиятельным королевством и, следовательно, де-факто движущей силой политики Альянса. Stormwind is where the main superpowers of the Alliance conference to discuss world issues and mutual defense. The majority of Alliance citizens also recognize Stormwind City as the heart of the Alliance. The High King coordinates the workings of the Alliance's armies in order to safeguard the Alliance's interests and defense. 
 
-Even now, as always, humans are the glue that hold the Alliance together, being the most numerous and diplomatic of the member races. The armies of Stormwind are primarily stationed in the southern Eastern Kingdoms, securing regions such as Elwynn Forest, Duskwood, Westfall, and the Redridge Mountains, as well as having outposts and bases stationed at key points in Lordaeron, Northrend, and Kalimdor. The armies of Ironforge are mainly stationed in Khaz Modan along with their gnome allies, and the night elven armies are mainly defending 
-<br> <span style="margin-left:30px"></span> northern Kalimdor from the Horde's deforestation 
-<br> <span style="margin-left:75px"></span> of Ashenvale. The remaining draenei forces 
-<br> <span style="margin-left:85px"></span> are still trying to secure their new home on
-<br> <span style="margin-left:90px"></span> Azuremyst Isle, and are also stationed in
-<br> <span style="margin-left:105px"></span> Outland. The recently brought in
-<br> <span style="margin-left:110px"></span> Gilnean armies are defending them-
-<br> <span style="margin-left:120px"></span> selves from the endless Forsaken.
+Даже сейчас, как и всегда, люди выступают клеем, скрепляющим Альянс, будучи самой многочисленной и дипломатичной из всех рас. Армии Штормграда в основном базируются в южных Восточных королевствах, защищая такие регионы, как Элвиннский и Сумеречный лес, Западный край и Красногорье. Кроме того, у них есть форпосты и базы в ключевых точках в Лордероне, Нордсколе и Калимдоре. Армии Стальгорна в основном находятся в Каз Модане вместе со своими союзниками - гномами, а армии ночных эльфов в основном защищают север Калимдора от вырубаки Ордой Ясеневого леса. Оставшиеся силы дренеев всё ещё пытаются обезопасить свой новый дом на острове Лазурной Дымки, а часть их расквартирована в Запределье. Недавно присоединившиеся войска Гилнеаса вынуждены защищаться от бесконечных полчищ Отрёкшихся.
 
 \columnbreak
 
 <div style='margin-top:233px;'></div>
 
 ### Орда
-The Horde makes no compromises when it comes to excellence, and the power and ferocity of their warriors is legendary. Misunderstood by many as evil, the Horde possesses a strong code of honor and strict laws for disobedience. All members of the Horde have to swear a blood oath to join  the faction and are thus obligated to follow the warchief's commands and support the warchief in war if the warchief calls upon them for aid. The position of warchief can be attained by having the previous warchief choose a succes&shy;sor or challenging the current warchief to a Mak'gora: a prearranged duel with deadly weapons between two people following a formal procedure in the presence of witnesses and traditionally fought until one party yields or is killed, usually to settle a quarrel involving a point of honor. Above all else, the title warchief is granted to those who display strength and decisive action.
+Орда не идёт на компромиссы, когда  дело доходит до превосходства, а сила и свирепость их воинов легендарны. Неправильно понятая многими как зло, Орда обладает строгим кодексом чести и жёсткими законами, карающими за неповиновение приказам. Все члены Орды должны дать клятву крови, чтобы присоединиться к фракции, и, таким образом, обязаны следовать указаниям вождя и поддерживать его на войне, если вождь призывает их к помощи. Место вождя можно занять, либо будучи выбранным текущим вождём в качестве преемника, либо бросив ему вызов в Мак'горе — заранее организованном поединке с настоящим оружием, следующим формальной процедуре в присутствии свидетелей и традиционно продолжающимся, пока один из соперников не умрёт или не сдастся; как правило, Мак'гора используется для урегулирования ссоры. Прежде всего титул вождя предоставляется тем, кто проявляет силу и решительные действия.
 
-The warchief may accept ambassadors and advisors from all the different tribes and members of the Horde to makes sure their voice is heard in the running of the fledg&shy;ling hegemony but ultimately, only the warchief may have the final say in matters concerning the entire Horde. Each race within the Horde choose a single leader to govern their people and their people's kingdoms and also to repre&shy;sent their people in the high Horde echelon.
+Вождь может принять послов и советников из всех различных племен и членов Орды, чтобы убедиться, что их голос будет услышан в управлении молодым союзом, но в конечном счёте только вождь имеет окончательное мнение по вопросам, касающимся всей Орды. Каждая раса внутри Орды выбирает единого лидера, который будет управлять своим народом и его государством, а также представлять свой народ в высших эшелонах Орды.
 
-Despite their somewhat monstrous appearance, the majority of the Horde is not evil, much like the Alliance, it is comprised of diverse factions and individuals who possess a wide range of values and virtues. Even so, there is one expectation that must be met when joining the Horde: regardless of gender or station, all are expected to pull their own weight and give their talents for the betterment of the Horde. When weakness is a liability to the of the Horde, it is the duty of the strong to usurp control from the incom&shy;petent and redeem the Horde. 
+Несмотря на их несколько чудовищную внешность, большинство членов Орды, как и Альянса, не являются злыми; Орда состоит из различных фракций и личностей, обладающих широким спектром ценностей и достоинств. Тем не менее есть одно ожидание, которое должно быть удовлетворено при вступлении в Орду: независимо от пола или социального положения все должны делать свою работу и направлять свои таланты на благо Орды. Когда слабость является помехой для  Орды, долг сильного — отстранить некомпетентных от власти и усилить Орду.
 
-*Lok'tar ogar! Victory or death*—These words bind one to the Horde. For they are the most sacred and fundamental of truths to any warrior of the Horde, for the Horde, failure is not an option.
+«Лок'тар огар!  Победа или смерть!» —  эти слова связывают каждого с Ордой. Поскольку они — самая священная и  фундаментальная из истин для любого воина Орды, поражение для них — не вариант.
 
-Culturally, orcs and tauren believe in redemption more than most other races on Azeroth and are willing to give almost anyone a chance, regardless of reputation. The trolls seem to have even accepted, (if not at least 
-<br>olerate) their ancient enemy the blood elves.
-<br>Largely because of these beliefs, a number 
-<br>of mortal races and many diverse factions 
-<br>can be found in service to the Horde.
+В культурном отношении  орки и таурены верят в искупление больше, чем большинство других рас на Азероте, и готовы дать  любому шанс, независимо от репутации. Тролли, похоже, даже приняли (или, по крайней мере, терпят) своего древнего врага — эльфов крови. Во многом благодаря этим убеждениям Орда собрала внутри себя множество смертных рас и различных группировок.
 
 <img src='https://www.gmbinder.com/images/wl1T3Aj.jpg' style='position:absolute; top:0px; right:-50px; width:600px' />
 <img src='https://www.gmbinder.com/images/huxbNse.png' style='position:absolute; top:-240px; right:0px; width:900px' />
@@ -519,42 +508,41 @@ Culturally, orcs and tauren believe in redemption more than most other races on 
 \pagebreak
 
 ## Выбор расы
-Not every intelligent race of the multiverse is appropriate for a player-controlled adventurer. The ones presented in this book are the races most well known to become adven&shy;turers and heroes, spread throughout every corner of Azeroth's continents.
+Не каждая разумная раса мультивселенной подходит для искателей приключений, управляемых игроками. Те, что представлены в этой книге, являются расами, которые часто становятся авантюристами и героями, распространёнными по всем уголкам континентов Азерота.
 
-Your choice of race affects many different aspects of your character. It establishes fundamental qualities that exist throughout your character's adventuring career. When making this decision, keep in mind the kind of character you want to play. For example, a gnome could be a good choice for a sneaky rogue, a dwarf makes a tough warrior, and an elf can be a master of arcane magic.
+Выбор расы влияет на многие аспекты вашего персонажа. Он устанавливает основные качества, которые существуют на протяжении всей приключенческой карьеры вашего героя. Принимая это решение, подумайте, каким персонажем вы хотите сыграть. Например, гном может быть хорошим выбором для подлого мошенника, из дварфа получится крепкий воин, а эльф может быть мастером тайной магии.
 
-Your character race not only affects your ability scores and traits but also provides the cues for building your character's story. Each race's description in this chapter includes information to help you roleplay a character of that race, including personality, physical appearance, features of society, and racial alignment tendencies.
+Раса вашего персонажа не только влияет на ваши способности и характеристики, но также предоставляет подсказки для построения истории вашего героя. Описание каждой расы в этой главе включает информацию, которая поможет вам отыграть характер этой расы, включая личность, внешность, особенности общества и расового мировозрения.
 
-These details are suggestions to help you think about your character; adventurers can deviate widely from the norm for their race. It's worthwhile to consider why your character is different, as a helpful way to think about your character's background and personality.
+Эти детали являются предложениями, которые помогут вам подумать о вашем персонаже; авантюристы могут сильно отклоняться от нормы для своей расы. It's worthwhile to consider why your character is different, as a helpful way to think about your character's background and personality.
 
-### Racial Traits
-The description of each race includes racial traits that are common to members of that race. The following entries appear among the traits of most races.
+### Расовые особенности
+В описание каждой расы входят расовые особенности, общие для всех её представителей. Следующие разделы встречаются в описании большинства рас:
 
-#### Ability Score Increase
-Every race increases one or more of a character's
-ability scores.
+#### Увеличение характеристик
+Каждая раса увеличивает одно или несколько значений характеристик.
 
-#### Age
-The age entry notes the age when a member of the race is considered an adult, as well as the race's expected lifespan. This information can help you decide how old your character is at the start of the game.
+#### Возраст
+В поле возраста указывается возраст, при котором представитель расы считается взрослым, а также ожидаемая продолжительность жизни. Эта информация может помочь вам решить, сколько лет вашему персонажу в начале игры.
 
-#### Alignment
-Most races have tendencies toward certain alignments, described in this entry. These are not binding for player characters, but considering why your dwarf is chaotic, for example, in defiance of lawful dwarf society can help you better define your character.
+#### Мировоззрение
+Большинство рас имеют склонность к определённому мировоззрению, что и описано в данном разделе. Это никак не ограничивает вашего персонажа, но осознание того, почему вопреки строго законопослушному обществу ваш дворф вырос хаотичным, поможет вам лучше вжиться в роль.
 
-#### Size
-Characters of most races are Medium, a size category including creatures that are roughly 4 to 8 feet tall. Members of a few races are Small (between 2 and 4 feet tall), which means that certain rules of the game affect them differently. The most important of these rules is that Small characters have trouble wielding heavy weapons.
+#### Размер
+Персонажи большинства рас считаются Средними. В эту категорию попадают существа ростом от 4 до 8 футов (от 122 до 244 сантиметров). Представители некоторых рас считаются Маленькими (от 2 до 4 футов, или от 66 до 122 сантиметров, ростом), и из-за этого некоторые правила игры действуют на них по-другому. The most important of these rules is that Small characters have trouble wielding heavy weapons.
 
-#### Speed
-Your speed determines how far you can move when traveling and fighting.
+#### Скорость
+Скорость определяет, как далеко сможет продвинуться персонаж во время путешествия и сражения.
 
-#### Languages
-By virtue of your race, your character can speak, read, and write certain languages. Each race has their own language, with multiple dialects. as well as a 'common' language, that the majority of their faction speaks and understands. Chapter 4 lists languages commonly spoken on Azeroth.
+#### Языки
+В зависимости от расы ваш персонаж может говорить, читать и писать на определённых языках. Каждая раса имеет свой собственный язык, с несколькими диалектами, а также «всеобщий» язык, на котором говорит и который понимает большая часть её фракции. В главе 4 перечислены языки, на которых обычно говорят на Азероте.
 
 \columnbreak
 
-#### Subraces
-Many races have subraces. Members of a subrace have the traits of the parent race in addition to the traits specified for their subrace. Relationships among the subraces vary significantly from race to race.
+#### Разновидности
+У многих рас есть разновидности. Их представители сочетают в себе качества основной расы с особенностями, присущими только этой разновидности. Отношения между представителями разных разновидностей одной расы могут существенно различаться в зависимости от расы.
 
-### Languages
+### Языки
 Dozens of languages can be heard across Azeroth, and every tongue has dialects and regional variants. In order for its races to communicate intelligibly, the Common tongue is essential. But other languages remain widely used in homes and within the borders of certain regions.
 
 ##### Стандартные языки
@@ -590,7 +578,7 @@ Dozens of languages can be heard across Azeroth, and every tongue has dialects a
 
 \pagebreak
 
-<div class='cover-header'> <div style='margin-top:50px;'></div> Races of the Alliance </div>
+<div class='cover-header'> <div style='margin-top:50px;'></div> Расы Альянса </div>
 <style> .phb#p7:after { display:none; } </style>
 <img src='https://www.gmbinder.com/images/c1ja74s.jpg' style='position:absolute; top:0px; right:0px; width:800px' />
 
@@ -598,33 +586,33 @@ Dozens of languages can be heard across Azeroth, and every tongue has dialects a
 
 <div style='margin-top:546px'></div>
 
-## Human
+## Человек
 *No one feels he deserves it. Because no one does. It's grace, pure and simple, we are inherently unworthy, simply because we're human. Aye the elves, dwarves, and all the other races are flawed. But the Light loves us anyway. It loves us for what we sometimes can rise to in rare moments. It loves us for what we can do to help others.*
 <div style="text-align:Right"> 
 
 *— Uther the Lightbringer* &nbsp;</div>
 <div style='margin-top:-5px'></div>
 
-Human kingdoms have existed for thousand of years, and humans themselves for thousands more. Their short lives in comparison to dwarves and elves pushes them to achieve as much as they can in the years they are given. Their valor, optimism, and stubbornness have led them to build some of the greatest kingdoms on Azeroth, some of which still stand a millennium later. Whatever have pushed them down, it has only strengthened the bond between those that still stand.
+Человеческие королевства существуют уже тысячи лет. Короткая жизнь людей по сравнению с дворфами и эльфами подталкивает их к тому, чтобы достичь как можно большего за те годы, которые им отведены. Их доблесть, оптимизм и упрямство побудили построить величайшие королевства на Азероте, некоторые из которых существуют до сих пор. Что бы ни случилось, это только укрепляет связь между живущими людьми.
 
-### A Broad Spectrum
-With their penchant for migration and conquest, humans are more physically diverse than any other race. There is no typical human. An individual can stand from 5 feet to a little over 6 feet tall and weigh from 125 to 250 pounds. Human skin shades range from nearly black to very pale, and hair colors from black to blond (curly, kinky, or straight); males might sport facial hair that is sparse or thick. Humans reach adulthood in their late teens and rarely live even a single century.
+### Широкий спектр
+Обладая склонностью к миграции и завоеванию, люди более физически разнообразны, чем любая другая раса. Такого явления, как типичный человек, просто не существует. Люди имеют рост от 5 до чуть более 6 футов и вес от 125 до 250 фунтов. Цвет кожи людей варьируется от почти чёрного до очень бледного, а цвет волос — от чёрного до русого (вьющиеся, курчавые или прямые); у мужчин могут быть редкие или густые волосы на лице.  Humans reach adulthood in their late teens and rarely live even a single century.
 
 \columnbreak
 
 <br>
 <div style='margin-top:542px'></div>
 
-### Variety in All Things
-Humans are the most adaptable and ambitious people among Azeroth's races. They have widely varying tastes, morals, and customs in the many different kingdoms where they have settled. When they settle though, they stay: they build cities to last for the ages, and great kingdoms that can persist for long centuries. An individual human might have a relatively short life span, but a human nation or culture preserves traditions with origins far beyond the reach of any single human's memory. They live fully in the present but also plan for the future, striving to leave a lasting legacy.
+### Разнообразие во всём
+Люди — самый адаптивный и амбициозный народ среди рас Азерота. У них разные вкусы, нравы и обычаи в разных королевствах, в которых они обосновались. Когда они поселяются в выбранном месте, они там и остаются: строят города на века и великие королевства, способные существовать долгие столетия. У отдельного человека может быть относительно короткая продолжительность жизни, но человеческая нация или культура сохраняет традиции, происхождение которых далеко за пределами воспоминаний любого отдельного человека. Они живут в настоящем, но также смотрят в будущее, стремясь оставить долгое наследие.
 
-### Proudly Standing
-Despite what atrocities have happened to them, humans remain hardy and brave, thoroughly committed to building strong societies, reinforcing their kingdoms, and reclaiming lost nations. Years of war have tempered their resolve, and they are more determined than ever before. Their value of virtue, honor and courage shine their ranks.
+### Величественная репутация
+Несмотря на произошедших с ними несчастия, люди остаются стойкими и смелыми, полностью приверженными построению сильных обществ, укреплению своих королевств и возвращению утраченных государств. Годы войны закалили их смелость, и они более решительны, чем когда-либо прежде. Сила, честь и мужество — вот те добродетели, что движут ими.
 
-### Faithful
-Among all human nations, the holy light is a central part of civilized society. By most it is considered the only religion and a staple of worship, respect, and honor. The religion is widely worshiped throughout Azeroth, yet humans were the first to utilize its powers in an offensive manner with the creation of paladins. Throughout their kingdoms, churches of the holy light can be found, an organization dedicated to creating a world of honor, and justice.
+### Верующие
+Среди всех человеческих наций Свет Небес является центральной частью цивилизованного общества. Большинство считает его единственной религией и основой поклонения, уважения и чести. Эта религия широко распространена по всему Азероту, однако люди первыми применили её силы на практике, создав орден паладинов. Во всех их королевствах можно найти храмы Церкви Света Небес — организации, посвящённой созданию мира чести и справедливости.
 
-<div class='footnote'>PART 1 | RACES</div>
+<div class='footnote'>ЧАСТЬ 1 | РАСЫ</div>
 <img src='https://www.gmbinder.com/images/Ke9OOwE.png' style='position:absolute; top:0px; right:-30px; width:1000px' />
 <img src='https://www.gmbinder.com/images/pbSeYXZ.png' style='position:absolute; top:50px; right:0px; width:800px; transform:scalex(-1)' />
 <img src='https://www.gmbinder.com/images/x6YvTEU.png' style='position:absolute; top:20px; right:240px; width:650px;transform:scalex(-1)' />
@@ -636,66 +624,67 @@ Humans began the Alliance and it could not exist without them. Humans and orcs j
 
 They respect the races of their alliance, and carries no ill wish against any of them. They know they are the center stone of the alliance, and that a good relationship is key.
 
-### Human Names and Ethnicities
-Having so much more variety than other cultures, humans as a whole have no typical names. Some human parents give their children names from other languages, such as Dwarven or Darnassian, but most parents give names that are linked to their region's culture or to the naming traditions of their ancestors.
+### Человеческие имена и этносы
+Обладая гораздо большим разнообразием, чем другие культуры, люди в целом не имеют типичных имен. Некоторые  родители дают своим детям имена из других языков, таких как дворфский или дарнасский, но большинство родителей дают имена, связанные с культурой их региона или традициями именования их предков.
 
 The material culture and physical characteristics of humans can change wildly from region to region. For example, the clothing, architecture, cuisine, music, and literature are different in the peninsula of Gilneas than in the southern kingdom of Stormwind. Human physical characteristics, though, vary according to the ancient migrations of the earliest humans, so that the humans of the Eastern Kingdoms have every possible variation of coloration and features.
 
-Seven human kingdoms and ethnic groups are widely recognized. These groups, and the typical names of their members, can be used as inspiration no matter which kingdom your human is in.
+Широко признаны семь человеческих королевств и этнических групп. Эти группы и типичные имена их членов могут быть использованы для вдохновения независимо от того, в каком королевстве находится ваш человек.
 
-#### Alterac
+#### Альтерак
 Found in the Alterac mountains, Alteracis are of moderate height and muscular built, with skin hues of pale and fair skin. Their hair is usually silver or blonde, and their eye color varies widely, though light colorations are common.
 <div style='margin-top:-18px;'></div>
 
-<br>**Alteraci Names:** Alteracis generally use names taken from <br>&nbsp;&nbsp;&nbsp; the humans of Stromgarde or Lordaeron, and have no <br>&nbsp;&nbsp;&nbsp; names specific to them.
+<br>**Альтеракские имена:** Альтеракцы обычно берут свои <br> имена из традиций именований народов Штормграда и <br>   Лордерона и не имеют своих уникальных имен.
 
-#### Dalaran
-Dalaranians are slender, fair-skinned folk with brown hair that ranges from blond to almost black. Most are of moderate height and have blue or green eyes. But these traits are hardly universal. Humans of Dalaran come from far and wide across the Eastern Kingdoms to study or seek refuge within the floating city.
+#### Даларан
+Даларанцы — стройные, светлокожие с волосами оттенков от светлых до почти чёрных. Большинство из них среднего роста и имеют голубые или зеленые глаза. Люди Даларана приехали издалека со всех концов Восточных королевств, чтобы учиться или искать убежища в летающем городе.
 <div style='margin-top:-18px;'></div>
 
-<br>**Dalaranian Names:** Dalaranians have no names specific <br>&nbsp;&nbsp;&nbsp; to them, the ethnicity of their people vary beyond mere <br>&nbsp;&nbsp;&nbsp; humans and names are used from a variety of races.
+<br>**Даларанские имена:** Даларанцы не имеют уникальных <br>имён: этническая принадлежность их народа разнобразна, <br> и имена берутся из культур различных расs.
 
-#### Gilneas
+#### Гилнеас
 Gilneans are tall, fair to amber-skinned folk with blue or steely gray eyes. Most have hair ranging from wine-red or light brown to raven-black.
 <div style='margin-top:-18px;'></div>
 
-<br>**Gilnean Names:** (Male) Blake, Chris, Fenegan, Gerard, <br>&nbsp;&nbsp;&nbsp; James, Sean, Sebastian, Vincent; (female) Amelia, <br>&nbsp;&nbsp;&nbsp; Ashley, Celestine, Loren, Mary, Melinda, Mia, Tess; <br>&nbsp;&nbsp;&nbsp; (surnames) Broderick, Cleese, Crowly, Godfrey, Walden
+<br>**Гилнеасские имена:** (Male) Blake, Chris, Fenegan, Gerard, <br>&nbsp;&nbsp;&nbsp; James, Sean, Sebastian, Vincent; (female) Amelia, <br>&nbsp;&nbsp;&nbsp; Ashley, Celestine, Loren, Mary, Melinda, Mia, Tess; <br>&nbsp;&nbsp;&nbsp; (surnames) Broderick, Cleese, Crowly, Godfrey, Walden
 
-#### Kul Tiras
+#### Кул-Тирас
 Native to the Kul Tiran isles, tirasians are generally tall and muscular, with fair to amber skin similar to that of gilneans, brown to black hair, and light colored eyes.
 
 \columnbreak
 
-**Tirasian Names:** (Male) Cyrus, Denzel, Elijah, Herold, <br>&nbsp;&nbsp;&nbsp; Patrick, Ron, Wesley, Will; (female) Fray, Helena, Jess, <br>&nbsp;&nbsp;&nbsp; Joan, Kate, Leila, Louisa, Taylor; (surnames) Clark, <br>&nbsp;&nbsp;&nbsp; Ledger, Mueller, Page, Wellard
+**Култирасские имена:** (Male) Cyrus, Denzel, Elijah, Herold, <br>&nbsp;&nbsp;&nbsp; Patrick, Ron, Wesley, Will; (female) Fray, Helena, Jess, <br>&nbsp;&nbsp;&nbsp; Joan, Kate, Leila, Louisa, Taylor; (surnames) Clark, <br>&nbsp;&nbsp;&nbsp; Ledger, Mueller, Page, Wellard
 
-#### Lordaeron
+#### Лордерон
 Widespread along the Eastern Kingdoms northern realm, Lordaeronians are of medium height and slender built, with pale skin. Their hair and eye color varies widely, but silver or light colored hair and blue eyes are common.
 <div style='margin-top:-18px;'></div>
 
 <br>**Lordaeronian Names:** (Male) Alexi, Aurius, Gannon, <br>&nbsp;&nbsp;&nbsp; Menard, Norwyn, Othmar, Urias, Wallace; (female) <br>&nbsp;&nbsp;&nbsp; Arenya, Diahann, Ellaine, Illucia, Jandice, Lydie, Malina, <br>&nbsp;&nbsp;&nbsp; Merla; (surnames) Barton, Camden, Godwin, Hayden
 
-#### Stormwind
+#### Штормград
 Found within the southern region of the Eastern King-doms, Stormwindians are of moderate height and build, with skin hues ranging from tawny to fair. Their hair varies widely from blonde to brown, as does their eyes, though brown is most common.
 <div style='margin-top:-18px;'></div>
 
 <br>**Stormwindian Names:** (Male) Ander, Dungar, Harlan, <br>&nbsp;&nbsp;&nbsp; Jesper, Jocryn, Maginor, Osric, Renato; (female) Dalga, <br>&nbsp;&nbsp;&nbsp; Einris, Ilsa, Jalane, Karrina, Laurena,  Maris, Sarisse; <br>&nbsp;&nbsp;&nbsp; (surnames) Ayrole, Bolero, Cordell, Leifeld, Stanford
 
-#### Stromgarde
-Shorter in build than most other humans, Stromics have generally pale skin contrasted by brown or black hair, and dark colored eyes.
+#### Стромгард
+Ниже по росту, чем другие люди, сстромгардовцы обычно имеют бледную кожу, контрастирующую с коричневыми или черными волосами, и тёмные глаза.
 <div style='margin-top:-18px;'></div>
 
 <br>**Stromic Names:** (Male) Adrien, Emmir, Galen, Ganar, <br>&nbsp;&nbsp;&nbsp; Thoras, Tyrreth, Urnor, Wyenas; (female) Amina, Céline, <br>&nbsp;&nbsp;&nbsp; Clarisse, Ella, Emeline, Iris, Mara, Marine; (surnames) <br>&nbsp;&nbsp;&nbsp; Brewston, Farthing, Gilbreath, Swale, Tubal
 
-### Human Traits
-It's hard to make generalizations about humans, no matter where you were born your character has these traits.
+### Особенности людей
+Хотя делать обобщения насчёт людей сложно, независимо от того, где вы родились, у вашего персонажа есть следующие особенности.
 
-***Ability Score Increase.*** One ability score of your choice increases by 2, and another ability score of your choice increases by 1.
+***Увеличение характеристики.*** Значение одной вашей характеристики по вашему выбору увеличивается на 2 и ещё одной — на 1.
 
-***Age.*** Humans reach adulthood in their late teens and live less than a century.
+***Возраст.*** Люди становятся взрослыми в районе 20 лет и живут менее столетия.
 
-***Alignment.*** Humans tend toward no particular alignment. The best and the worst are found among them.
+***Мировоззрение.*** Люди не имеют склонности к определённому мировоззрению. Среди них встречаются как лучшие, так и худшие представители.
 
-***Size.*** Humans range from barely 5 to well over 6 feet tall and weigh an average of 175 pounds. Your size is Medium. To set your height and weight randomly, start with rolling the size modifier:
+***Размер.*** Люди сильно различаются по размерам. Некоторые с трудом достигают 5 футов (152 сантиметров) ростом, тогда как другие имеют рост, превосходящий 6 футов (183 сантиметра). Вне зависимости от роста, ваш размер — Средний.
+ To set your height and weight randomly, start with rolling the size modifier:
 <div style="margin-top: -18px; font-family: Alegreya Sans, sans-serif">
 
 <br>&nbsp;&nbsp;&nbsp; ***Size Modifier:*** 2d10
@@ -705,21 +694,21 @@ It's hard to make generalizations about humans, no matter where you were born yo
 
 <div style='margin-top:-3px;'></div>
 
-&nbsp;&nbsp;&nbsp; ***Speed.*** Your base walking speed is 30 feet. 
+&nbsp;&nbsp;&nbsp; ***Скорость.*** Ваша базовая скорость перемещения составляет 30 футов.
 
-***Determination.*** When you make an attack roll, an ability check, or a saving throw, you can do so with advantage. You can't do so again until you finish a short or long rest.
+***Решительность.*** Когда вы совершаете бросок атаки, проверку характеристики или спасбросок, вы можете сделать это с преимуществом. Как только вы используете эту способность, вы не сможете использовать её снова, пока не закончите короткий или продолжительный отдых.
 
-***Skill Versatility.*** You gain proficiency in two skills or tools of your choice.
+***Многогранность.*** Вы получаете владение двумя навыками или инструментами на ваш выбор.
 
-***Languages.*** You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other languages: Dwarven curses, Darnassian musical expressions, Gnomish tongue twisters, and so on.
+***Языки.*** Вы можете говорить, читать и писать на всеобщем и ещё одном языке на ваш выбор. Люди обычно изучают языки народов, с которыми имеют дело, включая редкие диалекты. Они любят разбавлять собственную речь словами, позаимствованными из других языков: дворфскими ругательствами, дарнасскими музыкальными терминами, гномьими скороговорками и так далее.
 
-<div class='footnote'>PART 1 | RACES</div>
+<div class='footnote'>ЧАСТЬ 1 | РАСЫ</div>
 
 \pagebreakNum
 
 <div style='margin-top:227px;'></div>
 
-## Dwarf
+## Дворф
 *And here are the why and the how, to again become 
 <br>one with the mountain. For behold, we are the earthen, 
 <br>of the land, and its soul is ours, its pain is ours, its heartbeat is ours. We sing its song and weep for its 
@@ -758,7 +747,7 @@ Dwarves are a proud, stern and determined people with streaks of kindness hidden
 
 Still, they keep to the forges and workshops, ever inno-vating and creating new and more effective ways of warfare. Steam powered technology and firearms originate from dwarven inventiveness and creativity. The stout race is renowned for its skills at battle and also as cunning engineers and crafters. 
 
-<div class='footnote'>PART 1 | RACES</div>
+<div class='footnote'>ЧАСТЬ 1 | РАСЫ</div>
 <img src='https://www.gmbinder.com/images/v7DFZZS.jpg' style='position:absolute; top:-40px; right:-350px; width:1150px' />
 <img src='https://www.gmbinder.com/images/4eD5Yy6.png' style='position:absolute; top:0px; right:0px; width:900px; transform:scalex(-1)' />
 <img src='https://www.gmbinder.com/images/l2uyR4M.png' style='position:absolute; top:335px; right:-55px; width:550px; transform:scalex(-1); z-index:20' />
@@ -846,7 +835,7 @@ As a dark iron dwarf, you have a fiery temper and a fierce determination. Dark i
 
 ***Superior Darkvision.*** Your darkvision has a <br> radius of 120 feet.
 
-<div class='footnote'>PART 1 | RACES</div>
+<div class='footnote'>ЧАСТЬ 1 | РАСЫ</div>
 
 \pagebreakNum
 
@@ -884,7 +873,7 @@ Like the branches of a young tree, elves are flexible in the face of danger. The
 ### Affiliation
 Night elves are members of the Alliance, they pledged their allegiance after the Reign of Chaos, a long fought war that would have dire consequences for the elves and their homeland. Although all members of the Alliance are against the orcs and their Horde, few harbour as much hatred for the orcs as the night elves. They blame the green-skinned brutes for the destruction of their forests and the taint of fel that now protrudes through the Felwoods.
 
-<div class='footnote'>PART 1 | RACES</div>
+<div class='footnote'>ЧАСТЬ 1 | РАСЫ</div>
 <img src='https://www.gmbinder.com/images/zD8Zxsp.jpg' style='position:absolute; top:-100px; right:0px; width:800px' />
 <img src='https://www.gmbinder.com/images/L60ii4e.png' style='position:absolute; top:-40px; right:0px; width:900px; transform:scaleY(-1)' />
 <img src='https://www.gmbinder.com/images/LkQ3kXH.png' style='position:absolute; top:40px; right:-75px; width:500px' />
@@ -982,7 +971,7 @@ Gnomes are members of the Alliance, their shared origin and close proximity to t
 
 They carry little ill or favor towards the races native to Kalimdor, having yet to spend enough time on the continent to form a proper opinion about its denizens.
 
-<div class='footnote'>PART 1 | RACES</div>
+<div class='footnote'>ЧАСТЬ 1 | РАСЫ</div>
 <img src='https://www.gmbinder.com/images/8cYzWBs.jpg' style='position:absolute; top:0px; right:0px; width:1000px; transform:scalex(-1)' />
 <img src='https://www.gmbinder.com/images/L60ii4e.png' style='position:absolute; top:50px; right:0px; width:800px; transform:scaley(-1)' />
 <img src='https://www.gmbinder.com/images/Vsq5oIs.png' style='position:absolute; top:-160px; right:-100px; width:650px' />
@@ -1084,7 +1073,7 @@ As a mechagnome, you come from a branch of the gnomish race that have lived in i
 <br><span style="margin-left:11px"></span> leave you with a lower AC. A shield's benefits apply as 
 <br><span style="margin-left:11px"></span> normal while you use your natural armor.
 
-<div class='footnote'>PART 1 | RACES</div>
+<div class='footnote'>ЧАСТЬ 1 | РАСЫ</div>
 
 \pagebreakNum
 
@@ -1117,7 +1106,7 @@ During the draenei's journey, the enigmatic naaru race taught them the ways of t
 
 The naaru bestowed a blessing, the Gift of the Naaru, upon the draenei to signify their new connection the light. Deeply affected by the naaru's words, the draenei vowed to honor the light and uphold the naaru's ideals.
 
-<div class='footnote'>PART 1 | RACES</div>
+<div class='footnote'>ЧАСТЬ 1 | РАСЫ</div>
 <img src='https://www.gmbinder.com/images/zjpuVPM.jpg' style='position:absolute; top:0px; right:0px; width:1090px;transform:scalex(-1)' />
 <img src='https://www.gmbinder.com/images/bNHsRrG.png' style='position:absolute; top:90px; right:0px; width:800px; transform:scaleY(-1)' />
 <img src='https://www.gmbinder.com/images/m97J1Oq.png' style='position:absolute; top:140px; right:360px; width:500px' />
@@ -1205,7 +1194,7 @@ As a broken draenei, you were left on Draenor as the legion invaded, your connec
 
 ***Outcast.*** You are proficient in the Survival skill.
 
-<div class='footnote'>PART 1 | RACES</div>
+<div class='footnote'>ЧАСТЬ 1 | РАСЫ</div>
 
 \pagebreakNum
 
@@ -1240,7 +1229,7 @@ Worgens are members of the Alliance, although the curse of the worgen altered th
 #### Forsaken Hatred
 Although no race, Alliance or Horde, trusts or truly likes the forsaken, the gilnean hatred for the undead race goes deeper than most. They have caused much harm to the gil&shy;nean people and lead to the demise of Kingdom of Gilneas, a fact that worgens have and will never forget.
 
-<div class='footnote'>PART 1 | RACES</div>
+<div class='footnote'>ЧАСТЬ 1 | РАСЫ</div>
 <img src='https://www.gmbinder.com/images/hc81G0c.jpg' style='position:absolute; top:-250px; right:-50px; width:1200px' />
 <img src='https://www.gmbinder.com/images/L60ii4e.png' style='position:absolute; top:0px; right:0px; width:900px; transform:rotate(180deg)' />
 <img src='https://www.gmbinder.com/images/nV6NTzk.png' style='position:absolute; top:120px; right:170px; width:750px; transform:scalex(-1)' />
@@ -1293,14 +1282,14 @@ Your worgen character has the following racial traits.
 
 ***Languages.*** You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other languages: Dwarven curses, Darnassian musical expressions, Gnomish tongue twisters, and so on.
 
-<div class='footnote'>PART 1 | RACES</div>
+<div class='footnote'>ЧАСТЬ 1 | РАСЫ</div>
 <img src='https://www.gmbinder.com/images/ymeA1sL.jpg' style='position:absolute; top:-70px; right:200px; width:800px' />
 <img src='https://www.gmbinder.com/images/Npi5n8k.png' style='position:absolute; top:0px; right:-10px; width:900px' />
 
 \pagebreakNum
 
 <style> .phb#p20:after { display:none; } </style>
-<div class='cover-header'> <div style='margin-top:50px;'></div> Races of the Horde </div>
+<div class='cover-header'> <div style='margin-top:50px;'></div> Расы Одры </div>
 <img src='https://www.gmbinder.com/images/yymWGtB.jpg' style='position:absolute; top:0px; right:0px; width:800px' />
 
 \pagebreak
@@ -1339,7 +1328,7 @@ Orc males are massive and brutish looking creatures. Weighing in at 250 to 350 p
 
 Orcs tend to have bristly hair and beards, often black or brown in color. Their skin ranges from a light green to a dark drab olive. Eyes range in color from a fierce red to a pale blue. Orcs have broad, flat noses, tusk-like teeth jutting from their lower and sometimes upper jaws, and large, pointed ears. They favor clothes of hide, and armor and arm themselves with a variety of gear.
 
-<div class='footnote'>PART 1 | RACES</div>
+<div class='footnote'>ЧАСТЬ 1 | РАСЫ</div>
 <img src='https://www.gmbinder.com/images/E086d0Y.jpg' style='position:absolute; top:-50px; right:0px; width:800px' />
 <img src='https://www.gmbinder.com/images/L60ii4e.png' style='position:absolute; top:0px; right:0px; width:900px; transform:scaley(-1)' />
 <img src='https://www.gmbinder.com/images/tPFTqoe.png' style='position:absolute; top:100px; right:0px; width:400px' />
@@ -1453,7 +1442,7 @@ Never sleeping, eating or falling ill, abandoned by those they once loved, the F
 
 A great portion of their efforts focus on dark alchemy, and the Royal Apothecary Society commands great power in Undercity’s oily tunnels. The apothecaries constantly send Forsaken on missions to gather odd materials for their twisted experiments. Rumors tell that the undead creatures are working to create a plague that will exterminate the Scourge and every living being on Azeroth.
 
-<div class='footnote'>PART 1 | RACES</div>
+<div class='footnote'>ЧАСТЬ 1 | РАСЫ</div>
 <img src='https://www.gmbinder.com/images/suFd7Ev.jpg' style='position:absolute; top:0px; right:0px; width:850px' />
 <img src='https://www.gmbinder.com/images/L60ii4e.png' style='position:absolute; top:70px; right:0px; width:800px; transform:scaley(-1)' />
 <img src='https://www.gmbinder.com/images/68gnFHN.png' style='position:absolute; top:150px; right:-70px; width:700px' />
@@ -1554,7 +1543,7 @@ Tauren are large, and muscular with bull-like heads. Males average 10 feet tall 
 
 Their coloration can range from solid black to blond and even white, to mottled pelts of multiple colors. Although all tauren have horns, they are considerably more prominent on males than females.
 
-<div class='footnote'>PART 1 | RACES</div>
+<div class='footnote'>ЧАСТЬ 1 | РАСЫ</div>
 <img src='https://www.gmbinder.com/images/tr3MMTm.jpg' style='position:absolute; top:0px; right:0px; width:1000px' />
 <img src='https://www.gmbinder.com/images/E8GrMME.png' style='position:absolute; top:0px; right:0px; width:900px' />
 <img src='https://www.gmbinder.com/images/kxJtn7u.png' style='position:absolute; top:450px; right:-128px; width:700px' />
@@ -1644,7 +1633,7 @@ As a taunka, you are considered a relative to the tauren race and a branch of th
 
 ***Tundra Walker.*** You can move across difficult terrain made of ice or snow without expending extra movement.
 
-<div class='footnote'>PART 1 | RACES</div>
+<div class='footnote'>ЧАСТЬ 1 | РАСЫ</div>
 <img src='https://www.gmbinder.com/images/WxaNruu.png' style='position:absolute; top:940px; right:40px; width:350px' />
 
 \pagebreakNum
@@ -1684,7 +1673,7 @@ Trolls are members of the Horde. Although they practice voodoo and often have to
 
 ***Jungle Troll.*** These trolls are among those that pledged their allegiance to the Horde when they landed on the isles of the Darkspear tribe. However, many jungle trolls belong to the Gurubashi tribe, a tribe that shows open hostility towards all outsiders.
 
-<div class='footnote'>PART 1 | RACES</div>
+<div class='footnote'>ЧАСТЬ 1 | РАСЫ</div>
 <img src='https://www.gmbinder.com/images/uUHrf4n.jpg' style='position:absolute; top:0px; right:0px; width:1000px' />
 <img src='https://www.gmbinder.com/images/bNHsRrG.png' style='position:absolute; top:0px; right:0px; width:850px; transform:rotate(180deg)' />
 <img src='https://www.gmbinder.com/images/xc8uKId.png' style='position:absolute; top:160px; right:-150px; width:650px; transform:scalex(-1)' />
@@ -1783,7 +1772,7 @@ As an ice troll, you are hardy and strong, accustomed to <br> the cold climates.
 
 ***Troll Weapon Training.*** You have proficiency with handaxes, battleaxes, daggers, and javelins.
 
-<div class='footnote'>PART 1 | RACES</div>
+<div class='footnote'>ЧАСТЬ 1 | РАСЫ</div>
 
 \pagebreakNum
 
@@ -1815,7 +1804,7 @@ As a culture, the sin'dorei have retained the look and feel of their fallen high
 ### Proud Society
 In general, the blood elves are a proud, pragmatic, and somewhat jingoistic people; they place great emphasis on their love for their homeland, and are ruthless to their enemies. Their reputation for isolationism is well-earned, and they prefer to keep to their own kind, although excep-tions to this stereotype exist. Blood elves are a resilient race of survivors, and their most prominent figures stand as beacons of courage, tenacity, and the strength to fight on, regardless of what foes stand in their way.
 
-<div class='footnote'>PART 1 | RACES</div>
+<div class='footnote'>ЧАСТЬ 1 | РАСЫ</div>
 <img src='https://www.gmbinder.com/images/yEfh2ws.jpg' style='position:absolute; top:0px; right:0px; width:850px' />
 <img src='https://www.gmbinder.com/images/bNHsRrG.png' style='position:absolute; top:100px; right:0px; width:800px; transform:rotate(180deg)' />
 <img src='https://www.gmbinder.com/images/YsQdgdF.png' style='position:absolute; top:0px; right:-50px; width:500px; transform:scalex(-1)' />
@@ -1926,7 +1915,7 @@ Though many shops remain independent, a growing number of them have signs declar
 
 The goblins are also legendary for the sheer variety of trade in which they are willing to indulge and for their tenacity in bargaining. 
 
-<div class='footnote'>PART 1 | RACES</div>
+<div class='footnote'>ЧАСТЬ 1 | РАСЫ</div>
 <img src='https://images.gamewatcherstatic.com/image/file/3/61/81233/Hearth.jpg' style='position:absolute; top:0px; right:0px; width:1195px' />
 <img src='https://www.gmbinder.com/images/grtcWyc.jpg' style='position:absolute; top:0px; right:300px; width:1195px' />
 <img src='https://i.pinimg.com/originals/50/9f/07/509f072bb05dacf7b667394d688c1f7f.jpg' style='position:absolute; top:0px; right:-500px; width:1340px' />
@@ -1990,7 +1979,7 @@ When you create this device, choose one of the following spells: *burning hands,
 
 ***Languages.*** You can speak, read, and write Common, Goblin and one extra language of your choice. Goblins are born merchants and trade with any race willing to buy from them, picking up the languages of those they trade with.
 
-<div class='footnote'>PART 1 | RACES</div>
+<div class='footnote'>ЧАСТЬ 1 | РАСЫ</div>
 <img src='https://www.gmbinder.com/images/VaHU2Gc.jpg' style='position:absolute; top:490px; right:-150px; width:600px' />
 <img src='https://www.gmbinder.com/images/wvTUmvu.png' style='position:absolute; top:50px; right:0px; width:800px' />
 <img src='https://www.gmbinder.com/images/E8GrMME.png' style='position:absolute; top:0px; right:0px; width:900px' />
@@ -1998,7 +1987,7 @@ When you create this device, choose one of the following spells: *burning hands,
 \pagebreakNum
 
 <style> .phb#p33:after { display:none; } </style>
-<div class='cover-header'> <div style='margin-top:50px;'></div> Allied Races </div>
+<div class='cover-header'> <div style='margin-top:50px;'></div> Союзные расы </div>
 <img src='https://www.gmbinder.com/images/kkjaoG4.jpg' style='position:absolute; top:0px; right:-65px; width:900px' />
 
 \pagebreak
@@ -2043,7 +2032,7 @@ Few nightborne have maintained a neutral stance as the Third Invasion of the Bur
 
 ***Horde.*** Many nightborne have been able to find common ground with the blood elves of the Horde, who've expressed a similar relationship with the night elves, and are bound by a similar addiction to a well of power. The blood elves have showed themselves to be a great ally of the nightborne people and opened the door for them to join the Horde.
 
-<div class='footnote'>PART 1 | RACES</div>
+<div class='footnote'>ЧАСТЬ 1 | РАСЫ</div>
 <img src='https://www.gmbinder.com/images/Lru8laS.jpg' style='position:absolute; top:0px; right:-100px; width:1050px; transform:scalex(-1)' />
 <img src='https://www.gmbinder.com/images/eHNEyoC.png' style='position:absolute; top:0px; right:0px; width:900px' />
 <img src='https://www.gmbinder.com/images/3JjxENt.png' style='position:absolute; top:-40px; right:-30px; width:500px' />
@@ -2092,7 +2081,7 @@ Your nightborne character has the following racial traits.
 
 ***Languages.*** You can speak, read, and write Common and Shalassian. Shalassian, like Thalassian, originates from the Darnassian language. Its dialect has been scrutinized through the ages, making it nearly impossible for members outside of the Nightborne to read or write.
 
-<div class='footnote'>PART 1 | RACES</div>
+<div class='footnote'>ЧАСТЬ 1 | РАСЫ</div>
 <img src='https://www.gmbinder.com/images/UWr8pFE.jpg' style='position:absolute; top:0px; right:-400px; width:1910px' />
 <img src='https://www.gmbinder.com/images/E8GrMME.png' style='position:absolute; top:0px; right:0px; width:900px' />
 
@@ -2131,7 +2120,7 @@ Covered in colorful fur from head to toe, pandaren appear like massive humanoid 
 
 Pandaren colorations varies widely, from a dark brown to a golden yellow, one thing that is consistent throughout all pandarens are their white markings, all pandarens have these upon their face, and many also have patches of white on their paws of torso. Pandarens don't have hair, but many stylize their fur on top of their head, letting it grow longer to resemble hair.
 
-<div class='footnote'>PART 1 | RACES</div>
+<div class='footnote'>ЧАСТЬ 1 | РАСЫ</div>
 <img src='https://www.gmbinder.com/images/6XAsG6F.jpg' style='position:absolute; top:0px; right:0px; width:800px' />
 <img src='https://www.gmbinder.com/images/kDzvP48.png' style='position:absolute; top:-170px; right:0px; width:1000px' />
 <img src='https://www.gmbinder.com/images/6aiPMLT.png' style='position:absolute; top:75px; right:-180px; width:750px; transform:scalex(-1); z-index:10' />
@@ -2228,7 +2217,7 @@ Void elves are an independent subrace of blood elves that have been exiled from 
 
 ***Horde.*** No void elves exist within the Horde, as those that learned to control the void swore to follow the ranger-general Alleria Windrunner and have joined the Alliance.
 
-<div class='footnote'>PART 1 | RACES</div>
+<div class='footnote'>ЧАСТЬ 1 | РАСЫ</div>
 <img src='https://www.gmbinder.com/images/JLhq6RD.jpg' style='position:absolute; top:-100px; right:0px; width:800px' />
 <img src='https://www.gmbinder.com/images/H47MOpD.png' style='position:absolute; top:0px; right:0px; width:900px' />
 <img src='https://www.gmbinder.com/images/kDzvP48.png' style='position:absolute; top:0px; right:0px; width:1000px' />
@@ -2296,7 +2285,7 @@ The vulpera are a keen and intelligent race of nomadic scavengers. They are capa
 ### Resourceful Gatherers
 Dwelling in Vol'dun, the vulpera can't afford to waste re&shy;sources. Over time, they have learned to take anything that looks even remotely useful and be creative using what they have, and they have learned to recognize value wherever it hides in the desert. When warned that gold from the Port of Zem'lan was cursed, Norah replied that "A little curse never kept the vulpera from a worthy treasure".
 
-<div class='footnote'>PART 1 | RACES</div>
+<div class='footnote'>ЧАСТЬ 1 | РАСЫ</div>
 <img src='https://www.gmbinder.com/images/qX8jehA.png' style='position:absolute; top:-40px; right:-120px; width:550px; transform:scalex(-1)' />
 
 \pagebreakNum
