@@ -215,46 +215,55 @@
     filter: hue-rotate(120deg)
   }
 
+  .stamp {
+    position: absolute;
+    margin-top: 5px;
+    width: 150px;
+    height: 150px;
+    background-image: url(https://dnd.everett.one/files/stamp.png);
+    background-size: 100%;
+  }
 </style>
 
 <div style='margin-top:540px'></div>
 
-## Rogue
-*You're gonna find a number of outfits that covet our skills. Adventurers, SI:7... heck, even the disorganized rabble wouldn't mind a spy or two inside Stormwind. But you remember this: You're your own man. Don't let nobody bully you into doing something you don't wanna do! Besides, we hold all the cards... at least, we do before the game's done.*
+## Разбойник
+*Ты вскоре обнаружишь, что многим требуются твои навыки. Искатели приключений, ШРУ, даже самая неорганизованная банда хочет заиметь в своих рядах шпиона-двух в Штормграде. Но ты должен всегда помнить: ты сам себе хозяин. Никому не давай себя ввязывать в то, во что ты не хочешь ввязываться. К тому же именно мы держим все карты на руках... по крайней мере до конца игры.*
 <div style="text-align:Right"> 
 
-*— Jorik Kerridan* &nbsp;</div>
+*— Йорик Керридан*  </div>
+<div style='margin-top:1px;'></div>
 
-Signaling for her companions to wait, a female orc creeps forward through the dungeon hall. She presses an ear to the door, then pulls out a set of tools to pick it in the blink of an eye. Before disappearing into the shadows as her warrior friend moves forward to kick the door open.
+Дав спутникам сигнал ждать, орчиха крадётся по коридору подземелья. Она прижимает ухо к двери, потом вытаскивает набор отмычек и в мгновение ока взламывает замок на ней. Орчиха тут же пропадает в тенях, как только её спутник-воин идёт вперёд, чтобы выбить дверь пинком.
 
-A human lurks in the shadows of an alley while his accomplice prepares for her part in the ambush. When their target passes the alleyway, the accomplice cries out, the slaver comes to investigate, and the assassin's blade cuts his throat before he can make a sound.
+Человек скрывается в тени переулка, в то время как его сообщница готовит свою часть засады. Когда их цель — известный работорговец — проходит по переулку, сообщница издаёт крик, работорговец начинает выяснять, что произошло, и лезвие убийцы перерезает его горло прежде, чем он успевает издать звук. 
 
-Suppressing a giggle, a gnome silently sneaks up behind a guard, lifting the key ring from the his belt. In a moment, the keys are in her hand, the cell door is open, and she and her companions are free to make their escape.
+Подавив смешок, гномка шевелит пальцами и с помощью магии снимает ключи с пояса охранника. Через миг ключи в её руке, дверь камеры открыта, и она вместе со своими спутниками может спокойно совершать побег. 
 
-Rogues rely on skill, stealth, and their foes' vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem, demonstrating a resourcefulness and versatility that is the cornerstone of any successful adventuring party.
+Разбойники полагаются на мастерство, скрытность и уязвимости врагов, чтобы взять верх в любой ситуации. У них достаточно сноровки для нахождения решения в любой ситуации, и они обладают находчивостью и гибкостью — краеугольными камнями любой успешной группы искателей приключений. 
 
 \columnbreak
 
 <div style='margin-top:241px'></div>
 
-### A Simple Code
-For rogues, the only code is the contract, and their honor is purchased in gold. Free from the constraints of a conscience, these mercenaries rely on brutal and efficient tactics. Lethal assassins and masters of stealth, they will approach their marks from behind, piercing a vital organ and vanishing into the shadows before the victim hits the ground. Rogues can dip their weapons in paralyzing toxins that render foes unable to defend themselves. These silent stalkers wear leather armor so they can move unencumbered, ensuring that they land the first strike.
+### Простые принципы
+Для разбойника единственный кодекс — это контракт, а их честь измеряется в золоте. Свободные от угрызений совести, эти наемники прибегают к жесткой и эффективной тактике. Смертоносные убийцы и мастера скрытности, они приближаются к своим жертвам сзади, пронзают жизненно важный орган и исчезают в тени прежде, чем жертва упадёт на землю. Чтобы лишить врагов даже возможности защититься, они могут покрыть своё оружие парализующими токсинами. Разбойники носят кожаную броню, чтобы двигаться тихо, незаметно и легко, тем самым гарантируя, что они нанесут удар первыми. 
 
-With the rogue’s poisons and speed, the first strike is often the last step before the killing blow.
+С их невероятной скоростью и ядами первый удар разбойников часто становится последним для их жертв. 
 
-Rogues fend for themselves, looking for fights in which they dictate the terms. They’re the shadows in the night that remain unseen until the right moment comes to strike, then they dispatch an opponent with quick blade work or a deadly toxin snuck acutely into the bloodstream. Rogues are opportunistic thieves, bandits, and assassins, but there’s an unparalleled art to what they do.
+Разбойники — это хозяева своей жизни, ищущие битвы, в которых они могут диктовать свои правила. Они остаются незримыми, подобно теням в ночи, пока не наступит подходящий момент для удара, достаточного, чтобы устранить жертву быстрым взмахом клинков или смертоносным ядом, стремительно проникающим в кровь. Разбойники — воры, бандиты и убийцы, и всё же то, что они делают, — это бесподобное искусство.
 
-### Skill and Precision
-Rogues devote as much effort to mastering the use of a variety of skills as they do to perfecting their combat abilities, giving them a broad expertise that few other characters can match. Many rogues focus on stealth and deception, while others refine the skills that help them in a dungeon environment, such as climbing, finding and disarming traps, and opening locks.
+### Навык и точность
+Разбойники тратят столько же усилий на освоение различных навыков, сколько и на совершенствование своего боевого мастерства, получая невероятно обширный опыт, с которым мало кто может сравниться. Многие разбойники фокусируются на скрытности и обмане, в то время как некоторые больше полагаются на навыки, позволяющие им лучше выживать в подземельях и пещерах, вроде лазания, поиска, обезвреживания ловушек или взлома замков. 
 
-When it comes to combat, rogues prioritize cunning over brute strength. A rogue would rather make one precise strike, placing it exactly where the attack will hurt the target most, than wear an opponent down with a barrage of attacks. Rogues have an almost supernatural knack for avoiding danger, and a few learn magical tricks to supplement their other abilities.
+Когда дело доходит до боя, разбойники предпочитают использовать хитрость вместо грубой силы. Лучше сделать один точный удар в больное место, чем попытаться сломить врага градом ударов. Также разбойники обладают почти что сверхъестественной способностью уклоняться от атак, а некоторые даже имеют пару магических трюков в дополнение к своим навыкам. 
 
-### Creating a Rogue
-As you create your rogue character, consider the charac-ter's relationship to the law. Do you have a criminal past, or present? Are you on the run from the law or from an angry thieves' guild master? or did you leave your guild in search of bigger risks and bigger rewards? Is it greed that drives you in your adventurers, or some other desire or ideal?
+### Создание разбойника
+Когда вы создаёте разбойника, подумайте первым делом о том, как вы относитесь к закону. Есть ли у вас криминальное прошлое или же вы преступник до сих пор? В бегах ли вы от служителей закона или же от злобного мастера гильдии воров? Или вы покинули гильдию ради большего риска и большей награды? Ведёт ли вас к приключениям жадность или же возвышенный идеал?
 
-What was the trigger that led you away from your previous life? Did a great con or heist gone terribly wrong cause you to reevaluate your career? Maybe you were lucky and successful robbery gave you the coin you needed to escape the squalor of your life. 
+Что послужило причиной, которая увела вас прочь от прошлой жизни? Грандиозное мошенничество или ограбление пошло настолько неправильно, что заставило вас изменить взгляд на ваше ремесло? Может, удача улыбнулась вам, и успешное ограбление дало деньги, которые были вам нужны для побега от убогой жизни. 
 
-<div class='footnote'>PART 1 | CLASSES</div>
+<div class='footnote'>Часть I | Классы</div>
 <img src='https://www.gmbinder.com/images/XHxM0Dm.jpg' style='position:absolute; top:0px; right:0px; width:800px; transform:scalex(-1)' />
 <img src='https://www.gmbinder.com/images/3e9S91s.png' style='position:absolute; top:100px; right:0px; width:800px; transform:scaley(-1)' />
 <img src='https://www.gmbinder.com/images/so5kn8u.png' style='position:absolute; top:40px; right:250px; width:600px; transform:scalex(-1)' />
@@ -263,343 +272,352 @@ What was the trigger that led you away from your previous life? Did a great con 
 
 <div class='classTable wide'>
 
-##### The Rogue
-|Level|&nbsp;|Proficiency<br>Bonus||Energy<br>Points||Sneak<br>Attack|Features|
+##### Разбойник
+|Уровень|&nbsp;|Бонус<br>мастерства||Очки<br>энергии||Скрытая<br>атака|Особенности|
 |:---:|-|:-:|-|:-:|-|:-:|:---------------------------------------|
-| 1st || +2 || —|| 1d6| Expertise, Sneak Attack, Secret Missives |
-| 2nd || +2 || 1|| 1d6| Energy, Cunning Action                   |
-| 3rd || +2 || 2|| 2d6| Roguish Archetype                        |
-| 4th || +2 || 2|| 2d6| Ability Score Improvement                |
-| 5th || +3 || 3|| 3d6| Uncanny Dodge                            |
-| 6th || +3 || 3|| 3d6| Expertise                                |
-| 7th || +3 || 4|| 4d6| Evasion                                  |
-| 8th || +3 || 4|| 4d6| Ability Score Improvement                |
-| 9th || +4 || 5|| 5d6| Roguish Archetype feature                |
-| 10th|| +4 || 5|| 5d6| Fleet Footed                             |
-| 11th|| +4 || 6|| 6d6| Reliable Talent                          |
-| 12th|| +4 || 6|| 6d6| Ability Score Improvement                |
-| 13th|| +5 || 7|| 7d6| Roguish Archetype feature                |
-| 14th|| +5 || 7|| 7d6| Blindsense                               |
-| 15th|| +5 || 8|| 8d6| Anticipation                             |
-| 16th|| +5 || 8|| 8d6| Ability Score Improvement                |
-| 17th|| +6 || 9|| 9d6| Roguish Archetype feature                |
-| 18th|| +6 || 9|| 9d6| Elusive                                  |
-| 19th|| +6 ||10||10d6| Ability Score Improvement                |
-| 20th|| +6 ||10||10d6| Stroke of Luck                           |
+| 1 || +2 || —|| 1к6| Компетентность, Скрытая атака, Воровской жаргон|
+| 2 || +2 || 1|| 1к6| Энергия, Хитрое действие                       |
+| 3 || +2 || 2|| 2к6| Архетип разбойника                             |
+| 4 || +2 || 2|| 2к6| Увеличение характеристик                       |
+| 5 || +3 || 3|| 3к6| Невероятное уклонение                          |
+| 6 || +3 || 3|| 3к6| Компетентность                                 |
+| 7 || +3 || 4|| 4к6| Увёртливость                                   |
+| 8 || +3 || 4|| 4к6| Увеличение характеристик                       |
+| 9 || +4 || 5|| 5к6| Умение архетипа разбойника                     |
+| 10|| +4 || 5|| 5к6| Быстроногий                                    |
+| 11|| +4 || 6|| 6к6| Надёжный талант                                |
+| 12|| +4 || 6|| 6к6| Увеличение характеристик                       |
+| 13|| +5 || 7|| 7к6| Умение архетипа разбойника                     |
+| 14|| +5 || 7|| 7к6| Слепое зрение                                  |
+| 15|| +5 || 8|| 8к6| Предчувствие                                   |
+| 16|| +5 || 8|| 8к6| Увеличение характеристик                       |
+| 17|| +6 || 9|| 9к6| Умение архетипа разбойника                     |
+| 18|| +6 || 9|| 9к6| Неуловимость                                   |
+| 19|| +6 ||10||10к6| Увеличение характеристик                       |
+| 20|| +6 ||10||10к6| Удача                                          |
 </div>
 
-&nbsp;&nbsp;&nbsp; Did wanderlust finally call you away from your home? Perhaps you suddenly found yourself cut off from your family or your mentor, and you had to find a new means of support. Or maybe you made a new friend, who showed you new possibilities for earning a living and employing your particular talents.
+&nbsp;&nbsp;&nbsp; Страсть к путешествиям наконец позвала вас прочь от вашего дома? Возможно, вы обнаружили себя отрезанным от семьи или наставника, и вы должны найти новые средства поддержки. Или, может
+быть, вы обрели нового друга — другого члена группы искателей приключений, — который показал вам новые возможности для заработка, используя ваши особые таланты.
 
-#### Quick Build
-You can make a rogue quickly by following these sugges&shy;tions. First, Dexterity should be your highest ability score. Make intelligence your next highest if you want to excel at Investigation. Choose Charisma instead if you plan to emphasize deception and social interaction.
+#### Быстрое создание
+Вы можете быстро создать разбойника, следуя этим рекомендациям. Во-первых, у вашей Ловкости должно
+быть наивысшее значение. Следующим по величине должно быть значение Интеллекта, при условии, что вы планируете специализироваться в Расследовании. В противном случае выберите Харизму, если планируете пользоваться обманом и социальным взаимодействием.
 
-#### Optional Rule: Multiclassing
-If your group uses the optional rule on multiclassing in the *Player's Handbook*, here's what you need to know if you choose rogue as one of your classes.
+#### Вариант правил: мультиклассирование 
+Если ваша группа использует вариативное правило по мультиклассированию из *«Книги игрока»*, ниже приведены требования и владения, которые вы получаете при мультиклассировании с классом разбойника. 
 
-***Ability Score Minimum.*** As a multiclass character, you must have at least a Dexterity score of 13 to take a level in this class, or to take a level in another class if you are already a rogue.
+***Минимальные хараеткристики.*** Ваш показатель Ловкости должен быть равен или больше 13, чтобы вы могли взять уровень разбойника или уровень в любом другом классе, если вы уже разбойник.
 
-***Proficiencies Gained.*** If rogue isn't your initial class, here are the proficiencies you gain when you take your first level as a rogue: light armor, one skill from the class's skill list, thieves' tools.
+***Владения.*** Если разбойник — не ваш начальный класс, вы получаете следующие владения, когда вы берёте 1 уровень разбойника: лёгкая броня, один навык из навыков разбойника, воровские инструменты.
 
 \columnbreak
 
-## Class Features
-As a rogue, you gain the following class features.
+## Классовые умения
+Разбойники обладают следующими классовыми умениями
 
-#### Hit Points
+#### Хиты
 ___
-- **Hit Dice:** 1d8 per rogue level
-- **Hit Points at 1st Level:** 8 + your Constitution modifier
-- **Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per rogue level after 1st
+- **Кость хитов:** 1к8 за каждый уровень разбойника
+- **Хиты на 1 уровне:** 8 + ваш модификатор Телосложения
+- **Хиты на следующих уровнях:** 1к8 (или 5) + ваш модификатор Телосложения за уровень разбойника после первого
 
-#### Proficiencies
+#### Владения
 ___
-- **Armor:** Light armor
-- **Weapons:** Simple weapons, hand crossbows, <br> longswords, rapiers, shortswords
-- **Tools:** Thieves' tools
+- **Броня:** Лёгкая броня
+- **Оружие:** Простое оружие, ручные арбалеты, длинные мечи, рапиры, короткие мечи
+- **Инструменты:** Воровские инструменты
 ___
-- **Saving Throws:** Dexterity, Intelligence
-- **Skills:** Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Perfor&shy;mance, Persuasion, Sleight of Hand, and Stealth
+- **Спасброски:** Ловкость, Интеллект
+- **Навыки:** Выберите четыре из следующих: Акробатика, Атлетика, Восприятие, Выступление, Запугивание, Ловкость рук, Обман, Проницательность, Расследование, Скрытность или Убеждение
 
-#### Equipment
-You start with the following equipment, in addition to the equipment granted by your background:
- - *(a)* a rapier or *(b)* a shortsword
- - *(a)* a shortbow and quiver of 20 arrows or *(b)* a shortsword
+#### Снаряжение
+Вы начинаете со следующим снаряжением в дополнение к снаряжению, полученному за вашу предысторию:
+ - *(а)* рапира или *(б)* короткий меч
+ - *(а)* короткий лук и колчан с 20 стрелами или *(б)* короткий меч
 
-<div class='footnote'>PART 1 | CLASSES</div>
+<div class='footnote'>Часть I | Классы</div>
 
 \pagebreakNum
 
- - *(a)* a burglar's pack or *(b)* a dungeoneer's pack, or *(c)* an explorer's pack
- - Leather armor, two daggers, and thieves' tools
+ - *(а)* набор налётчика или *(б)* набор исследователя подземелий, или *(в)* набор путешественника
+ - Кожаная броня, два кинжала и воровские инструменты
 <div style='margin-top:-2px;'></div>
 
-### Expertise
-At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for ability checks you make that uses either of the chosen proficiencies.
+### Компетентность
+На 1 уровне выберите два ваших владения в навыках или одно владение навыком и владение воровскими инструментами. Ваш бонус мастерства удваивается для всех проверок характеристик, которые вы совершаете, используя любое из выбранных владений.
 
-At 6th level, you can choose two more of your proficien&shy;cies (in skills or with thieves' tools) to gain this benefit.
+На 6 уровне вы можете выбрать ещё два владения (навыки или воровские инструменты), чтобы получить эту же выгоду.
 <div style='margin-top:-2px;'></div>
 
-### Sneak Attack
-Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a light, finesse, or ranged weapon.
+### Скрытая атака
+Начиная с 1 уровня, вы знаете, как точно наносить удар и использовать отвлечение врага. Один раз в ход вы можете причинить дополнительный урон 1к6 одному из существ, по которому вы попали атакой, совершённой с преимуществом к броску атаки. Атака должна использовать дальнобойное оружие или оружие со свойством «фехтовальное» или «лёгкое». Вам не нужно иметь преимущество при броске атаки, если другой враг цели находится в пределах 5 футов от неё. Этот враг не должен быть недееспособным, и у вас не должно быть помехи для броска атаки.
 
-You don't need advantage on the attack if another enemy of the target is within 5 feet of it, that enemy isn't incapa&shy;citated, and you don't have disadvantage on the attack roll.
-
-The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table.
+Дополнительный урон увеличивается, когда вы получаете уровни в классе разбойник, как показано в колонке «скрытая атака».
 <div style='margin-top:-2px;'></div>
 
-### Secret Missives
-During your rogue training you learned how to conceal messages, instructions, and simple ideas in plain sight. You do so by weaving subtle jargon and motions in seemingly normal dialogue, sharing statements with hidden meanings or even by writing cryptic code.
+### Воровской жаргон
+За время ваших тренировок вы научились шифровать сообщения, инструкции и простые идеи. Вы передаёте зашифрованное послание через вплетение жаргона и использование жестов в, казалось бы, простом диалоге, делясь скрытым смыслом в обычных словах или даже путём написания тайного шифра. 
 
-You can use 4 hours to share a set of such rules with another creature, allowing you to weave secret messages and commands in your conversations and letters. More elaborate rules may require an Intelligence check at your DM's discretion.
+Вы можете потратить 4 часа на то, чтобы выучить другое существо правилам и смыслу воровского жаргона, позволяя вам обмениваться с ним зашифрованной информацией. Более сложные проверки использования этого жаргона могут требовать бросок Интеллекта по усмотрению Мастера. 
 <div style='margin-top:-2px;'></div>
 
-### Energy
-At 2nd level, you learn how to weaken a creature further through the use of energy. Your rogue level determines the number of energy points you have, as shown in the Energy Points column of the Rogue table.
+### Энергия
+На втором уровне вы понимаете, как ослаблять существ ценой вашей энергии. Ваш уровень разбойника определяет количество очков энергии, которыми вы можете обладать, как показано в колонке «очки энергии» в таблице разбойника.
 
-You can spend these points to fuel various energy moves. You start by knowing three such moves: Cripple, Expose Armor, and Garrote. You learn more energy moves as you gain levels in this class.
+ВВы можете тратить эти очки на применение особых приёмов, основанных на энергии. Вы начинаете, зная три таких приёма: «Покалечить», «Раскрыть доспех» и «Придушить». Вы узнаёте новые приёмы на последующих уровнях.
 
-When you spend an energy point, it is unavailable until you finish a short or long rest, at the end of which you replenish all of your expended energy.
+После того, как вы потратите очко энергии, оно становится недоступным вам до тех пор, пока вы не закончите короткий или продолжительный отдых, после чего вы восстанавливаете всю свою потраченную энергию.
 
-Your energy features require your target to make a saving throw to resist the feature's effects. The saving throw DC is calculated as follows:
+Ваши энергетические приёмы требуют от цели спасброска, чтобы избежать эффекта приёма. Сложность такого спасброска рассчитывается следующим образом:
 
 <div style="text-align: Center">
 
-**Energy save DC** = 8 + your proficiency bonus + <br> your Dexterity modifier
+**Сложность спасброска приёма** = 8 + ваш бонус мастерства + модификатор Ловкости
 </div>
 <div style='margin-top:-5px;'></div>
 
-#### Cripple
-Immediately after you hit a creature with the Attack action, you can spend 1 energy point to cripple it. The target must succeed on a Strength saving throw or be knocked prone.
+#### Покалечить
+Сразу же после того, как вы совершили действие Атака, вы можете потратить 1 очко энергии и покалечить атакованное существо. Существо должно совершить спасбросок Силы, при провале сбиваясь с ног.
 
-#### Expose Armor
-You can use your action and spend 1 energy point to make a special weapon attack. If you hit, you deal normal weapon damage and expose flaws in its defenses. Each other creature has advantage on the first weapon attack roll they make against the target before the end of your next turn.
-
-\columnbreak
-
-#### Garrote
-When you hit a creature with a melee weapon attack, you can spend 1 energy point to garrote it. The target must succeed on a Constitution saving throw or be unable to speak until the end of your next turn.
-
-### Cunning Action
-Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.
-
-### Roguish Archetype
-At 3rd level, you choose an area to specialize yourself within, that shapes your rogue abilities: Assassin, Outlaw, or Subtlety, all detailed at the end of the class description. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.
-
-### Ability Score Improvement
-When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
-
-### Uncanny Dodge
-Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.
-
-### Evasion
-At 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an *ice storm* spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
-
-### Fleet Footed
-Starting at 10th level, your speed increases by 10 feet while you aren't wearing medium or heavy armor.
-
-### Reliable Talent
-By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.
-
-### Blindsense
-Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or invisible creatures within 10 feet of you.
-
-### Anticipation
-At 15th level, you are always surveying your enemies and looking for openings. In combat, you get a second reaction that you can take once per turn. You can use this second reaction only to make an opportunity attack, and you can't use it on the same turn that you take your normal reaction.
-
-<div class='footnote'>PART 1 | CLASSES</div>
-
-\pagebreakNum
-
-### Elusive
-Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't incapacitated.
-
-
-### Stroke of Luck
-At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively. if you fail an ability check, you can treat the d20 roll as a 20.
-
-Once you use this feature, you can't use it again until you finish a short or long rest.
-
-## Roguish Archetypes
-Rogues have many features in common, including <br> their emphasis on perfecting their skills, their precise <br> and deadly approach to combat, and their increasingly quick reflexes. But different rogues steer those talents in varying directions, embodied by the rogue archetypes.
-
-### Assassin
-You focus your training on the grim art of death. Favoring stealth and vicious poisons over direct approaches. Those who adhere to this specialization are diverse: hired killers, spies, and bounty hunters. Stealth, and poison help you eliminate your foes with deadly efficiency.
-
-#### Bonus Proficiency
-When you choose this archetype at 3rd level, you gain proficiency with the poisoner's kit.
-
-#### Assassin's Intuition
-Starting at 3rd level, you are at your deadliest when you get the drop on your enemy. You have advantage on attack rolls against any creature that hasn't taken an action in the combat yet. In addition, your first hit against a creature on the first round of each combat deals additional weapon damage equal to your Rogue level.
-
-#### Poisoned Knife
-Upon reaching 9th level, when you hit a creature with a weapon attack, you can spend 1 energy point as part of the attack to poison the creature. The target must succeed on a Constitution saving throw or be poisoned until the end of your next turn.
-
-#### Vendetta
-Beginning at 13th level, you are able to make the most of an opportune moment. When you take the Attack action on your turn and score a critical hit with a weapon attack, you may make another weapon attack as part of the same Attack action.
-
-In addition, whenever a creature within 5 feet of you is hit by a critical attack made by a creature other than you, you can use your reaction to make a melee attack against that creature.
-
-#### Seal Fate
-At 17th level, you have become a master of instant death. When you hit a creature with a weapon attack, you can force it to make a Constitution saving throw against a DC of 8 + your Dexterity modifier + your proficiency bonus. On a failed save, the damage of your attack is doubled.
-
-Once you use this feature, you can't use it again until you finish a long rest.
+#### Раскрыть доспех
+Вы можете действием потратить 1 очко энергии, чтобы совершить специальную атаку оружием. Если вы попадаете, вы наносите цели урон оружием и открываете слабое место в защите цели. Любое другое существо получает преимущество на свою первую атаку по этому существу до конца вашего следующего хода. 
 
 \columnbreak
 
-### Outlaw
-Outlaw rogues are the unscrupulous scoundrels of Azeroth. They bend the rules and distort the truth to get what they need. These outlaws have little use for tact or discretion, happy to engage in a tavern brawl or spontaneous duel, rarely patient enough to wait in stealth for the opportune time to engage. To survive in such a world, outlaws must become master swordsmen in toe-to-toe combat — and they can’t shy away from fighting dirty.
+#### Придушить
+Когда вы попадаете по существу рукопашной атакой оружием, вы можете потратить 1 очко энергии и придушить его. Цель должна совершить спасбросок Телосложения, при провале теряя способность говорить до конца вашего следующего хода.
 
-#### Bonus Proficiency
-When you choose this archetype at 3rd level, you gain proficiency with pistols and rifles.
+### Хитрое действие
+Начиная со 2 уровня, ваше мышление и ловкость позволяют двигаться и действовать быстрее. Вы можете в каждом ходу боя совершать бонусное действие. Это действие может быть использовано только для Рывка, Отхода или Засады.
 
-#### Alacrity
-When you choose this archetype at 3rd level, your confi&shy;dence propels you into battle. You can give yourself a bonus to your initiative rolls equal to your Charisma modifier.
+### Архетип разбойника
+На 3 уровне вы выбираете архетип, который отображает ваши разбойничьи способности: Ликвидация, Головорез или Скрытность. Подробности находятся в конце описания класса. Выбранный вами архетип предоставляет умения на 9, 13 и 17 уровнях.
 
-In addition, you learn how to land a strike and slip away without reprisal. During your turn, if you make a melee attack against a creature, that creature can't make oppor&shy;tunity attacks against you for the rest of your turn.
+### Увеличение характеристик
+При достижении 4, 8, 10, 12, 16 и 19 уровней вы можете повысить значение одной из ваших характеристик на 2 или двух характеристик на 1. Как обычно, значение характеристики при этом не должно превысить 20.
 
-#### Point Blank
-At 9th level, immediately after you take the Attack action on your turn, you can spend 1 energy point to make a ranged attack roll with a loaded pistol as a bonus action, dealing normal weapon damage on a hit. If you hit a target within 5 feet of you, it is also stunned until the end of your next turn.
+### Невероятное уклонение
+Начиная с 5 уровня, когда нападающий, которого вы можете видеть, попадает по вам атакой, вы можете реакцией уменьшить вдвое урон, причиняемый вам этой атакой.
 
-You must be wielding a pistol or have an empty hand that can draw one (no action required) to use this energy move.
+### Увёртливость
+Начиная с 7 уровня вы можете ловко увернуться от зональных эффектов, например, огненного дыхания красного дракона или заклинания *снежная буря*. Если вы попадаете под действие эффекта, который позволяет вам совершить спасбросок Ловкости, чтобы получить только половину урона, вместо этого вы не получаете вовсе никакого урона, если спасбросок был успешен, и только половину урона, если он был провален.
 
-#### Tricks of the Trade
-Beginning at 13th level, you can sometimes cause another creature to suffer an attack meant for you. When you are targeted by an attack while within 5 feet of a creature, you can use your reaction to have the attack target that creature instead of you.
+### Легконогий
+Начиная с 10 уровня, ваша скорость увеличивается на 10 футов, пока вы не носите среднюю или тяжёлую броню.
 
-You can use this feature twice. You regain all spent uses when you finish a short or long rest.
+### Надёжный талант
+На 11 уровне вы улучшаете выбранные навыки, пока они не достигнут совершенства. Каждый раз, когда вы совершаете проверку характеристики, которая позволяет добавить бонус мастерства, вы можете при выпадении на к20 результата «1–9» считать, что выпало «10».
 
-#### Adrenaline Rush
-At 17th level, the thrill of battle invigorates you. When you roll for initiative and have no energy points remaining, you regain 2 energy points.
+### Слепое зрение
+Начиная с 14 уровня, если вы можете слышать, то знаете о местонахождении всех скрытых и невидимых существ в пределах 10 футов от себя.
 
-### Subtlety
-Subtlety rogues are the masters of the shadows, and they strike unseen. Some claim the art of subtlety looks like malevolent shadow magic — these rogues are capable of performing devastating assaults on their enemies, slipping away unharmed to strike again without detection. Most rogues train their entire lives to learn how to walk in the shadows — subtlety rogues were born there.
+### Предчувствие
+С 15 уровня вы учитесь бить по врагам тогда, когда они открываются. В бою вы получаете дополнительную реакцию, которую можете использовать только для провоцированной атаки. Использовав эту реакцию, вы не можете использовать обычную реакцию на этом же ходу.<sup>1</sup>
 
-#### Spellcasting
-When you choose this archetype at 3rd level, you learn to harness magic from the shadows. See chapter 10 of the Player's Handbook for the general rules of spellcasting and chapter 6 of this book for the subtlety spell list.
 
-***Cantrips.*** You learn two cantrips of your choice from the subtlety spell list. You learn another subtlety cantrip of your choice at 10th level.
+<div style="margin-top: 100px; border-top: 1px solid #aaa; padding-top: 5px"></div>
 
-<div class='footnote'>PART 1 | CLASSES</div>
+<sup>1</sup> Имеется в виду на ходу союзника или противника. — *прим. переводчика*
+
+
+<div class='footnote'>Часть I | Классы</div>
 
 \pagebreakNum
 
-&nbsp;&nbsp;&nbsp; ***Spell Slots.*** The Subtlety Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+### Неуловимость
+Начиная с 18 уровня, вы можете уклоняться так хорошо, что противник крайне редко может взять над вами верх. Никакие броски атаки не получают преимущества над вами, пока вы не станете недееспособным.
 
-For example, if you know the 1st-level spell *command* and have a 1st-level and a 2nd-level spell slot available, you can cast *command* using either slot.
+### Удача
+Начиная с 20 уровня, вы получаете сверхъестественный дар преуспевать, когда это нужнее всего. Если ваша атака промахивается по цели, находящейся в пределах досягаемости, вы можете изменить промах на попадание. В качестве альтернативы, если вы провалили проверку характеристики, вы можете заменить результат, выпавший на к20, на «20».
 
-***Spells Known of 1st-Level and Higher.*** You know <br> three 1st-level subtlety spells of your choice.
+Использовав это умение, вы не можете использовать его повторно, пока не завершите короткий или продолжительный отдых.
 
-The Spells Known column of the Subtlety Spellcasting table shows when you learn more subtlety spells of 1st level or higher. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st <br> or 2nd level.
+## Архетипы разбойника
+У разбойников много общих черт, включая их концентрацию на совершенствовании навыков, их выверенный и смертоносный подход к бою, и их выдающиеся рефлексы. Но разные плуты направляют эти таланты в разные воплощаемые архетипы.
 
-Whenever you gain a level in this class, you can replace one of the subtlety spells you know with another spell of your choice from the subtlety spell list. The new spell must be of a level for which you have spell slots.
+### Ликвидация
+Вы сосредоточили своё обучение на мрачном искусстве смерти, отдавая предпочтение скрытности и жутким ядам вместо прямого подхода. Те, кто придерживаются этого архетипа, разнообразны: наёмные убийцы, шпионы и охотники за головами. Скрытность и яд помогут уничтожении врагов со смертоносной эффективностью.
 
-***Spellcasting Ability.*** Intelligence is your spellcasting ability for your subtlety spells. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a subtlety spell you cast and when making an attack roll with one.
+#### Дополнительные владения
+Когда вы выбираете этот архетип на 3 уровне, вы получаете владение инструментами отравителя.
 
+#### Интуиция убийцы
+Начиная с 3 уровня, вы становитесь смертоносными для врагов. Вы совершаете с преимуществом броски атаки по всем существам, которые ещё не совершали ход в этом бою. Кроме того, первое ваше попадание на первом ходу каждого боя наносит дополнительный урон оружием, равный вашему уровню разбойника. 
+
+#### Отравленный нож
+Начиная с 9 уровня, когда вы попадает по существу атакой оружием, вы можете потратить 1 очко энергии, чтобы частью атаки отравить существо. Существо должно совершить спасбросок Телосложения, при провале становясь отравленным до конца вашего следующего хода. 
+
+#### Мстительность
+Начиная с 13 уровня, вы используете подходящие моменты максимально эффективно. Когда вы совершаете действие Атака на своём ходу и наносите критический урон атакой оружием, вы можете совершить ещё одну атаку оружием частью действия Атака. 
+Кроме того, когда по существу в пределах 5 футов от вас попадают критической атакой, совершённой отличным от вас существом, вы можете использовать реакцию, чтобы совершить атаку по цели критической атаки.
+
+#### Печать судьбы
+Начиная с 17 уровня, вы становитесь мастером мгновенной смерти. Когда вы атакуете и попадаете по существу, вы можете заставить его совершить спасбросок Телосложения (Сл 8 + ваш модификатор Ловкости + ваш бонус мастерства). Проваленный спасбросок означает удвоение урона от вашей атаки по этому существу.
+Использовав эту способность, вы не можете её использовать повторно, пока не завершите продолжительный отдых.
+
+\columnbreak
+
+### Головорез
+Разбойники-головорезы — беспринципные негодяи Азерота, нарушающие правила и искажающие правду, чтобы получить желаемое. Головорезы видят мало смысла в тактичности и осторожности, они только рады вступить в очередную потасовку в таверне или спонтанную дуэль, и у них не всегда хватает терпения ждать удобной возможности, чтобы вступить в бой. Чтобы выжить в таком мире, головорезам приходится быть мастерами фехтования и сражения на мечах, но они не будут стесняться грязных приёмов.
+
+#### Дополнительные владения
+Когда вы выбираете архетип на 3 уровне, вы получаете владение пистолями и ружьями.
+
+#### Смелость
+Начиная с 3 уровня, вы бросаетесь в бой с смело и без колебаний. Вы добавляете свой модификатор Харизмы к результату броска инициативы. Вдобавок вы узнаёте, как наносить удары и сразу же ускользать от контратаки. На протяжении вашего хода, если вы совершаете рукопашную атаку в ближнем бою, до конца вашего хода это существо не может совершать провоцированные атаки против вас.
+
+#### В упор
+С 9 уровня, сразу же после того, как вы совершили на своём ходу действие Атака, вы можете потратить 1 очко энергии, чтобы совершить бонусным бросок дальнобойной атаки заряжённым пистолем, при попадании нанося обчный урон оружием. Если цель атаки в 5 футах от вас, она также ошеломляется до конца вашего следующего хода.
+
+Вы должны держать в руках пистоль или иметь свободную руку, чтобы вытащить имеющийся у вас пистоль (действие не требуется), чтобы совершить этот энергетический приём.
+
+#### Подмена 
+Начиная с 13 уровня, вы можете заставить другое существо получить атаку, предназначенной вам. Когда вы являетесь целью атаки, и в радиусе 5 футов. от вас есть существо, дающее вам укрытие от атаки, вы можете реакцией перенаправить атаку с вас на это существо.
+Вы можете использовать эту особенность дважды, прежде чем вам потребуется совершить короткий или продолжительный отдых.
+
+#### Выброс адреналина
+Начиная с 17 уровня, азарт битвы воодушевляет вас. Если при броске инициативы у вас не осталось очков энергии, вы получаете 2 таких очка. 
+
+### Скрытность
+Мастера теней, наносящие незримые удары, — вот кем являются скрытные разбойники. Некоторые утверждают, что их мастерство исходит из жуткой магии теней: эти разбойники наносят сокрушительные удары и тут же ускользают целыми и невридимыми, готовясь к новым атакам. Многие разбойники посвящают всю свою жизнь тому, чтобы научиться ходить в тенях. Скрытные разбойники же будто были рождены в них.
+
+#### Использование заклинаний
+По достижении 3 уровня вы получаете способность накладывать заклинания, черпая силу из теней. Смотрите правила по использованию заклинаний в 10 главе *«Книги игрока»* и список заклинаний скрытности в 6 главе этой книги. 
+
+***Заговоры.*** Вы узнаёте два заговора по своему выбору из списка заклинаний скрытности. Вы узнаёте ещё один заговор скрытности на 10 уровне.
+
+<div class='footnote'>Часть 1 | Классы</div>
+
+\pagebreakNum
+
+&nbsp;&nbsp;&nbsp; ***Ячейки заклинаний.*** В приведённой ниже таблице показано, сколько у вас есть ячеек для сотворения заклинаний 1 уровня и выше. Для сотворения одного из этих заклинаний вы должны потрать ячейку заклинаний с уровнем не ниже уровня заклинания. Вы восстанавливаете все потраченные ячейки заклинаний, когда заканчиваете продолжительный отдых. 
+
+Например, если вы знаете заклинание 1 уровня *приказ* и у вас есть ячейки заклинания 1 и 2 уровня, вы можете сотворить это заклинание, используя любую из этих ячеек.
+
+***Известные заклинания первого и более высоких уровней.*** Вы знаете три заклинания скрытности 1 уровня по своему выбору.
+
+Колонка «известные заклинания» показывает, когда вы сможете выучить новые заклинания скрытности 1 уровня и выше. Все эти заклинания должны быть того уровня, для которого у вас есть ячейки заклинаний. Например, когда вы получите 7 уровень в этом классе, вы можете узнать одно новое заклинание 1 или 2 уровня. Каждый раз, когда вы получаете уровень в этом классе, вы можете заменить одно известное заклинание скрытности другим заклинанием по своему выбору из списка заклинаний скрытности. Уровень нового заклинания не должен превышать уровень самой большой ячейки заклинаний. 
+
+***Базовая характеристика заклинаний.*** При создании заклинаний скрытности вы используете Интеллект как базовую характеристику заклинаний. Вы используете Интеллект в случаях, когда заклинание ссылается на базовую характеристику. Кроме того, вы используете модификатор Интеллекта при определении Сл спасбросков от ваших заклинаний скрытности, и при броске атаки заклинаниями.
 <div style="text-align: Center">
 
-**Spell save DC** = 8 + your proficiency bonus + <br> your Intelligence modifier
+**Сл спасброска** = 8 + бонус мастерства + модификатор Интеллекта
 
-**Spell attack modifier** = your proficiency bonus + <br> your Intelligence modifier
+**Модификатор броска атаки** = бонус мастерства + модификатор Интеллекта 
 </div>
 
-#### Gloom Sight
-Also at 3rd level, you gain darkvision out to a range of <br> 60 feet. If you already have darkvision from your race, its range increases by 30 feet.
+#### Теневой взор
+На 3 уровне вы получаете тёмное зрение 60 футов. Если вы имеете тёмное зрение от вашей расы, его дистанция увеличивается на 30 футов.
 
-#### Shadowstep
-At 9th level, you gain the ability to step from one shadow into another. When you are in dim light or darkness, as a bonus action you can teleport up to 60 feet to an empty space you can see that is also in dim light or darkness. You then have advantage on the first melee attack you make before the end of your turn.
+#### Шаг теней
+На 9 уровне вы получаете возможность шагнуть из одной тени в другую. Если вы находитесь в темноте или пространстве с тусклым освещением, вы можете бонусным действием телепортироваться на 60 футов в другое тусклое или тёмное пространство, которое видите. Свою первую рукопашную атаку до конца текущего хода вы совершите с преимуществом.
 
-#### Cloak of Shadows
-Beginning at 13th level, you can use your reaction when you take damage from an attack or spell to step into the shadows, giving you immunity to all damage until the end of the next turn, including the triggering attack.
+#### Плащ теней
+Начиная с 13 уровня, вы можете использовать свою реакцию, когда вы получаете урон от атаки или заклинания, чтобы уйти в тени, получая иммунитет ко всему урону до конца вашего следующего хода, в том числе и к урону, активировавшему эту способность. 
 
-You can use this feature twice. You regain expended uses when you finish a short or long rest.
+Вы можете использовать эту особенность дважды, прежде чем вам потребуется совершить короткий или продолжительный отдых
 
-#### Shadowy Duel
-At 17th level, you can use your action and spend 2 energy points to shroud the vision of a creature within 30 feet of you. The creature must succeed on a Wisdom saving throw or have everything, except you, become heavily obscured for 1 minute.
+#### Теневая дуэль
+На 17 уровне вы можете действием потратить 2 очка энергии, чтобы закрыть взор существа в пределах 30 футов от вас. Существо должно соверишть спасбросок Мудрости. Если оно провалило спасбросок, все другие существа, кроме вас, становятся для него сильно заслонёнными на 1 минуту. 
 
-At the end of each of its turns, the target can make another Wisdom saving throw, ending the shadowy duel on a successful saving throw.
+В конце каждого своего хода существо может совершить спасбросок Мудрости, при успехе оканчивая эффект теневой дуэли.
+
+<div class="stamp"></div>
 
 \columnbreak
 
 <div class='classTable'>
 
-##### Subtlety Spellcasting
-|Rogue<br>Level|Cantrips<br>Known|Spells<br>Known|1st|&nbsp;|2nd|&nbsp;|3rd|&nbsp;|4th|
+##### Заклинания скрытности
+|Уровень<br>разбойника|Известные<br>заговоры|Известные<br>заклинания|1|&nbsp;|2|&nbsp;|3|&nbsp;|4<div style="position: absolute; top:103px; right:7px; width:200px; height:25px">Ячейки</div>|
 |:---:|:-:|:--:|:--:|-|:--:|-|:--:|-|:--:|
-| 3rd | 3 |  3 |2||—||—||—|
-| 4th | 3 |  4 |3||—||—||—|
-| 5th | 3 |  4 |3||—||—||—|
-| 6th | 3 |  4 |3||—||—||—|
-| 7th | 3 |  5 |4||2||—||—|
-| 8th | 3 |  6 |4||2||—||—|
-| 9th | 3 |  6 |4||2||—||—|
-| 10th| 4 |  7 |4||3||—||—|
-| 11th| 4 |  8 |4||3||—||—|
-| 12th| 4 |  8 |4||3||—||—|
-| 13th| 4 |  9 |4||3||2||—|
-| 14th| 4 | 10 |4||3||2||—|
-| 15th| 4 | 10 |4||3||2||—|
-| 16th| 4 | 11 |4||3||3||—|
-| 17th| 4 | 11 |4||3||3||—|
-| 18th| 4 | 11 |4||3||3||—|
-| 19th| 4 | 12 |4||3||3||1|
-| 20th| 4 | 13 |4||3||3||1|
+| 3   | 3 |  3 |2||—||—||—|
+| 4   | 3 |  4 |3||—||—||—|
+| 5   | 3 |  4 |3||—||—||—|
+| 6   | 3 |  4 |3||—||—||—|
+| 7   | 3 |  5 |4||2||—||—|
+| 8   | 3 |  6 |4||2||—||—|
+| 9   | 3 |  6 |4||2||—||—|
+| 10  | 4 |  7 |4||3||—||—|
+| 11  | 4 |  8 |4||3||—||—|
+| 12  | 4 |  8 |4||3||—||—|
+| 13  | 4 |  9 |4||3||2||—|
+| 14  | 4 | 10 |4||3||2||—|
+| 15  | 4 | 10 |4||3||2||—|
+| 16  | 4 | 11 |4||3||3||—|
+| 17  | 4 | 11 |4||3||3||—|
+| 18  | 4 | 11 |4||3||3||—|
+| 19  | 4 | 12 |4||3||3||1|
+| 20  | 4 | 13 |4||3||3||1|
 </div>
 
 <div style='column-count:2'>
 
-### Subtlety Spells
-##### Cantrips (0 Level)
-Blade Ward
-<br> Booming Blade ^SCAG^
-<br> Friends
-<br> Gust ^EE^
-<br> Mage Hand
-<br> Message
-<br> Minor Illusion
-<br> Prestidigitation
-<br> Sword Burst ^SCAG^
-<br> True Strike
+### Заклинания скрытности
+##### Заговоры (0 уровень)
 
-##### 1st Level
-Bane
-<br> Command
-<br> Compelled Duel
-<br> Disguise Self
-<br> Dissonant Whispers
-<br> Expeditious Retreat
-<br> Fog cloud
-<br> Jump
-<br> Longstrider
-<br> Silent Image
+
+
+
+Волшебная рука
+<br> Вспышка мечей ^SCAG^
+<br> Громовой клинок ^SCAG^
+<br> Друзья
+<br> Защита от оружия
+<br> Малая иллюзия
+<br> Меткий удар
+<br> Сообщение
+<br> Фокус
+<br> Шквал ^EE^
+
+##### 1 уровень
+Безмолвный образ
+<br> Вызов на дуэль
+<br> Диссонирующий шёпот
+<br> Маскировка
+<br> Порча
+<br> Поспешное отступление
+<br> Приказ
+<br> Прыжок
+<br> Скороход 
+<br> Туманное облако 
 
 \columnbreak
 
-##### 2nd Level
-Alter Self
-<br> Blindness/Deafness
-<br> Blur
-<br> Darkness
-<br> Darkvision
-<br> Invisibility
-<br> Magic Weapon
-<br> Mirror Image
-<br> Pass Without Trace
-<br> Suggestion
+##### 2 уровень
+Бесследное передвижение
+<br> Внушение
+<br> Невидимость
+<br> Магическое оружие
+<br> Отражения
+<br> Размытый образ
+<br> Слепота/Глухота
+<br> Смена облика
+<br> Тёмное зрение 
+<br> Тьма 
 
-##### 3rd Level
-Enemies Abound ^XGE^
-<br> Haste
-<br> Hypnotic Pattern
-<br> Major Image
-<br> Nondetection
-<br> Sending
-<br> Slow
+##### 3 уровень
 
-##### 4th Level
-Compulsion
-<br> Confusion
-<br> Freedom of Movement
-<br> Greater Invisibility
-<br> Hallucinatory Terrain
+Гипнотические узор
+<br>Замедление
+<br>Изобилие врагов ^XGE^
+<br>Необнаружимость
+<br>Образ
+<br>Послание
+<br>Ускорение
+
+##### 4 уровень
+
+Высшая невидимость
+<br> Мираж
+<br> Свобода передвижения
+<br> Смятение
+<br> Принуждение
 </div>
 
-<div class='footnote'>PART 1 | CLASSES</div>
+<div style="position: absolute; bottom: 50px; font-family: Alegreya Sans">
+<b>Перевод:</b> Тайольн О'тар<br/><b>Вычитка:</b> Майя Эверетт
+</div>
+
+<div class='footnote'>Часть 1 | Классы</div>
