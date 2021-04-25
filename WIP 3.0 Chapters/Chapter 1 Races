@@ -523,26 +523,24 @@ DUNGEONS & DRAGONS, D&D, Wizards of the Coast, Forgotten Realms, Ravenloft, Eber
 Эти детали являются предложениями, которые помогут вам подумать о вашем персонаже; авантюристы могут сильно отклоняться от нормы для своей расы. Для создания предыстории и личности персонажа стоит подумать, почему он отличается от своих сородичей.
 
 
-### Расовые особенности
-В описание каждой расы входят расовые особенности, общие для всех её представителей. Следующие разделы встречаются в описании большинства рас:
+#### Ability Score Increase
+Every race increases one or more of a character's
+ability scores.
 
-#### Увеличение характеристик
-Каждая раса увеличивает одно или несколько значений характеристик.
+#### Age
+The age entry notes the age when a member of the race is considered an adult, as well as the race's expected lifespan. This information can help you decide how old your character is at the start of the game.
 
-#### Возраст
-В поле возраста указывается возраст, при котором представитель расы считается взрослым, а также ожидаемая продолжительность жизни. Эта информация может помочь вам решить, сколько лет вашему персонажу в начале игры.
+#### Alignment
+Most races have tendencies toward certain alignments, described in this entry. These are not binding for player characters, but considering why your dwarf is chaotic, for example, in defiance of lawful dwarf society can help you better define your character.
 
-#### Мировоззрение
-Большинство рас имеют склонность к определённому мировоззрению, что и описано в данном разделе. Это никак не ограничивает вашего персонажа, но осознание того, почему вопреки строго законопослушному обществу ваш дворф вырос хаотичным, поможет вам лучше вжиться в роль.
+#### Size
+Characters of most races are Medium, a size category including creatures that are roughly 4 to 8 feet tall. Members of a few races are Small (between 2 and 4 feet tall), which means that certain rules of the game affect them differently. The most important of these rules is that Small characters have trouble wielding heavy weapons.
 
-#### Размер
-Персонажи большинства рас считаются Средними. В эту категорию попадают существа ростом от 4 до 8 футов (от 122 до 244 сантиметров). Представители некоторых рас считаются Маленькими (от 2 до 4 футов, или от 66 до 122 сантиметров, ростом), и из-за этого некоторые правила игры действуют на них по-другому. Самое важное отличие в размерах заключается в том, что существа Маленького размера испытывают трудности в сражении тяжёлым оружием.
+#### Speed
+Your speed determines how far you can move when traveling and fighting.
 
-#### Скорость
-Скорость определяет, как далеко сможет продвинуться персонаж во время путешествия и сражения.
-
-#### Языки
-В зависимости от расы ваш персонаж может говорить, читать и писать на определённых языках. Каждая раса имеет свой собственный язык, с несколькими диалектами, а также «всеобщий» язык, на котором говорит и который понимает большая часть её фракции. В главе 4 перечислены языки, на которых обычно говорят на Азероте.
+#### Languages
+By virtue of your race, your character can speak, read, and write certain languages. Each race has their own language, with multiple dialects. as well as a 'common' language, that the majority of their faction speaks and understands. Chapter 4 lists languages commonly spoken on Azeroth.
 
 \columnbreak
 
@@ -608,7 +606,7 @@ DUNGEONS & DRAGONS, D&D, Wizards of the Coast, Forgotten Realms, Ravenloft, Eber
 \columnbreak
 
 <br>
-<div style='margin-top:542px'></div>
+<div style='margin-top:448px'></div>
 
 ### Разнообразие во всём
 Люди — самый адаптивный и амбициозный народ среди рас Азерота. У них разные вкусы, нравы и обычаи в разных королевствах, в которых они обосновались. Когда они поселяются в выбранном месте, они там и остаются: строят города на века и великие королевства, способные существовать долгие столетия. У отдельного человека может быть относительно короткая продолжительность жизни, но человеческая нация или культура сохраняет традиции, происхождение которых далеко за пределами воспоминаний любого отдельного человека. Они живут в настоящем, но также смотрят в будущее, стремясь оставить долгое наследие.
@@ -665,6 +663,9 @@ Native to the Kul Tiran isles, tirasians are generally tall and muscular, with f
 
 #### Лордерон
 Widespread along the Eastern Kingdoms northern realm, Lordaeronians are of medium height and slender built, with pale skin. Their hair and eye color varies widely, but silver or light colored hair and blue eyes are common.
+
+\columnbreak
+
 <div style='margin-top:-18px;'></div>
 
 <br>**Лордеронские имена:** (Male) Alexi, Aurius, Gannon, <br>&nbsp;&nbsp;&nbsp; Menard, Norwyn, Othmar, Urias, Wallace; (female) <br>&nbsp;&nbsp;&nbsp; Arenya, Diahann, Ellaine, Illucia, Jandice, Lydie, Malina, <br>&nbsp;&nbsp;&nbsp; Merla; (surnames) Barton, Camden, Godwin, Hayden
@@ -704,6 +705,8 @@ Found within the southern region of the Eastern King-doms, Stormwindians are of 
 &nbsp;&nbsp;&nbsp; ***Скорость.*** Ваша базовая скорость перемещения составляет 30 футов.
 
 ***Решительность.*** Когда вы совершаете бросок атаки, проверку характеристики или спасбросок, вы можете сделать это с преимуществом. Как только вы используете эту способность, вы не сможете использовать её снова, пока не закончите короткий или продолжительный отдых.
+
+***Human Spirit.*** When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die. You must use the new result, even if it is a 1.
 
 ***Многогранность.*** Вы получаете владение двумя навыками или инструментами на ваш выбор.
 
