@@ -7,7 +7,6 @@
     height: 296.8mm;
     font-family: Alegreya;
     font-size: 11.6px;
-    font-variant-numeric: lining-nums;
   }
   .phb:after { content: ""; }
   
