@@ -42,6 +42,10 @@
   .phb p {
       line-height: 1.1;
   }
+  
+  .phb blockquote, .phb blockquote strong {
+      font-family: Alegreya Sans;
+  }
 
 
 /* TABLE OF CONTENTS  */
