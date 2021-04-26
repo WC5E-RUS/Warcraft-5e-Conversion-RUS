@@ -5,7 +5,7 @@ RACES = pdf/WC5E\ Races\ RUS.pdf
 MONSTROUS = pdf/WC5E\ Monstrous\ Races\ RUS.pdf
 ROGUE = pdf/WC5E\ Rogue\ RUS.pdf
 
-all: races rogue
+all: races monstrous rogue
 
 pre-build:
 	mkdir -p pdf/raw
