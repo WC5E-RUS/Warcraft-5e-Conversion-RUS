@@ -4,8 +4,9 @@ GS_CMD = gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.5 -dPDFSETTINGS=/printer -d
 RACES = pdf/WC5E\ Races\ RUS.pdf
 MONSTROUS = pdf/WC5E\ Monstrous\ Races\ RUS.pdf
 ROGUE = pdf/WC5E\ Rogue\ RUS.pdf
+SHAMAN = pdf/WC5E\ Shaman\ RUS.pdf
 
-all: races monstrous rogue
+all: races monstrous rogue shaman
 
 pre-build:
 	mkdir -p pdf/raw
@@ -27,3 +28,9 @@ rogue: $(ROGUE)
 $(ROGUE): pre-build
 	$(PRINT_CMD)=pdf/raw/rogue.pdf https://www.gmbinder.com/share/-MY_E1sZXmuW0ul4nGXs
 	$(GS_CMD)=$(ROGUE) pdf/raw/rogue.pdf
+
+shaman: $(SHAMAN)
+
+$(SHAMAN): pre-build
+	$(PRINT_CMD)=pdf/raw/shaman.pdf https://www.gmbinder.com/share/-M_dZx3PtDJWHX7C9uey
+	$(GS_CMD)=$(SHAMAN) pdf/raw/shaman.pdf

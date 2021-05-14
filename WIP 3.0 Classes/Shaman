@@ -1,5 +1,8 @@
 <style>
 /* GLOBAL FORMATTING  */
+  @page {
+    size: A4;
+  }
 
   /* Resize page to international A4 */
   .phb {
@@ -19,7 +22,7 @@
       font-weight: bold;
   }
   
-  .phb table {
+  .phb table, .phb table em, .phb table strong, .phb blockquote, .phb blockquote em, .phb blockquote strong {
       font-family: Alegreya Sans;
   }
   
@@ -35,7 +38,7 @@
       font-family: Volbera;
   }
   
-  .phb p {
+  .phb p, .phb ul {
       line-height: 1.1;
   }
 
@@ -214,44 +217,57 @@
     filter: hue-rotate(120deg)
   }
 
+/* Shaman specific */
+
+  .shaman-elemental-tables table th:first-child {
+      width: 80px;
+  }
+
+  .stamp {
+    position: absolute;
+    margin-top: 5px;
+    width: 150px;
+    height: 150px;
+    background-image: url(https://dnd.everett.one/files/stamp.png);
+    background-size: 100%;
+  }
 </style>
 
 <div style='margin-top:505px;'></div>
 
-## Shaman
-*The wolves are not tamed, not as you might understand the word. They have come to be our friends because I invited them. It is a part of being a shaman. We have a bond with the things of the natural world, and strive always to work in harmony with them. Warlocks would term them spells, but we shamans simply term them calls. We ask, the powers we work with answer. Or not, as they will. I can call the snows, and wind, and lightning. The trees may bend to me when I ask. The rivers may flow where I ask them to.*
+## Шаман
+*Эти волки не приручены — в том смысле, в каком вы понимаете это слово. Они стали нашими друзьями потому, что я пригласил их. В этом часть бытия шаманом. Мы связаны со стихиями этого мира и поэтому всегда стремимся работать с ними в гармонии. Чернокнижники могут называть эту связь заклинаниями, но мы, шаманы, называем её зовом. Мы взываем к силам, и они отвечают нам. Или нет, если такова их воля. Я могу воззвать к  снегам, ветру и молнии. Деревья могут склониться ко мне, если я попрошу их об этом. Реки могут течь туда, куда я их попрошу.*
 <div style="text-align:Right">
 
-*— Drek'Thar of the Frostwolf clan*  </div>
+*— Дрек'Тар, лидер клана Северных Волков* </div>
+<div style='margin-top:-5px'></div>
 
-An orc clad in loose plates chained together stands atop a lonely peak, the winds picking up around him, rattling through the chains of his armor, before he releases a glist&shy;ening bolt of lightning toward his enemies.
+Орк в металлических пластинах, скреплённых цепями, стоит на вершине одинокой скалы. Ветер поднимается вокруг него, заставляя пластины грохотать, и орк выпускает сверкающую молнию в своих врагов.
 
-A gray haired dwarf slowly lumps his way across the battlefield, emptying a bottle of water into the earth as he walks, before lifting it from the soil, and gently waves it over the body of a wounded ally, soothing his grave wounds.
+Седовласый дварф медленно пробирается сквозь поле битвы, выливая на ходу воду из бутылки, вслед за этим поднимая её с земли и осторожно водя её над телом израненного союзника, чтобы вылечить его увечья.  
 
-A human sprinting through the thicket, a pair of massive wolves of spectral vision running at his side. In the flash of a moment he howls as his body turns into a wolf of similar visage to his pets.
+Человек бежит через заросли, а вслед за ним — пара крупных призрачных волков. В мгновение ока он, воя, превращается в волка, похожего на его питомцев.
 
-Shamans are mortal mediators between the elements themselves. Often a spiritual guide in their community, these mystical figures may commune with ancestral spirits and weave elemental powers into their spells. Both to strengthen and heal their allies, and to strike down on the battlefield with devestating force. Shamans can imbue their weapons with the elements, smite their enemies with storm and fire, and summon forth elementals to their aid.
+Шаманы являются смертными посредниками между стихиями. Часто будучи духовными наставниками в своих культурах, эти мистические фигуры способны общаться с духами предков и вплетать стихийную энергию в свои заклинания, чтобы как укреплять и исцелять своих спутников, так и наносить сокрушительные удары в битве. Шаманы способны наполнять своё оружие силой стихий, поражая врагов огнём и бурей, и призывать на помощь элементалей.
 
 \columnbreak
 
 <div style='margin-top:340px;'></div>
 
-### Herald of the Elements
-A Shaman's bond to their magic is unique. While a mage would study it in great depth, and a warlock would bend those same power to their whim, a shaman calls upon the elements themselves for aid. They commune with forces not strictly benevolent -- sometimes they may respond, and sometimes they may choose not to. The elements are chaotic, chained away in their elemental plane as they rage against one another with unending primal fury. It is the call of the shaman to bring balance to this chaos.
+### Вестники стихий
+Связь шамана с его магией уникальна. Маги могут тратить годы жизни на глубокое изучение магии, а чернокнижники — подчинять её своей коварной воле, но шаманы взывают сами стихии себе на помощь. Они могут общаться с далеко не благосклонной силой — иногда стихии могут ответить, а иногда нет. Стихии хаотичны, скованы в Обители стихий неистовствуя друг против друга в нескончаемой первобытной ярости. И именно в привнесении баланса в этот хаос состоит призвание шамана.
 
-These masters of the elements can also call upon ele&shy;mental forces directly, unleashing torrents of lava and bolts of lightning against foes. The elements can create, destroy, support, and hinder. An experienced shaman balances the vast spectrum of these primordial forces into an array of diverse abilities, making shaman versatile adventurers and valued members of any group.
+Эти стихийные мастера также могут напрямую призывать свои силы, высвобождая потоки лавы и разряды молний против врагов. Стихии могут создавать, разрушать, помогать и препятствовать, — и опытный шаман может поддерживать баланс между разнообразным спектром способностей первобытных сил, что делает его гибким авантюристом и ценным членом любой группы искателей приключений.
 
-### Respected and Feared
-Since the early days of mortal life both Azeroth and Draenor, the elements of have been both feared and wor&shy;shiped. Mystics have sought to commune with them, to tap into the raw power of earth, air, fire, and water. In time, these spiritual guides have come to understand that the depth and gravity of the powers they wield. That the ele&shy;ments are not wholly benevolent, but rather a torrent of neverending conflict, as the elemental lord vie for control. The calling of the shaman is as a conduit of these volatile energies, leveraging them both to heal and to harm.
+### Уважаемые и устрашающие
+С самых первых дней смертной жизни на Азероте и Дреноре стихии внушали страх и благословенный трепет. Мистики стремились общаться с ними, чтобы черпать силу из первобытных огня, земли, воды и воздуха. Со временем эти духовные наставники пришли к пониманию глубины и важности сил, которыми они обладают, и того, что стихии не всегда доброжелательны, ведь они находятся в постоянной бушующей борьбе друг с другом, возглавляемые сражающимися за власть лордами элементалей. Призвание шамана — быть проводником нестабильной энергии стихий, используя их как для исцеления, так и для нанесения вреда. 
 
-### Creating a Shaman
-When creating a  shaman, consider how your bond with the elements have affected your personality and your view of the world. Although shamans resonate with all four primary elements, some tend to outwardly display aspects of one over the rest. 
+### Создание шамана
+Создавая шамана, подумайте, как ваша связь со стихиями повлияла на вашу личность и взгляд на мир. Хотя шаманы резонируют со всеми четырьмя первоэлементами, некоторые из них склонны внешне отображать аспекты одного из них больше, чем аспекты остальных.
 
-Shamans who lean towards fire might be impatient, temperamental, or bursting with energy in all they do. Shamans who lean toward water are adaptable, chaotic, and tend to go with the flow. 
+Шаманы, склонные к огню, могут быть нетерпеливыми, холеричными или полными энергии во всем, что они делают. Шаманы, склоняющиеся к воде, легко приспосабливаются, а также непостоянны и склонны плыть по течению. Те, кто предпочитает землю, обычно следуют законам и принципам, они стойки и упрямы. А шаманы, предпочитающие воздух, часто отчуждены, отстранены и наиболее нейтральны в своих решениях.
 
-Those who favor earth are typically lawful, stalwart, and stubborn. And shaman who favor air are often aloof, distant, and  the most neutral in their arbitrations. 
-
-<div class='footnote'>PART 1 | CLASSES</div>
+<div class='footnote'>Часть 1 | Классы</div>
 <img src='https://www.gmbinder.com/images/08Vyjyt.jpg' style='position:absolute; top:0px; right:-200px; width:1000px' />
 <img src='https://www.gmbinder.com/images/bNHsRrG.png' style='position:absolute; top:-40px; right:0px; width:900px; transform:scaley(-1)' />
 <img src='https://www.gmbinder.com/images/o5JVP3V.png' style='position:absolute; top:0px; right:400px; width:550px; transform:scalex(-1)' />
@@ -260,422 +276,426 @@ Those who favor earth are typically lawful, stalwart, and stubborn. And shaman w
 
 <div class='classTable wide'>
 
-##### The Shaman
-|Level|Proficiency<br>Bonus|Features|Cantrips<br>Known|&nbsp;|Spells<br>Known|&nbsp;|1st|&nbsp;|2nd|&nbsp;|3rd|&nbsp;|4th|&nbsp;|5th|&nbsp;| 6th|&nbsp;|7th|&nbsp;|8th|&nbsp;|9th <div style="position: absolute; top:100px; right:95px; width:200px; height:25px">—Spell Slots per Spell Level—</div>|
+##### Шаман
+|Уровень|Бонус<br>мастерства|Умения|Известные<br>заговоры| |Известные<br>заклинания| |1| |2| |3| |4| |5| | 6| |7| |8| |9 <div style="position: absolute; top:100px; right:65px; width:200px; height:25px"> Ячейки заклинаний  </div>|
 |:---:|:--:|:----------------------------|:-:|-|:-:|-|:-:|-|:-:|-|:-:|-|:-:|-|:-:|-|:-:|-|:-:|-|:-:|-|:-:|
-| 1st | +2 | Kalimag, Spellcasting                               |2|| 4||2||—||—||—||—||—||—||—||—|
-| 2nd | +2 | Totemist (2/rest), <br> Elemental Attunement        |2|| 5||3||—||—||—||—||—||—||—||—|
-| 3rd | +2 | Shamanic Binding                                    |2|| 6||4||2||—||—||—||—||—||—||—|
-| 4th | +2 | Ability Score Improvement                           |3|| 7||4||3||—||—||—||—||—||—||—|
-| 5th | +3 | Spirit Beast                                        |3|| 8||4||3||2||—||—||—||—||—||—|
-| 6th | +3 | Shamanic Binding feature                            |3|| 9||4||3||3||—||—||—||—||—||—|
-| 7th | +3 | —                                                   |3||10||4||3||3||1||—||—||—||—||—|
-| 8th | +3 | Ability Score Improvement                           |3||11||4||3||3||2||—||—||—||—||—|
-| 9th | +4 | Elemental Attunement improvement                    |3||12||4||3||3||3||1||—||—||—||—|
-| 10th| +4 | Totemic Projection, <br> Totemist (3/rest)          |4||14||4||3||3||3||2||—||—||—||—|
-| 11th| +4 | —                                                   |4||15||4||3||3||3||2||1||—||—||—|
-| 12th| +4 | Ability Score Improvement                           |4||15||4||3||3||3||2||1||—||—||—|
-| 13th| +5 | Far Sight                                           |4||16||4||3||3||3||2||1||1||—||—|
-| 14th| +5 | Shamanic Binding feature                            |4||18||4||3||3||3||2||1||1||—||—|
-| 15th| +5 | —                                                   |4||19||4||3||3||3||2||1||1||1||—|
-| 16th| +5 | Ability Score Improvement                           |4||19||4||3||3||3||2||1||1||1||—|
-| 17th| +6 | —                                                   |4||20||4||3||3||3||2||1||1||1||1|
-| 18th| +6 | Totemist (4/rest)                                   |4||22||4||3||3||3||3||1||1||1||1|
-| 19th| +6 | Ability Score Improvement                           |4||22||4||3||3||3||3||2||1||1||1|
-| 20th| +6 | Shamanic Binding feature                            |4||22||4||3||3||3||3||2||2||1||1|
+| 1 | +2 | Калимаг, Использование заклинаний                   |2|| 4||2||—||—||—||—||—||—||—||—|
+| 2 | +2 | Тотемы (2/отдых), <br> Стихийная настройка          |2|| 5||3||—||—||—||—||—||—||—||—|
+| 3 | +2 | Шаманская связь                                     |2|| 6||4||2||—||—||—||—||—||—||—|
+| 4 | +2 | Увеличение характеристик                            |3|| 7||4||3||—||—||—||—||—||—||—|
+| 5 | +3 | Духовный зверь                                      |3|| 8||4||3||2||—||—||—||—||—||—|
+| 6 | +3 | Умение шаманской связи                              |3|| 9||4||3||3||—||—||—||—||—||—|
+| 7 | +3 | —                                                   |3||10||4||3||3||1||—||—||—||—||—|
+| 8 | +3 | Увеличение характеристик                            |3||11||4||3||3||2||—||—||—||—||—|
+| 9 | +4 | Улучшение стихийной настройки                       |3||12||4||3||3||3||1||—||—||—||—|
+| 10| +4 | Проекция тотемов, <br> Тотемы (3/отдых)              |4||14||4||3||3||3||2||—||—||—||—|
+| 11| +4 | —                                                   |4||15||4||3||3||3||2||1||—||—||—|
+| 12| +4 | Увеличение характеристик                            |4||15||4||3||3||3||2||1||—||—||—|
+| 13| +5 | Далёкий взор                                        |4||16||4||3||3||3||2||1||1||—||—|
+| 14| +5 | Умение шаманской связи                              |4||18||4||3||3||3||2||1||1||—||—|
+| 15| +5 | —                                                   |4||19||4||3||3||3||2||1||1||1||—|
+| 16| +5 | Увеличение характеристик                            |4||19||4||3||3||3||2||1||1||1||—|
+| 17| +6 | —                                                   |4||20||4||3||3||3||2||1||1||1||1|
+| 18| +6 | Тотемы (4/отдых)                                     |4||22||4||3||3||3||3||1||1||1||1|
+| 19| +6 | Увеличение характеристик                            |4||22||4||3||3||3||3||2||1||1||1|
+| 20| +6 | Умение шаманской связи                              |4||22||4||3||3||3||3||2||2||1||1|
 </div>
 
-&nbsp;&nbsp;&nbsp; Think about your bond with your totems and how they represent the elemental planes from which you gain your power. Are they simply tools to you for channelling raw planar power, or are they sacred and worthy of reverence? 
+&nbsp;&nbsp;&nbsp;&nbsp; Подумайте о своей связи с тотемами и о том, как они представляют собой Обитель стихий, из которой вы получаете свою силу. Являются ли они для вас просто инструментами для передачи грубой планарной силы или же они священны и достойны почитания?
 
-Do they act as representations of a favored element, or do you use them to keep that element in check? How a shaman perceives their connection to the elemental planes is often reflected in the totems they summon forth.
+Используете ли вы тотемы как олицетворение вашей избранной стихии, или же вы используете их, чтобы держать её под контролем? То, как шаман воспринимает свою связь с Обителью стихий, часто отражается в призываемых им тотемах.
 
-#### Optional Rule: Multiclassing
-If your group uses the optional rule on multiclassing in the *Player's Handbook*, here's what you need to know if you choose shaman as one of your classes.
+#### Вариант правил: мультиклассирование
+Если ваша группа использует вариативное правило по мультиклассированию из *«Книги игрока»*, ниже приведены
+требования и владения, которые вы получаете при мультиклассировании с классом шамана.
 
-***Ability Score Minimum.*** As a multiclass character, you must have at least a Wisdom score of 13 to take a level in this class, or to take a level in another class if you are already a shaman.
+***Минимальные характеристики***. Ваш показатель Мудрости должен быть равен или больше 13, чтобы вы могли взять уровень шамана или уровень в любом другом классе, если вы уже шаман.
 
-***Proficiencies Gained.*** If shaman isn't your initial class, here are the proficiencies you gain when you take your first level as a shaman: light armor, medium armor, shields, simple weapons.
+***Владения.*** Если шаман — не ваш начальный класс, вы получаете следующие владения, когда вы берёте
+уровень шамана: лёгкая броня, средняя броня, щиты, простое оружие.
 
-***Spell Slots.*** Add your levels in the shaman class (or half your levels if you choose the Enhancement subclass) to the appropriate levels from other class to determine your available spell slots.
+***Ячейки заклинаний.*** Прибавьте свои уровни из класса шамана (или половину уровней шамана, если вы выбрали шаманскую связь Совершенствования) к подходящим уровням из другого класса с использованием заклинаний для определения уровня ваших доступных ячеек.
 
 \columnbreak
 
-#### Quick Build
-You can make a shaman quickly by following these suggestions. First, Wisdom should be your highest ability score, followed by Constitution. If you intend to engage in melee combat regularly, make Strength or Dexterity your second highest ability score instead.
+#### Быстрое создание
+Вы можете быстро создать шамана, следуя этим рекомендациям. Во-первых, у вашей Мудрости должно быть наивысшее значение. Следующим по величине должно быть значение Телосложения. Если вы собираетесь часто вступать в ближний бой, выберите в качестве вашей второй по величине характеристики Силу или Ловкость вместо Телосложения.
 
-## Class Features
-As a shaman, you gain the following class features.
+## Классовые умения
+Шаманы обладают следующими классовыми умениями.
 
-#### Hit Points
+#### Хиты
 ___
-- **Hit Dice:** 1d8 per shaman level
-- **Hit Points at 1st Level:** 8 + your Constitution modifier
-- **Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per shaman level after 1st
+- **Кость хитов:** 1к8 за каждый уровень шамана
+- **Хиты на 1 уровне:** 8 + ваш модификатор Телосложения
+- **Хиты на следующих уровнях:** 1к8 (или 5) + модификатор Телосложения за каждый уровень шамана после первого
 
-#### Proficiencies
+#### Владения
 ___
-- **Armor:** Light armor, medium armor, shields
-- **Weapons:** Simple weapons
-- **Tools:** Herbalism kit
+- **Доспехи:** Лёгкие доспехи, средние доспехи, щиты
+- **Оружие:** Простое оружие
+- **Инструменты:** Набор травника
 ___
-- **Saving Throws:** Strength, Wisdom
-- **Skills:** Choose two from Animal handling, Arcana, History, Insight, Medicine, Nature, Perception, and Survival
+- **Спасброски:** Сила, Мудрость
+- **Навыки:** Выберите два из следующих: Восприятие, Выживание, История, Магия, Медицина, Природа, Проницательность, Уход за животными
 
-<div class='footnote'>PART 1 | CLASSES</div>
+<div class='footnote'>Часть 1 | Классы</div>
 
 \pagebreakNum
 
-#### Equipment
-You start with the following equipment, in addition to the equipment granted by your background:
- - *(a)* hide armor or *(b)* leather armor
- - *(a)* a mace and shield or *(b)* two simple weapons
- - *(a)* a dungeoneer's pack or *(b)* an explorer's pack
- - a druidic focus
+#### Снаряжение
+Вы начинаете со следующим снаряжением в дополнение к снаряжению, полученному за вашу предысторию:
+ - *(a)* броня из шкур or *(b)* кожаная броня
+ - *(a)* булава и щит or *(b)* два простых оружия
+ - *(a)* набор исследователя подземелий or *(b)* набор путешественника
+ - фокусировка друида
 
 <div style='margin-top:-3px;'></div>
 
-### Kalimag
-You know Kalimag, the language of elementals. You can speak the language and use it to leave messages in rocks and pools of water that only you and other shamans spot. The messages are spoken as through a *sending* spell, with the limitations that come of that spell.
+### Калимаг
+Вы знаете калимаг, язык элементалей. Вы можете разговаривать на этом языке и использовать его, чтобы оставлять сообщения на камнях или водных поверхностях так, чтобы только вы и другие шаманы могли его заметить. Такие сообщения слышатся в сознании шамана, как если бы он был целью заклинания *послание [sending]*, со всеми ограничениями этого заклинания.  
 <div style='margin-top:-3px;'></div>
 
-### Spellcasting
-Drawing on the elements themselves, you can manifest them into casting spells. See chapter 10 of the Player's Handbook for the general rules of spellcasting and chapter 6 of this book for the shaman spell list.
+### Использование заклинаний
+Черпая силу самих стихий, вы способны проявлять её в виде заклинаний. Смотрите правила по использованию заклинаний в 10 главе *«Книги игрока»* и список заклинаний шамана в 6 главе этой книги.
 
-#### Cantrips
-You know two cantrips of your choice from the shaman spell list. You learn additional shaman cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Shaman table.
+#### Заговоры
+Вы узнаёте два заговора по своему выбору из списка заклинаний шамана. Вы узнаёте дополнительные заговоры шамана на более высоких уровнях, как показано в колонке «известные заговоры».
 
-#### Spell Slots
-The Shaman table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a spell slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+#### Ячейки заклинаний
+Таблица «Шаман» показывает, сколько ячеек заклинаний у вас есть для заклинаний 1 уровня и выше. Для использования заклинания вы должны потратить ячейку соответствующего либо превышающего уровня. Вы восстанавливаете все потраченные ячейки, когда заканчиваете продолжительный отдых.
 
-#### Spells Known of 1st Level and Higher
-You know four 1st-level spells of your choice from the shaman spell list.
+#### Известные заклинания первого и более высоких уровней
+Вы знаете четыре заклинания 1 уровня на ваш выбор из списка заклинаний шамана.
 
-The Spells Known column of the Shaman table shows when you learn more shaman spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you learn one new spell of 1st or 2nd level.
+Колонка «известные заклинания» в таблице «Шаман» показывает, когда вы сможете выучить новые заклинания. Уровень заклинаний не должен превышать уровень самой высокой имеющейся у вас ячейки заклинаний. Например, когда вы достигнете 3 уровня в этом классе, вы можете выучить одно новое заклинание 1 или 2 уровня.
 
-Additionally, when you gain a level in this class, you can choose one of the shaman spells you know and replace it with another spell from the shaman spell list, which also must be of a level for which you have spell slots.
+Кроме того, когда вы получаете новый уровень в этом классе, вы можете одно из известных вам заклинаний шамана заменить на другое из списка шамана, уровень которого тоже должен соответствовать имеющимся ячейкам заклинаний.
 
-#### Spellcasting Ability
-Wisdom is your spellcasting ability for your shaman spells, since your power comes from the elements and spirits. You use your Wisdom whenever a shaman spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a shaman spell you cast and when making an attack roll with one.
+#### Базовая характеристика заклинаний
+Вы используете Мудрость для сотворения заклинаний шамана, так как ваша мощь исходит от стихий и духов. Вы используете Мудрость в случаях, когда заклинание ссылается на базовую характеристику. Кроме того, вы используете Мудрость при определении сложности спасбросков от ваших заклинаний, и при броске атаки заклинаниями.
 
 <div style="text-align: Center">
 
-**Spell save DC** = 8 + your proficiency bonus + <br> your Wisdom modifier
+**Сложность спасброска** = 8 + ваш бонус мастерства + <br> ваш модификатор Мудрости
 
-**Spell attack modifier** = your proficiency bonus + <br> your Wisdom modifier
+**Модификатор броска атаки** = ваш бонус мастерства + <br> ваш модификатор Мудрости
 </div>
 
-#### Ritual Casting
-You can cast a shaman spell you know as a ritual if that spell has the ritual tag.
+#### Ритуальное колдовство
+Вы можете сотворить заклинание шамана как ритуал, если у этого заклинания есть ключевое слово «ритуал».
 
-#### Spellcasting Focus
-You can use a druidic focus as a spellcasting focus for your shaman spells.
+
+#### Фокусировка заклинания
+Вы можете использовать фокусировку друидов в качестве заклинательной фокусировки для заклинаний шамана.
 
 \columnbreak
 
-### Totemist
-Starting at 2nd level, you can use your bonus action to channel elemental forces into a Small totem in an empty space on a horizontal surface within 15 feet of you. 
+### Тотемы
+Начиная со 2 уровня, вы можете бонусным действием призывать стихийные силы в Маленький тотем в пустом пространстве на горизонтальной поверхности в пределах 15 футов от вас.
 
-The totem is a magical object that occupies its space. It has an AC of 15 and a number of hit points equal to twice your shaman level. It is immune to poison damage, psychic damage, and all conditions. If it is forced to make an ability check or a saving throw, treat all its ability scores as 10 (+0). The totem disappears if it is reduced to 0 hit points or after 1 minute. You can dismiss it early as a bonus action.
+Тотем является материальным магическим объектом, занимающим пространство, на котором он находится, с КД 15 и количеством хитов, равным удвоенному уровню шамана. У него иммунитет к урону психической энергией и ядом, а также ко всем состояниям. Если тотему нужно сделать бросок характеристики или спасбросок, все его характеристики считаются равными 10 (+0). Тотем пропадает после 1 минуты или если его хиты опустились до 0. Вы можете убрать тотем досрочно бонусным действием.
 
-You can use your reaction to cause the totem to activate if you are within 60 feet of it and choose one of its powers to take effect. Your totem starts with two such powers: Elemental Resistance and a power determined by your Elemental Attunement. Your totem gains an additional power at 3rd level, determined by your shamanic binding.
+Вы можете реакцией применить силу вашего тотема в пределах 60 футов от себя. У вашего тотема есть две такие силы: Стихийное сопротивление и сила, определяемая вашей стихийной настройкой. Ваш тотем получает ещё одну силу, зависящую от вашей шаманской связи.
 
-You can use your Totemist feature twice between rests. You regain all spent uses after finishing a short or long rest. You can summon an additional totem between rests when you reach 10th level, and again at 18th level.
+Вы можете призвать тотемы два раза, восстанавливая его призывы после короткого или продолжительного отдыха. Вы получаете дополнительный призыв этого умения на 10 и 18 уровнях. 
 <div style='margin-top:-6px;'></div>
 
-***Totem Power: Elemental Resistance.*** You can activate the totem when a creature within 15 feet it takes acid, cold, fire, lightning, or thunder damage, giving them resistance to that type of damage until the end of the next turn.
+***Сила тотема: Стихийное сопротивление.*** Вы можете активировать тотем, когда существо в пределах 15 футов от него получает урон звуком, кислотой, огнём, холодом или электричеством.. Оно получает сопротивление к нанесённому типу урона до конца следующего хода.
 
-### Elemental Attunement
-Starting at 2nd level, you attune yourself to a force of the elemental plane. Choose one of the following options. You cannot take an Elemental Attunement option more than once, even if you later get to choose again. 
+### Стихийная настройка
+Начиная со 2 уровня, вы настраиваетесь на силу конкретной обители стихий. Выберите один из следующих вариантов ниже. Вы не можете выбрать одну и ту же стихийную настройку более одного раза, даже если позже у вас будет возможность выбрать ещё одну стихийную настройку. 
 
-#### Attunement of Air
-Your movement speed is increased by 5 feet and you may add your proficiency bonus to your initiative.
+#### Настройка воды
+Вы узнаёте дополнительные заклинания 1 и более уровней в количестве, равному вашему бонусу мастерства.
 
-At 9th level, you gain resistance to lightning damage.
+Также на 9 уровне вы получаете сопротивление урону холодом.
 <div style='margin-top:-6px;'></div>
 
-***Totem Power: Grace of Air.*** You can activate the totem when a creature within 15 ft. of it makes a Dexterity check or saving throw, giving them advantage on their roll.
+***Сила тотема: Очищающий поток.*** Вы можете активировать тотем, когда существо в пределах 15 футов от него совершает проверку или спасбросок Мудрости. Оно получает преимущество на этот бросок.
 
-#### Attunement of Earth
-You gain proficiency in Constitution saving throws.
+#### Настройка воздуха
+Ваша скорость увеличивается на 5 футов, и вы можете добавлять свой бонус мастерства к броскам инициативы. 
 
-At 9th level, you gain resistance to acid damage.
+Также на 9 уровне вы получаете сопротивление к урону электричеством.
 <div style='margin-top:-6px;'></div>
 
-***Totem Power: Strength of Earth.*** You can activate the totem when a creature within 15 ft. of it makes a Strength check or saving throw, giving them advantage on their roll
+***Сила тотема: Изящество ветра.*** Вы можете активировать тотем, когда существо в пределах 15 футов от него совершает проверку или спасбросок Ловкости. Оно получает преимущество на этот бросок.
 
-#### Attunement of Fire
-When you hit a creature with an attack roll that is unable to hit more than one creature, you may deal additional fire damage to it equal to your profici&shy;ency bonus. You may use this attunement once per turn.
+#### Настройка земли
+Вы получаете владение спасброками Телосложения.
 
-At 9th level, you gain resistance to fire damage.
+Также на 9 уровне вы получаете сопротивление к урону кислотой.
 <div style='margin-top:-6px;'></div>
 
-***Totem Power: Flametongue.*** You can activate the totem when a creature within 15 ft. of it makes a Charisma check or saving throw, giving them advantage on their roll.
+***Сила тотема: Сила земли.***  Вы можете активировать тотем, когда существо в пределах 15 футов от него совершает проверку или спасбросок Силы. Оно получает преимущество на этот бросок.
 
-#### Attunement of Water
-You know a number of additional shaman spells of 1st level or higher equal to your proficiency bonus.
+#### Настройка огня
+Когда вы попадаете по существу атакой, которая не может поразить более чем одно существо, вы можете нанести дополнительный урон огнём, равный вашему бонусу мастерства. Вы можете использовать это умение раз за ход.
 
-At 9th level, you gain resistance to cold damage.
+Также на 9 уровне вы получаете сопротивление к урону огнём.
 <div style='margin-top:-6px;'></div>
 
-***Totem Power: Cleansing Stream.*** You can activate the totem when a creature within 15 ft. of it makes a Wisdom check or saving throw, giving them advantage on their roll.
+***Сила тотема: Языки пламени.*** Вы можете активировать тотем, когда существо в пределах 15 футов от него совершает проверку или спасбросок Харизмы. Оно получает преимущество на этот бросок.
 
-<div class='footnote'>PART 1 | CLASSES</div>
+<div class='footnote'>Часть 1 | Классы</div>
 
 \pagebreakNum
 
-### Shamanic Binding
-At 3rd level, you choose a shamanic binding, shaping your approach to the forces of the elements. Choose Elemental, Enhancement, or Restoration, each of which is detailed at the end of the class description. Your choice grants you features at 3rd level and again at 6th, 14th, and 20th level.
+### Шаманская связь
+На 3 уровне вы выбираете шаманскую связь, формирующую ваш подход к силам стихий. Выберите «Стихии», «Совершенствование» или «Исцеление». Каждая связь подробно описана в конце описания класса. Шаманская связь даёт вам умения на 3, 6, 14 и 20 уровнях.
 
-### Ability Score Improvement
-When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+### Увеличение характеристик
+При достижении 4, потом 8, 12, 16 и 19 уровней вы можете повысить значение одной из ваших характеристик на 2 или двух характеристик на 1. Как обычно, значение характеристики при этом не должно превысить 20.
 
-### Spirit Beast
-At 5th level, you earn the favor of a spirit beast and are able to assume its spectral visage. Choose a Medium or Small beast without a fly or swim speed to represent your spirit.
+### Духовный зверь
+На 5-м уровне вы заслуживаете благосклонность духовного зверя и можете принимать его призрачный облик. Выберите Среднего или Маленького зверя без скорости полёта или плавания для определения облика духовного зверя.
 
-You can use your action to assume the illusionary visage of your spirit beast. This visage has no effect on your game statistics except changing your movement speed to 50 feet.
+Действием вы можете принять иллюзорный облик своего духовного зверя. Этот облик не влияет на ваши игровые параметры кроме того, что ваша скорость передвижения становится равной 50 футам.
 
-You remain transformed until you cast a spell, make an attack, or use your bonus action to revert back to yourself.
+Вы остаётесь в этом облике до тех пор, пока не совершите атаку, сотворите заклинание или развеете свой иллюзорный облик бонусным действием. 
 
-### Totemic Projection
-At 10th level, you are able to channel elemental forces into a totem at greater lengths, increasing the distance at which you can summon your totem to 30 feet and while you are within 60 feet of your totem, you may use a bonus action to move the totem to an empty space within range as if you had summoned it anew.
+### Проекция тотемов
+На 10 уровне вы можете дальше направлять стихийные силы в тотемы. Вы можете призывать тотемы на расстоянии до 30 футов, и пока вы находитесь в пределах 60 футов от вашего тотема, вы можете бонусным действием перенести его в незанятое пространство в пределах дистанции, как если бы вы его вновь призвали.
 
-Additionally, you are able to manifest simple yet effective spells through your totem. You can use your action to cast a shaman cantrip with a range of 5 feet or more through the totem, as though you were in space of the totem.
+Кроме того, тотемы становятся проводниками ваших заклинаний. Действием вы можете сотворить заговор шамана с дистанцией 5 или более футов через тотем, как если бы вы были на месте тотема.
 
-### Far Sight
-Beginning at 13th level, you are able to hone your sight and focus it upon a creature that you have seen before. By performing a 10 minute ritual, you can attempt to cast the *scrying* spell without providing material components. Roll a percentile dice, if the result is less than your Shaman level, you cast the *scrying* spell.
+### Далёкий взор
+Начиная с 13 уровня, вы можете обострить свой взор, направляя его на существо, которое вы видели ранее. Потратив 10 минут на совершение ритуала, вы можете попытаться сотворить заклинание *наблюдение [scrying]* без материальных компонентов. Совершите бросок процентной кости, и если результат меньше вашего уровня шамана, вы успешно накладываете заклинание *наблюдение [scrying]*. 
 
-Once you use this feature, you can't use it again until you finish a long rest.
+Использовав это умение, вы не можете использовать его повторно, пока не закончите продолжительный отдых. 
 
-## Shamanic Binding
-Shamans strive to deepen their understanding and connec&shy;tion with the elements, often forming a bond with it for life. Some prefer a more brutal approach as they rein in the powers of fire and earth for physical combat, or the forces of fire and air to fight at range. Others in turn, prefer a subtle approach of peace and meditation, bending water and air to their will. You attune with one of these groups.
+## Шаманская связь
+<div style='margin-top:-6px;'></div>
 
-<div class='footnote'>PART 1 | CLASSES</div>
+Шаманы стремятся углубить своё понимание стихий, часто формируя связь с ними на всю жизнь. Некоторые предпочитают более жёсткий подход, обуздывая силы земли и огня для боя вблизи, а также силы огня и воздуха, чтобы побеждать врагов на расстоянии. Другие же предпочитают более тонкий и подход через покой и медитации, сплетая воду и воздух по своей воле. Вы становитесь частью одной из этих шаманских групп.
+
+<div class='footnote'>Часть 1 | Классы</div>
 <img src='https://www.gmbinder.com/images/QVJZTHd.jpg' style='position:absolute; top:0px; right:-200px; width:880px' />
-<img src='https://www.gmbinder.com/images/E8GrMME.png' style='position:absolute; top:0px; right:0px; width:900px' />
-<img src='https://www.gmbinder.com/images/GJ0XjPx.png' style='position:absolute; top:910px; right:420px; width:250px' />
+<img src='https://www.gmbinder.com/images/E8GrMME.png' style='position:absolute; top:0px; right:0px; width:880px' />
+<img src='https://www.gmbinder.com/images/GJ0XjPx.png' style='position:absolute; top:815px; right:460px; width:250px' />
 
 \pagebreakNum
 
-### Elemental
-Through careful study and dedication, elemental shamans are able to channel the volatile energy of the Elemental Plane into destructive magical surges. Through their body flows bolts of lightning, as if from storm, and bursts of fire, as if from molten earth. To battle an elemental shaman is to taunt the very forces of nature.
+### Стихии
+Шаманы, следующие пути большего понимания стихий, через глубокое познание и самоотверженность учатся направлять изменчивую силу стихий в разрушительные магические волны. Разряды молний и потоки огня исходят от них, словно от грозовых туч и расплавленной земли, и сражение с такими шаманами подобно вызову силам самой природы.  
 
-#### Totem Power
-When you choose this binding at 3rd level, you gain the following Totem Power.
+#### Сила тотема
+Когда вы выбирате эту шаманскую связь на 3 уровне, вы получаете следующую силу тотема.
 <div style='margin-top:-6px;'></div>
 
-***Totem Power: Tranquil Mind.*** You can activate the totem when a creature within 15 feet of it is forced to make a Constitution saving throw to main&shy;tain concentration, giving them advantage on the saving throw.
+***Сила тотема: Умиротворённый разум.*** Вы можете активировать тотем, когда существо в пределах 15 футов от него совершает спасбросок Телосложения для поддержания концентрации. Оно получает преимущество на этот спасбросок. 
 
-#### Elemental Fury
-Starting at 3rd level, when you cast a spell that deals acid, cold, fire, lightning, or thunder damage, you can subsitute that damage type with one other type from the list (you can change only one damage type per casting of a spell). 
+#### Ярость стихий
+На 3 уровне, когда вы накладываете заклинание, наносящее урон звуком, кислотой, огнём, холодом или электричеством, вы можете заменить тип урона на другой из этого списка. Вы можете заменить только один тип урона в наложенном заклинании.
 
-#### Binding Spells
-Your attunement to the Elemental Plane infuses you with the ability to cast certain spells. You learn additional spells connected to your Elemental Attunement when you reach certain levels in this class, as shown in your elements Spell table. The spell counts as a shaman spell for you, but it doesn’t count against the number of shaman spells you know. These spells can’t be replaced when you gain a level in this class.
+#### Настроенные заклинания
+Ваша сонастроенность с Обителью стихий наделяет вас некоторыми заклинаниями. На 3, 5, 7 и 9 уровнях вы получаете доступ к заклинаниями в соответствии со своей Стихийной настройкой. Эти заклинания считаются для вас заклинаниями шамана, но они не учитываются при подсчете известных вам заклинаний. Вы не можете заменить эти заклинания, когда получаете новый уровень шамана. 
 
-#### Echo of the Elements
-At 6th level, when you roll damage for a shaman spell, you may reroll a number of dice up to your Wisdom modifier and use either roll.
+#### Стихийное эхо
+Начиная с 6 уровня, когда вы бросаете кости урона заклинания шамана, вы можете перебросить несколько костей в количестве от 1 до значения вашего модификатора Мудрости. 
 
-You can use this feature a number of times equal to your Wisdom modifier. You regain expended uses when you finish a long rest.
+Вы можете использовать это умение количество раз, равное вашему модификатору Мудрости. Вы восстанавливаете все потраченные использования, когда заканчиваете продолжительный отдых.
 
-#### Primal Sanctuary
-Upon reaching 14th level, elemental creatures of the world sense your connection the Elemental Plane and become hesitant to attack you. When an elemental creature attacks you, that creature must make a Wisdom saving throw against your shaman spell save DC. On a failed save, the creature must choose a different target, or the attack auto&shy;matically misses. On a successful save, the creature is immune to this effect for 24 hours.
+#### Первородный оберег
+С 14 уровня элементальные существа чувствуют вашу связь с Обителью стихий и поэтому не решаются атаковать вас. Когда существо с типом «элементаль» атакует вас, оно должно совершить спасбросок Мудрости против вашей сложности заклинаний шамана. При провале существо должно выбрать другую цель, иначе атака автоматически промахивается. При успехе это существо получает иммунитет к этому эффекту на 24 часа.
 
-The creature is aware of this effect before it makes its attack against you.
+Существо узнаёт об этом эффекте до того, как совершает атаку по вам.
 
-#### Ascendance
-At 20th level, you can assume the form of an elemental ascendant. Using your action, you undergo a transforma&shy;tion. For 1 minute, you gain the following benefits.
+#### Возвышение
+На 20 уровне вы можете обретать возвышенную стихийную форму. Действием вы можете магически превратиться, получая следующие преимущества на 1 минуту:
 
-- You gain immunity to damage dealt by the damage type of your elemental attunement.
-- When you reroll a dice with your Echo of the Elements feature, you add both dice results to the spell's damage.
-- You can use your reaction when hit by a melee attack to cause the attacker to take damage of your elemental attunement's type equal to your shaman level. 
+- Вы получаете иммунитет к типу урона, к которому вы имеете сопротивление, зависимое от вашей Стихийной настройки. 
+- Вместо перебрасывания костей урона умением Стихийное эхо вы добавляете их к общему урону от заклинания. 
+- Когда по вам попадают ближней атакой, вы можете реакцией нанести атаковавшему урон, равный вашему уровню шамана. Тип урона определяется вашей Стихийной настройкой. 
 
-Once you use this feature, you can't use it again until you finish a long rest.
+Использовав это умение, вы не сможете использовать его снова, пока не закончите продолжительный отдых.
 
 \columnbreak
 
-##### Air
-|&nbsp; Shaman Level  | Binding Spells |
+<div class="shaman-elemental-tables">
+
+##### Вода
+|  Уровень шамана  | Настроенные заклинания |
 |:---------:|:-------------------------|
-|&nbsp; 3rd | *dust devil ^XGE^, warding wind ^XGE^* |
-|&nbsp; 5th | *call lightning, wind wall* |
-|&nbsp; 7th | *freedom of movement, storm sphere ^XGE^* |
-|&nbsp; 9th | *conjure elemental (air), control winds ^XGE^* |
+|  3 | *подмога, малое восстановление* |
+|  5 | *✦ волна лечения, водяная стена ^XGE^* |
+|  7 | *власть над водами, защита от смерти* |
+|  9 | *призыв элементаля(воды), водоворот ^XGE^* |
 <div style='margin-top:-5px;'></div>
 
-##### Earth
-|&nbsp; Shaman Level  | Binding Spells |
+##### Воздух
+|  Уровень шамана  | Настроенные заклинания |
 |:---------:|:-------------------------|
-|&nbsp; 3rd | *earthen grasp ^XGE^, shatter* |
-|&nbsp; 5th | *✦ earthen spike, erupting earth ^XGE^* |
-|&nbsp; 7th | *hallucinatory terrain, stoneskin* |
-|&nbsp; 9th | *conjure elemental (earth), wall of stone* |
+|  3 | *пылевой вихрь ^XGE^, защитный ветер ^XGE^* |
+|  5 | *призыв молнии, стена ветров* |
+|  7 | *свобода перемещения, сфера бури ^XGE^* |
+|  9 | *призыв элементаля(воздха), власть над ветрами ^XGE^* |
 <div style='margin-top:-5px;'></div>
 
-##### Fire
-|&nbsp; Shaman Level  | Binding Spells |
+##### Земля
+|  Уровень шамана  | Настроенные заклинания |
 |:---------:|:-------------------------|
-|&nbsp; 3rd | *heat metal, ✦ lava burst* |
-|&nbsp; 5th | *daylight, minute meteors ^XGE^* |
-|&nbsp; 7th | *fire shield, wall of fire* |
-|&nbsp; 9th | *conjure elemental (fire), flame strike* |
+|  3 | *земляная хватка ^XGE^, дребезги* |
+|  5 | *✦ земляной шип, извержение* <br> *земли ^XGE^* |
+|  7 | *мираж, каменная кожа* |
+|  9 | *призыв элементаля(земли), каменная стена* |
 <div style='margin-top:-5px;'></div>
 
-##### Water
-|&nbsp; Shaman Level  | Binding Spells |
+##### Огонь
+|  Уровень шамана  | Настроенные заклинания |
 |:---------:|:-------------------------|
-|&nbsp; 3rd | *aid, lesser restoration* |
-|&nbsp; 5th | *✦ chain heal, wall of water ^XGE^* |
-|&nbsp; 7th | *control water, death ward* |
-|&nbsp; 9th | *conjure elemental (water), maelstrom ^XGE^* |
+|  3 | *раскалённый металл, ✦ выброс лавы* |
+|  5 | *дневной свет, маленькие метеоры ^XGE^* |
+|  7 | *огненный щит, стена огня* |
+|  9 | *призыв элементаля(огня), небесный огонь* |
 <div style='margin-top:-5px;'></div>
 
-*✦ New spells can be found in chapter 6 later in this book* 
+</div>
 
-### Enhancement
-Intense communion with fire, earth, air, and water isn’t exclusive to the elemental shaman. In many ways, enhance&shy;ment shaman similarly bond with nature and leverage its power on the battlefield. These shaman favor empowering their physical attacks with elemental energies and facing their adversaries up close. 
+*✦ Новые заклинания находятся в 6 главе этой книги* 
 
-#### Totem Power
-When you choose this binding at 3rd level, you gain the following Totem Power.
+### Совершенствование
+Тесное общение с огнём, землёй, воздухом и водой свойственно не только стихийным шаманам. Во многих отношениях шаманы, идущие по пути совершенствования, имеют схожую связь с природой. Они предпочитают сражаться с врагами лицом к лицу, усиливая своё оружие энергией стихий. 
+
+#### Сила тотема
+Когда вы выбирате эту шаманскую связь на 3 уровне, вы получаете следующую силу тотема.
 <div style='margin-top:-6px;'></div>
 
-***Totem Power: Windfury.*** You can activate this totem when a creature within 15 feet of it misses a target with a melee weapon attack, that creature may immediately attempt the same weapon attack against the target.
+***Сила тотема: Неистовство ветра.*** Вы можете активировать тотем, когда существо в пределах 15 футов от него промахивается ближней атакой оружием. Оно немедленно совершает ещё одну атаку по существу.  
 
-#### Bonus Proficiency
-At 3rd level, you gain proficiency with martial weapons and you can use a simple or martial weapon as a spellcasting focus for your shaman spells.
+#### Дополнительные владения
+На 3 уровне вы получаете владение владение воинским оружием, и вы можете использовать своё простое или воинское оружие как магическую фокусировку для ваших заклинаний шамана. 
 
-#### Martial Calling
-Starting at 3rd level, you refer to the Enhancement Spell&shy;asting table to determine your cantrips, spells known, and spell slots whenever you gain a level in this class. You also count as a *half-caster* for determining available spell slots when multiclassing with other classes.
-
-<div class='footnote'>PART 1 | CLASSES</div>
+<div class='footnote'>PART 1 | Классы</div>
 
 \pagebreakNum
 
 <div class='classTable'>
 
-##### Enhancement Spellcasting
-|Shaman <br> Level|Cantrips<br>Known|Spells<br>Known|&nbsp;|1st|&nbsp;|2nd|&nbsp;|3rd|&nbsp;|4th|&nbsp;|5th|
+##### Заклинания совершенствования
+|Уровень <br> шамана|Известные<br>заговоры|Известные<br>заклинания| |1| |2| |3| |4| |5|
 |:---:|:-:|:--:|-|:--:|-|:--:|-|:--:|-|:--:|-|:--:|
-| 3rd | 2 | 5||3||—||—||—||—|
-| 4th | 2 | 5||3||—||—||—||—|
-| 5th | 2 | 5||4||2||—||—||—|
-| 6th | 2 | 6||4||2||—||—||—|
-| 7th | 2 | 6||4||3||—||—||—|
-| 8th | 2 | 6||4||3||—||—||—|
-| 9th | 2 | 7||4||3||2||—||—|
-| 10th| 3 | 7||4||3||2||—||—|
-| 11th| 3 | 7||4||3||3||—||—|
-| 12th| 3 | 8||4||3||3||—||—|
-| 13th| 3 | 8||4||3||3||1||—|
-| 14th| 3 | 8||4||3||3||1||—|
-| 15th| 3 | 9||4||3||3||2||—|
-| 16th| 3 | 9||4||3||3||2||—|
-| 17th| 3 |10||4||3||3||3||1|
-| 18th| 3 |10||4||3||3||3||1|
-| 19th| 3 |11||4||3||3||3||2|
-| 20th| 3 |11||4||3||3||3||2|
+| 3 | 2 | 5||3||—||—||—||—|
+| 4 | 2 | 5||3||—||—||—||—|
+| 5 | 2 | 5||4||2||—||—||—|
+| 6 | 2 | 6||4||2||—||—||—|
+| 7 | 2 | 6||4||3||—||—||—|
+| 8 | 2 | 6||4||3||—||—||—|
+| 9 | 2 | 7||4||3||2||—||—|
+| 10| 3 | 7||4||3||2||—||—|
+| 11| 3 | 7||4||3||3||—||—|
+| 12| 3 | 8||4||3||3||—||—|
+| 13| 3 | 8||4||3||3||1||—|
+| 14| 3 | 8||4||3||3||1||—|
+| 15| 3 | 9||4||3||3||2||—|
+| 16| 3 | 9||4||3||3||2||—|
+| 17| 3 |10||4||3||3||3||1|
+| 18| 3 |10||4||3||3||3||1|
+| 19| 3 |11||4||3||3||3||2|
+| 20| 3 |11||4||3||3||3||2|
 </div>
 
-#### Maelstrom
-Also at 3rd level, you are able to harness the forces of the maelstrom and channel them into your weapons.
+#### Стезя битвы 
+Начиная с 3 уровня, вы используете таблицу «Заклинания совершенствования» для определния ваших заговоров, известных заклинаний и ячеек заклинаний, когда вы получаете новый уровень в этом классе. Также при определении доступных ячеек заклинаний при мультиклассировании вы прибавляете только половину уровней шамана (округляя в меньшую сторону).
 
-***Maelstrom Points.*** You have a number of maelstrom points equal to half your shaman level (rounded up). You can spend these points to fuel various weapon strikes. When you spend a maelstrom point, it is unavailable until you finish a short or long rest, at the end of which you draw upon its energies and regain all expended maelstrom.
+#### Сила Водоворота
+Также на 3 уровне вы учитесь призывать силу Водоворота и наполнять ею своё оружие. 
 
-***Weapon Strikes.*** You know two weapon strikes of your choice, which are detailed under "Weapon Strikes" below. Weapon strikes enhance an attack in some way. You can only use one strike per attack unless otherwise noted.
+***Очки энергии Водоворота.*** Вы получате очки энергии Водоворота в количестве половины уровня шамана (округляя в большую сторону). Вы можете использовать эти очки для того, чтобы наполнять силой стихий своё оружие. После того, как вы потратите очко энергии Водоворота, оно становится недоступным вам до тех пор, пока вы не закончите короткий или продолжительный отдых, после чего вы восстанавливаете все потраченные очки.
 
-You learn an additional weapon strike of your choice at 7th, 11th, and 15th level. Each time you learn a new weapon strike, you can also replace one weapon strike you know with a different one.
+***Удар оружием.*** Вы узнаёте, как наполнять своё оружие силой стихий. Вы узнаёте два удара оружием(да, они так и называются в оригинале — *прим. переводчика*) на ваш выбор. Они описаны в разделе «удары оружием», расположенном ниже. Во время одной атаки вы можете использовать только один удар оружием, если не указано иначе.
 
-***Saving Throws.*** Some of your strikes require your target to make a saving throw to resist the strike's effect. The saving throw DC is equal to your spell save DC.
+Вы изучаете дополнительный удар при достижении 7, 11 и 15 уровней. Каждый раз при изучении нового удара оружием вы можете также заменить один из известных вам ударов на другой.
 
-#### Extra Attack
-Beginning at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
-
-#### Shamanic Vigor
-Starting at 9th level, you can cast *bloodlust and heroism* without expending a spell slot. Once you cast *bloodlust and heroism* this way, you can't do so again until you finish a long rest.
+***Спасброски.***  Некоторые из ваших приёмов требуют от цели спасброска, чтобы избежать эффекта приёма. Сложность такого спасброска определяется сложностью ваших заклинаний. 
 
 \columnbreak
 
-<br>
+#### Дополнительная атака
+Начиная с 6 уровня, если вы в свой ход совершаете действие Атака, вы можете совершить две атаки вместо одной.
 
-#### Elemental Fusion
-Upon reaching 14th level, you can choose a second option from the Elemental Attunement class feature.
+#### Решимость шамана
+Начиная с 9 уровня, вы можете наложить заклинание *героизм/жажда крови* без траты ячейки заклинания. Вы не можете сделать это повторно, пока не закончите продолжительный отдых.
 
-#### Enhancing Elements
-At 20th level, you are able to draw upon the energies of your attuned elements, gaining the following benefits depending on your Elemental Attunements.
+#### Стихийное слияние
+На 14 уровне вы можете выбрать ещё один вариант Стихийной настройки.
 
-***Air.*** Your Dexterity score increases by 2 and your maximum ability score for it is now 22.
+#### Совершенство стихий
+На 20 уровне ваши тело и душа закаляются в стихиях, на которые вы настроены. Вы получаете следующие преимущества в зависимости от вашей Стихийной настройки: 
 
-***Earth.*** Your Strength score increases by 2 and your maximum ability score for it is now 22.
+***Вода***. Значение вашей Мудрости увеличивается на 2. Максимальное значение для этой характеристики теперь 22.
 
-***Fire.*** Your Charisma score increases by 2 and your maximum ability score for it is now 22.
+***Воздух***. Значение вашей Ловкости увеличивается на 2.Максимальное значение для этой характеристики теперь 22.
 
-***Water.*** Your Wisdom score increases by 2 and your maximum ability score for it is now 22.
+***Земля***. Значение вашей Силы увеличивается на 2. Максимальное значение для этой характеристики теперь 22.
 
-## Weapon Strikes
-The weapon strikes are presented in alphabetical order.
+***Огонь***. Значение вашей Харизмы увеличивается на 2. Максимальное значение для этой характеристики теперь 22.
 
-***Bouldering Strike.*** When you hit a creature with a weapon attack, you can spend 1 maelstrom point to force it to make a Strength saving throw. On a failure it is pushed 15 feet directly away from you.
+#### Удары оружием
+Удары оружием указаны в алфавитном порядке.
 
-***Crashing Strike (Requires 7th level).*** When you hit a creature with a weapon attack, you can spend 3 maelstrom points to attempt a crashing blow. The creature must succeed on a Constitu&shy;tion saving throw or be incapacitated until the start of your next turn.
+***Камнедробитель.***  Когда вы попадаете по существу атакой оружием, вы можете потратить 1 очко энергии Водоворота, чтобы совершить раздрабливающий удар. Цель должна совершить спасбросок Силы, при провале сбиваясь с ног. 
 
-***Elemental Lash.*** When you hit a creature with a 
-<br> weapon attack, you can spend 1 maelstrom point to lash out with the elements on a different creature of your choice within 15 feet of it. The second creature must succeed on a Dexterity saving throw or take 1d10 of your Elemental Attunement's damage type. You choose which of your Ele&shy;mental Attunements' damage type to lash out with when you activate this strike.
+***Клеймо мороза.*** Когда вы попадаете по существу атакой оружием, вы можете потратить 1 очко энергии Водоворота, чтобы попытаться заклеймить его. Цель должна совершить спасбросок Телосложения, при провале получая помеху на атаки оружием до конца своего хода. 
 
-***Elemental Strike.*** When you take the Attack action, you can spend 1 maelstrom point to wreathe your attacks in the element of your Elemental Attunement until the end of your turn. Each attack deals an additional 1d4 damage of your elemental attunement's type on a hit. You choose which of your Elemental Attunements' damage type to lash out with when you activate this strike.
+***Плеть стихий.*** Когда вы попадаете по существу атакой оружием, вы можете потратить 1 очко энергии Водоворота, чтобы обрушить стихии на другое существо на ваш выбор в пределах 15 футов от цели вашей атаки. Это существо должно совершить спасбросок Ловкости, при провале получая 1к10 урона в зависмости от вашей Стихийной настройки. Если вы настроены на две стихии, вы можете выбрать, какой тип урона нанести.
 
-You can use Elemental Strike in combination with another strike when you make an attack.
+***Сокрушающий удар (требуется 7 уровень).*** Когда вы попадаете по существу атакой оружием, вы можете потратить 3 очка энергии Водоворота, чтобы сокрушить его. Цель должна совершить спасбросок Мудрости, при провале становясь недееспособной до начала вашего следующего хода.
 
-***Frostbrand.*** When you hit a creature with a weapon attack, you can spend 1 maelstrom point to attempt a frost&shy;branding strike. The target must succeed on a Constitution saving throw or have disadvantage on weapon attacks until the end of its next turn.
+***Удар валуна.*** Когда вы попадаете по существу атакой оружием, вы можете потратить 1 очко энергии Водоворота, чтобы заставить его совершить спасбросок Силы. При провале оно отталкивается от вас на 15 футов.
 
-***Maelstrom Strike.*** When you take the Attack action, you can spend 1 maelstrom points to make all of your weapon attacks count as magical until the end of your turn.
+***Удар Водоворота.*** Когда вы совершаете действие Атака, вы можете потратить 1 очко энергии Водоворота, чтобы сделать все свои атаки оружием магическими до конца вашего хода.
 
-You can use Maelstrom strike in combination with another strike when you make an attack.
+При атаке вы можете использовать любой другой удар оружием в комбинации с ударом Водоворота.
 
-***Rockbite.*** When you hit a creature with a weapon attack, you can spend 1 maelstrom point to attempt a rockbiting blow. The target must succeed on a Strength saving throw or be knocked prone.
+***Удар молнии.*** Когда вы совершаете действие Атака, вы можете потратить 1 очко энергии Водоворота, чтобы ошеломить его молнией. Существо должно совершить спасбросок Телосложения, при провале теряя возможность использовать реакции до конца вашего следующего хода.
 
-***Stormstrike.*** When you hit a creature with a weapon attack, you can spend 1 maelstrom point to crack lightning across them. The creature must succeed on a Constitution saving throw or be unable to take reactions until the start of your next turn.
+***Удар стихий.*** Когда вы совершаете действие Атака, вы можете потратить 1 очко энергии Водоворота, чтобы наполнить своё оружие силой стихий. До конца вашего хода вы наносите при атаке дополнительно 1к4 урона, тип которого зависит от вашей Стихийной настройки. Если вы настроены на две стихии, вы можете выбрать, какой тип урона нанести.
 
-<div class='footnote'>PART 1 | CLASSES</div>
+При атаке вы можете использовать любой другой удар оружием в комбинации с ударом стихий.
+
+<div class='footnote'>Часть 1 | Классы</div>
 
 \pagebreakNum
 
-### Restoration
-Some shaman find serenity in the restorative properties of water. They do not seek the Light or turn to the divine, yet they feel a profound spiritual connection to the source of mortal life. So strong is their connection to water that the shaman may draw on its power to restore life and heal afflictions, like a tidal wave across a sandy shore. They balance their charge with the other elements, striving for balance and harmony.
+### Исцеление
+Некоторые шаманы находят безмятежность в целебных свойствах воды. Они не ищут Света и не обращаются к божественному, но чувствуют глубокую духовную связь с источником смертной жизни. Их связь с водой настолько сильна, что шаман может использовать её силу, чтобы восстанавливать жизнь и лечить недуги, как приливная волна на песчаном берегу. Вместе с тем они уравновешивают свои обязанности с другими стихиями, стремясь к равновесию и гармонии.
 
-#### Totem Power
-When you choose this binding at 3rd level, you gain the following Totem Power.
+#### Сила тотема
+Когда вы выбирате эту шаманскую связь на 3 уровне, вы получаете следующую силу тотема.
 <div style='margin-top:-6px;'></div>
 
-***Totem Power: Riptide.*** You can activate this totem when a creature within 15 feet of it casts a spell or uses an ability that restores hit points, causing the totem to riptide onto a creature of your choice within 15 feet of it. That creature regains hit points equal to your Wisdom modifier.
+***Сила тотема: Оживляющий прилив.*** Вы можете активировать тотем, когда существо в пределах 15 футов от него накладывает заклинание или использует умение, восстанавливающее хиты. Существо на ваш выбор в пределах 15 футов от тотема восстанавливает хиты в количестве, равном вашему модификатору Мудрости. 
 
-#### Ancestral Guidance
-Starting at 3rd level, your restorative spells are guided by the hand of your ancestors. Whenever you use a spell of 1st level or higher to restore hit points to a creature and roll a 1 or 2, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.
+#### Наставление предков
+Начиная с 3 уровня, духи предков помогают вам, когда вы исцеляете других. Когда вы накладываете заклинание, 1 или более уровня, восстанавливающее хиты, и у вас выпало «1» или «2» на кости исцеления заклинанием, вы можете перебросить эту кость и должны использовать новый результат, даже если снова выпало «1» или «2».
 
-#### Nullifying Forces
-At 6th level, you are able to draw upon the elements to disrupt the spellwork of others. When you cast a spell that targets a friendly creature, you may also attempt to end one spell effect that is currently affecting them. If the spell slot of the effect is of equal or lower level than spell slot of your spell, the effect ends. Otherwise you must make a Wisdom check (DC 10 + the spell's level) to end it.
+#### Гасящая сила
+Начиная с 6 уровня, вы можете воззвать к стихиям, чтобы нарушить действие чужих заклинаний. Когда вы накладываете заклинание на дружественное существо, вы можете попытаться окончить эффект одного из заклинаний, действующих на него на данный момент. Если уровень ячейки наложенного на существо заклинания равен или ниже уровня ячейки вашего заклинания, вы оканчиваете эффект этого заклинания. В ином случае вы должны совершить спасбросок Мудрости (Сл 10+уровень заклинания), чтобы окончить его. 
 
-You can use this feature twice. You regain expended uses when you finish a long rest.
+Вы можете использовать это умение дважды. Вы восстанавливаете все использования этого умения когда заканчиваете продолжительный отдых.
 
 \columnbreak
 
-<div style='margin-top:30px;'></div>
+#### Дар стихии
+С 14 уровня вы можете бонусным действием наделить существо в пределах 30 футов от вас даром стихии, на которую вы настроены умением Стихийная настройка. В течение следующих 10 минут существо может воззвать к стихии и получить её силы.
 
-#### Elemental Boon
-Upon reaching 14th level, you can use your bonus action to grant a creature within 30 feet of you a boon of your Ele&shy;menetal Attunement. Once within the next 10 minutes, the creature can call upon the element and gain its benefits.
-
-Once you use this feature, you can't use it again until you finish a long rest.
+Использовав это умение, вы не можете использовать его повторно, пока не закончите продолжительный отдых.
 <div style='margin-top:10px;'></div>
 
-&nbsp;&nbsp;&nbsp; ***Air.*** The creature can call upon this boon when it is targeted by a weapon attack, making the attack roll miss. The creature can use this feature before or after the roll, but before any effect of the roll is applied.
+&nbsp;&nbsp;&nbsp;&nbsp; ***Вода.*** Существо может воззвать к дару, когда оно становится целью атаки или заклинания. До конца следующего хода существо не может быть выбрано в качестве цели атаки или заклинания, и атакующий должен выбрать другое существо, в ином случае теряя действие. Существо всё ещё получает урон от таких заклинаний, как *огненный шар [fireball]*.
 
-***Earth.*** The creature can call upon this boon when it is hit by an attack, gaining a number of temporary hit points equal to your shaman level. These hit points lasts until the end of the next turn.
+***Воздух.*** Когда по существу, наделённому даром, совершается атака, существо может воззвать к дару, чтобы эта атака по нему промахнулась. Существо может использовать это умение до или после броска, но до того, как к нему будут применены какие-либо модификаторы. 
 
-***Fire.*** The creature can call upon this boon when it is hit by a melee attack, to wreathe the attacking creature in fire. The creature must succeed on a Dexterity saving throw or take fire damage equal to your shaman level.
+***Земля.*** Существо может воззвать к дару, когда по нему попадают атакой. Оно немедленно получает временные хиты в количестве, равному уровню шамана. Эти временные хиты существуют до конца следующего хода существа. 
 
-***Water.*** The creature can call upon this boon when it is targeted by an attack or spell. Until the end of the next turn, the creature cannot be targeted by any attack or spell and the attacking creature must choose another target or lose their action. The creature still takes damage from things such as a *fireball* spell.
+***Огонь.*** Существо может воззвать к дару, когда по нему попадают атакой, чтобы объять атакующего пламенем. Атакующий должен совершить спасбросок Ловкости, при провале получая урон в количестве, равному вашему уровню шамана.
 
-#### Wellspring
-At 20th level, you become a fount of restorative energies through the forces of the Elemental Plane. When you would normally roll one or more dice to restore hit points with a spell, you instad use the highest number possible for each die. For example, instead of restoring 2d6 hit points to a creature, you restore 12 hit points.
+#### Исток
+Начиная с 20 уровня,, вы становитесь источником исцеляющей энергии благодаря силам Обители стихий. Когда вам требуется совершить бросок костей, чтобы восстановить хиты заклинанием, вместо этого вы исцеляете на максимально возможное значение для каждой кости. Например, вместо того, чтобы исцелить существо на 2к6 хитов, вы исцеляете его на 12 хитов.
 
-<div class='footnote'>PART 1 | CLASSES</div>
+<div class='footnote'>Часть 1 | Классы</div>
 <img src='https://www.gmbinder.com/images/owfSJiy.jpg' style='position:absolute; top:590px; right:-200px; width:1000px' />
 <img src='https://www.gmbinder.com/images/wvTUmvu.png' style='position:absolute; top:0px; right:0px; width:1000px' />
 
@@ -683,296 +703,311 @@ At 20th level, you become a fount of restorative energies through the forces of 
 
 <div style='column-count:2'>
 
-### Shaman Spells
-##### Cantrips (0 Level)
-Booming Blade ^SCAG^
-<br> Control Flames ^XGE^
-<br> Create Bonfire ^XGE^
-<br> Fire Bolt
-<br> Frostbite ^XGE^
-<br> Gust ^XGE^
-<br> ✦ Invoke Elements
-<br> ✦ Lightning Blast
-<br> Lightning Lure ^SCAG^
-<br> Mending
-<br> Mold Earth ^XGE^
-<br> Produce Flame
-<br> Shape Water ^XGE^
-<br> Shocking Grasp
-<br> Thunderclap ^XGE^
+### Заклинания шамана
+##### Заговоры (0 уровень)
+Власть над огнём ^XGE^
+<br> Громовой клинок ^TCoE^
+<br> Лассо молний ^TCoE^
+<br> Лепка земли ^XGE^
+<br> Обморожение ^XGE^
+<br> Огненный снаряд
+<br> Починка
+<br> ✦ Призыв стихий
+<br> Раскат грома ^XGE^
+<br> Сотворение костра ^XGE^
+<br> Сотворение пламени
+<br> Формование воды ^XGE^
+<br> Шквал ^XGE^
+<br> ✦ Шоковый заряд
+<br> Электрошок
 
-##### 1st Level
-Absorb Elements ^XGE^
-<br> Create or Destroy Water
-<br> Cure Wounds
-<br> Detect Magic
-<br> Detect Poison and Disease
-<br> Earth Tremor ^XGE^
-<br> ✦ Elemental Shock
-<br> Fog Cloud
-<br> ✦ Lightning Shield
-<br> Searing Smite
-<br> Thunderous Smite
-<br> Thunderwave
 
-##### 2nd Level
-Augury
-<br> Continual Flame
-<br> Dust Devil ^XGE^
-<br> Gust of Wind
-<br> Healing Spirit ^XGE^
-<br> Heat Metal
-<br> ✦ Lava Burst
-<br> Lesser Restoration
-<br> Maximilian's <br>&nbsp;&nbsp;&nbsp; Earthen Grasp ^XGE^
-<br> Protection from Poison
-<br> Shatter
-<br> Skywrite ^XGE^
-<br> Warding Wind ^XGE^
+##### 1 уровень
+Волна грома
+<br> Громовая кара
+<br> Дрожь земли ^XGE^
+<br> Лечение ран
+<br> Обнаружение болезни и яда
+<br> Обнаружение магии
+<br> Палящая кара
+<br> Поглощение стихий ^XGE^
+<br> Сотворение/уничтожение воды
+<br> ✦ Стихийный шок
+<br> Туманное облако
+<br> ✦ Щит молний
 
-##### 3rd Level
-Call Lightning
-<br> ✦ Chain Heal
-<br> Counterspell
-<br> Dispel Magic
-<br> ✦ Earthen Spike
-<br> Erupting Earth ^XGE^
-<br> Lightning Bolt
-<br> Magic Circle
-<br> Meld Into Stone
-<br> Protection from Energy
-<br> Revivify
-<br> Spirit Guardians
-<br> Thunder Step ^XGE^
-<br> Tidal Wave ^XGE^
+
+
+
+##### 2 уровень
+Вечный огонь
+<br> ✦ Выброс лавы
+<br> Гадание
+<br> Дребезги
+<br> Защита от яда
+<br> Защитный ветер ^XGE^
+<br> Земляная хватка <br>    Максимилиана ^XGE^
+<br> Исцеляющий дух ^XGE^
+<br> Малое восстановление
+<br> Небесные письмена ^XGE^
+<br> Порыв ветра
+<br> Пылевой вихрь ^XGE^
+<br> Раскалённый металл
+
+##### 3 уровень
+Возрождение
+<br> Водяная стена ^XGE^
+<br> ✦ Волна лечения
+<br> Громовой шаг ^XGE^
+<br> Духовные стражи
+<br> Защита от энергии
+<br> ✦ Земляной шип
+<br> Извержение земли ^XGE^
+<br> Контрзаклинание
+<br> Магический круг
+<br> Молния
+<br> Подводное дыхание
+<br> Призыв молнии
+<br> Приливная волна ^XGE^
+
 
 \columnbreak
 
+<br> Рассеивание магии
+<br> Слияние с камнем
+<br> Стена ветров
+<br> Хождение по воде
 <div style='margin-top:28px;'></div>
 
-<br> Wall of Water ^XGE^
-<br> Water Breathing
-<br> Water Walk
-<br> Wind Wall
 
-##### 4th Level
-Conjure Minor Elementals
-<br> Control Water
-<br> Elemental Bane ^XGE^
-<br> Freedom of Movement
-<br> Locate Creature
-<br> Polymorph
-<br> Stone Shape
-<br> Stoneskin
-<br> Storm Sphere ^XGE^
-<br> Wall of Fire
-<br> Watery Sphere ^XGE^
+##### 4 уровень
+Власть над водами
+<br> Водяная сфера ^XGE^
+<br> Изменение формы камня
+<br> Каменная кожа
+<br> Поиск существа
+<br> Превращение
+<br> Призыв малых элементалей
+<br> Проклятье стихий ^XGE^
+<br> Свобода перемещения
+<br> Сфера бури ^XGE^
 
-##### 5th Level
-✦ Bloodlust and Heroism
-<br> Commune with Nature
-<br> Conjure Elemental
-<br> Control Winds ^XGE^
-<br> Greater Restoration
-<br> ✦ Healing Rain
-<br> Legend Lore
-<br> Maelstrom ^XGE^
-<br> Mass Cure Wounds
-<br> ✦ Reincarnation
-<br> Scrying
-<br> Steel Wind Strike ^XGE^
-<br> Wall of Stone
+##### 5 уровень
+Власть над ветрами ^XGE^
+<br> Водоворот ^XGE^
+<br> Высшее восстановление
+<br> ✦ Героизм/Жажда крови
+<br> Знание легенд
+<br> Каменная стена
+<br> Множественное лечение ран
+<br> Наблюдение
+<br> Общение с природой
+<br> ✦ Перерождение
+<br> Призыв элементаля
+<br> Удар стального ветра ^XGE^
+<br> ✦ Целительный ливень
 
-##### 6th Level
-Bones of the Earth ^XGE^
-<br> Chain Lightning
-<br> Flesh to Stone
-<br> Investiture of Stone ^XGE^
-<br> Investiture of Wind ^XGE^
-<br> Move Earth
-<br> Primordial Ward ^XGE^
-<br> Wind Walk
+##### 6 уровень
+Движение почвы
+<br> Кости земли ^XGE^
+<br> Облачение ветра ^XGE^
+<br> Облачение камня ^XGE^
+<br> Окаменение
+<br> Первородный страж ^XGE^
+<br> Пляшущая молния
+<br> Хождение по ветру
 
-##### 7th Level
-Etherealness
-<br> Prismatic Spray
-<br> Regenerate
-<br> Whirlwind ^XGE^
+##### 7 уровень
+Радужные брызги
+<br> Регенерация
+<br> Смерч ^XGE^
+<br> Эфирность
 
-##### 8th Level
-Antimagic Field
-<br> ✦ Cataclysm
-<br> Control Weather
-<br> Earthquake
-<br> Tsunami
+##### 8 уровень
+Власть над погодой
+<br> Землетрясение
+<br> ✦ Катаклизм
+<br> Преграда магии
+<br> Цунами
 
-##### 9th Level
-Foresight
-<br> Imprisonment
-<br> Mass Heal
-<br> Storm of Vengeance
-<br> True Resurrection
+
+##### 9 уровень
+Гроза гнева
+<br> Заточение
+<br> Истинное воскрешение
+<br> Множественное полное исцеление
+<br> Предвидение
 <div style='margin-top:1000px;'></div>
 </div>
 
 \columnbreak
 
-#### Bloodlust and Heroism
-*5th-level enchantment*
+#### Волна лечения
+*3 уровень, воплощение*
 ___
-- **Casting Time:** 1 action
-- **Range:** self (30-feet radius)
-- **Components:** V, S
-- **Duration:**  Concentration, up to 1 minute
+- **Время накладывания:** 1 действие
+- **Дистанция:** 30 футов (15 футов между целями)
+- **Компоненты:** В, С
+-  **Длительность:** Мгновенная
 ___
-You imbue creatures of your choice within range with the will and determination to fight harder. Each target gains the following benefits for the duration of the spell.
+Луч исцеляющей энергии пронизывает дружественных существ. Выберите цель в пределах досягаемости, затем выберите цель в пределах досягаемости от неё и ещё одну в пределах досягаемости второй цели. Вы не можете выбрать одну и ту же цель более одного раза. Каждая цель, выбранная этим заклинанием, восстанавливает количество хитов, равное 2к4 + модификатор вашей базовой характеристики заклинаний. Это заклинание не действует на нежить и конструктов.
 
-- The target is immune to being frightened and any frightened condition on the target is surpressed for the spell's duration.
-- Whenever the target makes an attack roll or a saving throw before the spell ends, the target can roll a d4 and add the number rolled to the attack roll or saving throw.
-- The target gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell.
+***На больших уровнях:*** Если вы накладываете это заклинание, используя ячейку 4 уровня или выше, волна лечения вы можете сделать целью одно дополнительное существо за каждый уровень ячейки выше 3. 
 
-#### Cataclysm
-*8th-level conjuration*
+#### Выброс лавы
+*2 уровень,  воплощение*
 ___
-- **Casting Time:** 1 action
-- **Range:** 150 feet
-- **Components:** V, S, M (a piece of charcoal)
-- **Duration:** Concentration, up to 10 minutes
+- **Время накладывания:** 1 действие
+- **Дистанция:** 60 футов
+- **Компоненты:** В, С
+- **Длительность:** Мгновенная
 ___
-The ground cracks as fissures reveal molten magma beneath the surface in a 20-foot radius centered on a point within range. The fissures are harmless and too small to deal damage to any creature that moves over them.
+Вы призываете шар раскалённой магмы и расплавленного камня и бросаете его в цель в пределах дистанции. Цель должна совершить спасбросок Ловкости, при провале получая 3к6 урона огнём и 3к6 дробящего урона или половину этого урона при успехе. 
 
-Once while you are concentrating on the spell, you can use your action to erupt the fissured in a torrent of flames until the spell ends or you use your bonus action to calm the fissures. Each creature in the area of the cataclysm must make a Constitution saving throw. A creature takes 10d8 fire damage on a failed save, or half as much damage on a successful one. 
+***На больших уровнях:*** Если вы накладываете это заклинание, используя ячейку 3 уровня или выше, дробящий урон и урон огнём увеличиваются на 1к6 за каждый уровень ячейки выше 2.
 
-A creature must also make this saving throw when it enters the spell's area for the first time on a turn or ends its turn there.
-
-#### Chain Heal
-*3rd-level evocation*
+#### Героизм/Жажда крови
+*5 уровень,  очарование*
 ___
-- **Casting Time:** 1 action
-- **Range:** 30 feet (15-feet between targets)
-- **Components:** V, S
-- **Duration:** Instantaneous
+- **Время накладывания:** 1 действие
+- **Дистанция:** На себя (30-футовый радиус)
+- **Компоненты:** В
+- **Длительность:**  Концентрация, вплоть до 1 минуты
 ___
-A beam of restorative energies surges through a friendly creatures. Choose a target within range, then choose a target within range of it, and another within range of the second target. You can't choose the same target more than once. Each target chosen by this spell regains a number of hit points equal to 2d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.
+Вы наполняете выбранных вами существ в пределах досягаемости волей и решимостью сражаться до конца. Каждая цель получает следующие преимущества на время действия заклинания.
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the chain heal surges through one additional target for each slot level above 3rd.
+- Цель имеет иммунитет к испугу, и если цель была испугана, эффект испуга подавляется на время действия заклинания.
+- Каждый раз, когда цель совершает бросок атаки или спасбросок до окончания заклинания, она может бросить к4 и добавить выброшенное число к броску атаки или спасброску.
+- Цель получает временные хиты, равные вашему модификатору базовой заклинательной характеристики, в начале каждого своего хода. Когда заклинание заканчивается, цель теряет все оставшиеся от этого заклинания временные хиты.
 
-<div class='footnote'>PART 2 | SPELLS </div>
+
+<div class='footnote'>Часть 2 | Заклинания </div>
 
 \pagebreakNum
 
-#### Earthen Spike
-*3rd-level transmutation*
+#### Каменный шип
+*3 уровень, преобразование*
 ___
-- **Casting Time:** 1 action
-- **Range:** 60 feet
-- **Components:** V, S, M (a granite pebble)
-- **Duration:** Concentration, up to 1 hour
+- **Время накладывания:** 1 действие
+- **Дистанция:** 60 футов
+- **Компоненты:** В, С, М (гранитная галька)
+- **Длительность:**  Концентрация, вплоть до 1 часа
 ___
-You place your hand on the ground and evoke the element of earth, erupting a spike of earth at a point within range. A 5-foot radius, 15-foot high spike of earth erupts from that point. Each creature within that area must make a Dexterity saving throw. On a failed save, a creature takes 6d8 bludgeoning damage, or half as much damage on a success. Each creature affected by this spike is pushed away from the point of the spell to the nearest empty space. A creature who failed the saving throw falls prone.
+Взывая к стихии земли, вы кладёте руку на землю и прорываете её поверхность в указанной точке в пределах дистанции каменным шипом с радиусом в 5 футов и высотой в 15 футов. Каждое существо в месте выхода шипа должно совершить спасбросок Ловкости, при провале получая 6к8 дробящего урона и сбиваясь с ног, или половину этого урона при успехе, не сбиваясь с ног при этом. Каждое существо, задетое этим шипом, отталкивается от точки накладывания заклинания к ближайшему пустому пространству.
 
-The earthen spike remains for the duration of the spell or until your concentration is broken at which point it crumbles, leaving its area as difficult terrain. When it crumbles, each creature within 5 feet of it must succeed on a Dexterity saving throw or take 1d6 bludgeoning damage. 
+Каменный шип остается на время действия заклинания или до тех пор, пока ваша концентрация не будет прервана, после чего он рассыпается, превращая местность, на которой он находился, в труднопроходимую. Когда он рассыпается, каждое существо в пределах 5 футов от него должно преуспеть в спасброске Ловкости, при провале получая дробящий урон 1к6.
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.
 
-#### Elemental Shock
-*1st-level evocation*
+***На больших уровнях:*** Если вы накладываете это заклинание, используя ячейку 4 уровня или выше, урон увеличивается на 1к8 за каждый уровень ячейки выше 3.
+
+#### Катаклизм
+*8 уровень, вызов*
 ___
-- **Casting Time:** 1 action
-- **Range:** 60 feet
-- **Components:** V, S, M (a piece of brimstone, granite, glass, and a feather)
-- **Duration:** Instantaneous
+- **Время накладывания:** 1 действие
+- **Дистанция:** 150 футов
+- **Компоненты:** В, С, М (кусочек угля)
+- **Длительность:**  Концентрация, вплоть до 10 минут
 ___
-You manifest a burst of elemental force around a creature within range. You choose acid, cold, fire, lightning, or thunder for the shock you make, the creature must then make a Dexterity saving throw. Taking 3d8 of the chosen damage type on a failed save, or half as much on a success.
+Земля раскалывается, и разломы в ней открывают расправленную магму под поверхностью в радиусе 20 футов с центром в точке, выбранную вами в пределах дистанции. Сами разломы безвредные и слишком мелкие, чтобы оказывать вред тем, кто проходит по ним. 
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.
+Единожды, пока вы концентрируетесь на этом заклинании, вы можете действием выплеснуть из разломов потоки огня, существующие до конца действия заклинания или до тех пор, пока вы не уймёте разломы бонусным действием. Каждое существо в области катаклизма должно совершить спасбросок Телосложения. Существо получает 10к8 урона огнём при провале и половину этого урона при успехе. После того, как вы утихомирили разломы, вы можете действием снова выплеснуть из разломов потоки огня.
 
-#### Healing Rain
-*5th-level transmutation*
+Также существо должно совершить спасбросок, когда впервые входит в зону действия заклинания или оканчивает ход в ней. 
+
+#### Перерождение
+*5 уровень, некромантия*
 ___
-- **Casting Time:** 1 action
-- **Range:** 120 feet
-- **Components:** V, S, M (a vial of rain water)
-- **Duration:** Concentration, up to 1 minute
+- **Время накладывания:** 10 минут
+- **Дистанция:** на себя
+- **Компоненты:** В, С, М (украшенный драгоценностями анх стоимостью минимум в 500 зм)
+- **Длительность:**  10 дней
 ___
-You summon a cloud at a point within range, blanketing a 15-foot radius area around it in rain. Each friendly creature enters the rain for the first time on their turn, or starts their turn within the rain regains 2d6 hit points. The healing rain extinguishes nonmagical fires within its area of effect.
+Вы защищаете свою душу силой стихий. Если вы умираете во время действия заклинания, вы мгновенно возвращаетесь к жизни с половиной ваших хитов, и материальный компонент расходуется.
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the healing increases by 1d6 for every two slot levels above 5th.
+Это заклинание нейтрализует любые яды и лечит обычные болезни, поражающие вас, когда вы умираете. Однако оно не устраняет магические болезни, проклятия и тому подобное; если такие эффекты не снимаются до смерти, они всё равно поражают вас.
 
-#### Invoke Elements
-*Transmutation cantrip*
+Это заклинание закрывает все смертельные раны и восстанавливает все недостающие части тела.
+
+Воскрешение из мёртвых — это тяжелое испытание. Вы получаете штраф −4 ко всем броскам атаки, спасброскам и проверкам характеристик. Каждый раз, когда вы заканчиваете продолжительный отдых, штраф уменьшается на 1, пока он не исчезнет.
+
+Если вы снова произнесёте это заклинание, действие любого ранее наложенного заклинания *перерождение* закончится. Заклинание также оканчивается преждевременно, если его материальный компонент пропадает с вашего тела. 
+
+#### Призыв стихий
+*Заговор, преобразование*
 ___
-- **Casting Time:** 1 action
-- **Range:** 30 feet
-- **Components:** V, S
-- **Duration:** Up to 1 minute
+- **Время накладывания:** 1 действие
+- **Дистанция:** 30 футов
+- **Компоненты:** В, С
+- **Длительность:**  Концентрация, вплоть до 1 минуты
 ___
-You invoke a minor portion of the elements. You create one of the following magical effects within range:
+Вы призываете небольшую крупицу силы стихий. Вы создаете один из следующих магических эффектов в пределах дистанции: 
 
- - You create a harmless sensory effect that predicts what the weather will be for the next 24 hours. This effect persists for 1 round.
- - You light or put out a small flame.
- - You cause flames to flicker, brighten, drim, or change color for 1 minute.
- - You cause harmless tremors in the ground for 1 minute.
- - You cool or heat up a small amount of liquid.
+ - Вы создаете безвредный сенсорный эффект, предсказывающий погоду в текущем месте в течение следующих 24 часов. Эффект длится 1 ход. 
+ - Вы зажигаете или тушите небольшое пламя.
+ - Вы заставляете пламя в течение 1 минуты мерцать, светить ярче или тусклее, или изменять цвет.
+ - Вы вызываете безвредную дрожь в полу в течение 1 минуты.
+ - Вы остужаете или нагреваете небольшое количество жидкости. 
 
-If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.
+Если вы накладываете это заклинание несколько раз, вы можете иметь не более трёх немгновенных эффектов одновременно и можете действием окончить один любой из этих эффектов.
 
-#### Lava Burst
-*2nd-level evocation*
+#### Стихийный шок
+*1 уровень, воплощение*
 ___
-- **Casting Time:** 1 action
-- **Range:** 60 feet
-- **Components:** V, S
-- **Duration:** Instantaneous
+- **Время накладывания:** 1 действие
+- **Дистанция:** 60 футов
+- **Компоненты:** В, С, М (кусочек серы, гранит, стекло и перо) 
+- **Длительность:** Мгновенная
 ___
-You manifest molten stone and magma into a ferocious ball, and hurl it at a target within range. The target must make a Dexterity saving throw. On a failed save, it takes 3d6 fire damage and 3d6 bludgeoning damage, or half as much on a successful one.
+Вы призываете разрушительные силы стихий вокруг существа в пределах дистанции. Выберите тип урона: звук, кислота, огонь, холод или электричество. Существо должно совершить спасбросок Ловкости, при провале получая 3к8 урона выбранного типа и половину этого урона при успехе. 
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 fire and bludgeoning damage for each slot above 2nd.
+***На больших уровнях:*** Если вы накладываете это заклинание, используя ячейку 2 уровня или выше, урон увеличивается на 1к8 за каждый уровень ячейки выше 1.
 
-#### Lightning Blast
-*Evocation cantrip*
+#### Целительный ливень
+*5 уровень, преобразование*
 ___
-- **Casting Time:** 1 action
-- **Range:** 60 feet
-- **Components:** S
-- **Duration:** Instantaneous
+- **Время накладывания:** 1 действие
+- **Дистанция:** 120 футов
+- **Компоненты:** В, С, М (флакон с дождевой водой)
+- **Длительность:**  Концентрация, вплоть до 1 минуты
 ___
-An arc of lightning streaks from your palms towards a creature within range. Make a ranged spell attack. On a hit, the target takes 1d8 lightning damage. If the target is wearing armor made of metal, it instead takes 1d12 lightning damage.
+Вы вызываете облако в точке в пределах досягаемости, обливая дождём область радиусом 15 футов вокруг этой точки. Когда дружественное существо входит в дождь в первый раз в свой ход или начинает свой ход под дождём, оно восстанавливает 2к6 хитов. Целебный дождь тушит немагические пожары в своей области действия.
 
-This spell's damage increases by 1d8 when you reach 5th level (2d8 or 2d12), 11th level (3d8 or 3d12), and 17th level (4d8 or 4d12).
-
-#### Lightning Shield
-*1st-level abjuration*
-___
-- **Casting Time:** 1 bonus action
-- **Range:** 60 feet
-- **Components:** S
-- **Duration:** Concentration, up to 10 minutes
-___
-You call upon the element of air and surround a friendly target within range with a field of crackling electricity. Until the spell ends, the target gains a +1 bonus to AC and when a creature hits it with a melee attack, that creature takes 1d4 lightning damage.
-
-***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d4 for each slot level above 1st.
-
-<div class='footnote'>PART 2 | SPELLS </div>
+***На больших уровнях:*** Если вы накладываете это заклинание, используя ячейку 7 уровня или выше, лечение увеличивается на 1к6 за каждые два уровня ячейки выше 5. 
 
 \pagebreakNum
 
-#### Reincarnation
-*5th-level necromancy*
+#### Шоковый заряд
+*Заговор, воплощение*
 ___
-- **Casting Time:** 10 minutes
-- **Range:** Self
-- **Components:** V, S, M (a bejeweled ankh worth 500 gp)
-- **Duration:** 10 days
+- **Время накладывания:** 1 действие
+- **Дистанция:** 60 футов
+- **Компоненты:** С
+- **Длительность:** Мгновенная
 ___
-You protect your soul with the power of the elements. If you die during the spell's duration, you are instantly returned to life with half your hit points and the material component is consumed. 
+С ваших ладоней к существу в пределах дистанции устремляется электрическая дуга.  Совершите дальнобойную атаку заклинанием. При попадании цель получает 1к8 урона электричеством. Если цель также носит броню из металла, оно вместо этого получает 1к12 урона электричеством. 
 
-This spell neutralizes any poisons and cures normal diseases afflicting you when you died. It doesn't, however, remove magical diseases, curses, and the like; if such effects aren't removed prior to dying, they still afflict you. 
+**На больших уровнях:*** Урон этого заклинания увеличивается на 1к8, когда вы достигаете 5 уровня (2к8 и 2к12), 11 уровня (3к8 и 3к12) и 17 уровня (4к8 и 3к12).
 
-This spell closes all mortal wounds and restores any missing body parts.
+#### Щит молний
+*1 уровень, ограждение*
+___
+- **Время накладывания:** 1 бонусное действие
+- **Дистанция:** 60 футов
+- **Компоненты:** С
+- **Длительность:**  Концентрация, вплоть до 10 минут
+___
+Вы взываете к стихии воздуха и окружаете дружественное существо в пределах дистанции щитом из потрескивающих молний. Пока заклинание не окончится, это существо получает бонус +1 к КД, и когда по нему попадают ближней атакой оружием, атакующий получает 1к4 электрического урона. 
 
-Coming back from the dead is an ordeal. You take a −4 penalty to all attack rolls, saving throws, and ability checks. Every time you finish a long rest, the penalty is reduced by 1 until it disappears.
+***На больших уровнях:*** Если вы накладываете это заклинание, используя ячейку 2 уровня или выше, урон увеличивается на 1к4 за каждый уровень ячейки выше 1.
 
-If you cast this spell again, the effect of any previously cast reincarnation spell ends. The spell ends prematurely <br> if its material component is ever not on your person.
+\columnbreak
 
-<div class='footnote'>PART 2 | SPELLS </div>
+&nbsp;
+
+<div class="stamp" style="position: absolute; bottom: 130px"></div>
+
+<div style="position: absolute; bottom: 60px; font-family: Alegreya Sans">
+<b>Перевод:</b> Тайольн О'тар<br/><b>Вычитка:</b> Майя Эверетт
+</div>
+
+<div class='footnote'>Часть 2 | Заклинания </div>
