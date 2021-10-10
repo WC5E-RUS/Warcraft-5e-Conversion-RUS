@@ -274,8 +274,8 @@
 
 <div class='partpage'>
 
-# Part III
-##### Variant Rules
+# Часть III
+##### Опциональные правила
 </div>
 
 <style> .phb#p142:after { display:none; } </style>
@@ -283,132 +283,138 @@
 
 \pagebreak
 
-# Variant Rule:  Hero Points
-A paladin who stands alone against a horde of undead while his companions heal a dying comrade, a rogue who leaps after a precious artifact dropped from a lofty tower balcony, a warrior who throws himself against a vastly superior opponent. . . These are the heroes whose actions inspire stories and legends.
+# Опциональное правило:  Очки героизма
+Паладин, стоящий в одиночку против орды нежи&shy;ти, пока его спутники лечат умирающего товари&shy;ща, разбойник, прыгающий за драго&shy;ценным арте&shy;фактом, упавшим с балкона высокой башни, воин, бросающийся против значительно превос&shy;ходящего противника. . . Это герои, кото&shy;рые действиями вдохновляют истории и легенды.
 
-The actions of a hero often include acts of such a daring nature and chance that it is almost impossible to guarantee a sure outcome. Even though every hero confronts perils, fate is on the side of those who face adversity head on and challenge evil and darkness without fear of death.
+Действия героя часто включают в себя поступки настолько смелого характера и случайности, что почти невозможно гарантировать верный исход. Несмотря на то, что каждый герой сталкивается с опасностями, судьба на стороне тех, кто сталкивается с невзгодами лицом к лицу и бросает вызов злу и тьме, не опасаясь смерти.
 
-Instead of earning inspiration as you venture through the world of Warcraft, you can choose to give your players Hero Points for their daring acts against powerful foes.
+Вместо того, чтобы зарабатывать вдохновение, путешествуя по миру *Варкрафта*, вы можете дать своим игрокам очки героизма за их смелые действия против могущественных врагов.
 
-Hero points are rewards for that type of valiant action, these points allow a player to bend the fates in his character's favor, and such power requires more hands-on judgement from a DM than most other rules. Hero points blur the lines of action and allow characters to perform the exceptional and even the impossible.
+Очки героизма - это награда за такой тип отважных действий, что эти очки позволяют игроку склонить судьбу в пользу своего персонажа, и такая сила требует большего практического суждения со стороны Мастера, чем большинство других правил. Очки героизма стирают границы действий и позволяют персонажам совершать исключительное и даже невозможное.
 
-### Gaining Hero Points
-The power given by hero points can be immense, your DM can choose to grant you a hero point for your heroic actions. Some adventurers might never earn a hero point, and even when characters does, there is no guarantee that the player will use it when the right time comes. Your DM will tell you how you can earn a hero point in the game.
+### Получение очков героизма
+Сила, даваемая очками героизма, может быть огромной, ваш Мастер может предоставить вам очко героизма за ваши героические подвиги. Некоторые искатели приключений могут так и не заработать очко героизма, и даже если персонаж зарабатывает, нет гарантии, что игрок воспользуется им, когда придет время. Ваш Мастер скажет вам, как вы можете заработать очко героизма в игре.
 
-You either have a hero point or you don't, you can't stockpile multiple "hero points" for later use. Likewise, you cannot earn a hero point through an action that you spend a hero point on performing.
+У вас либо есть очко героизма, либо его нет, вы не можете накопить несколько «очков героизма» для дальнейшего использования. Точно так же вы не можете заработать очко героизма за действие, на выполнение которого вы потратили очко героизма.
 
-### Using Hero Points
-If you have a hero point, you can expend it when you make an attack roll, cast a spell, saving throw, or when being attacked. Spending your hero point makes the check you were an immediate success.
+### Использование очков героизма
+Если у вас есть очко героизма, вы можете потратить его, когда совершаете бросок атаки, спасбросок, накладываете заклинание или когда вас атакуют. Потратив ваше очко героизма, вы сразу добиваетесь успеха.
 
-#### Action Surger
-You can expend your hero point to make the next turn yours, out of initiative order. Once you've finished the turn, the initiative goes back to normal, and you return to your place in the initiative count.
+#### Всплекс действий
+Вы можете потратить свое очко героизма, чтобы сделать следующий ход вашим, вне зависимости от инициативы. После того, как вы закончите ход, инициатива возвращается в норму, и вы возвращаетесь на свое место в порядке инициативы.
 
-#### Physical Fighter
-You can expend your hero point when rolling for a weapon attack, treating your attack roll as a successful hit. When done, the player chooses one of the following effects:
-
-**Powerful Blow.** Your weapon attack acts as a Massive Critical Hit, roll the attack's damage dice twice and add them together. Then add any relevant modifiers as normal, and add your character level to the damage.
+#### Боец
+Вы можете расширить своим очком героизма при совершении броска атаки оружием, считая свой бросок атаки успешным попаданием. Когда закончите, игрок выбирает один из следующих эффектов:
 
 \columnbreak
 
-&nbsp;&nbsp;&nbsp; **Mutilate.** Your weapon attack mutilates the target, deal&shy;ing normal weapon damage, and attempts to cut off a limb (if any) of your choice. The creature must succeed on a Constitution saving throw or have a limb of your choice cut off. The DC equals 10 or half the damage done to it.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Мощный удар.** Ваша атака оружием совершается как массивный критический удар, дважды бросьте кости урона атаки и сложите их. Затем добавьте любые соответствующие модификаторы, как обычно, и добавьте уровень вашего персонажа к урону.
 
- - ***Arm / Hand.*** You cut off the creatures arm, making it unable to hold two items at once, or cast spells while their remaining arm is carrying an object.
- - ***Leg / Foot.*** You cut off the creatures leg, reducing its movement speed by half, and giving opportunity attacks against it advantage. In addition, the creature can't dash.
- - ***Eye.*** You pierce out the creatures eye, giving it disadvan&shy;tage on Perception checks, and reducing its passive Per&shy;ception by 5. If both eyes are removed, or if the creature only has one, it is considered Blinded. This mutilation has no effect if the damage dealt is bludgeoning.
+&nbsp;&nbsp;&nbsp; **Увечие.** Ваша атака оружием калечит цель, наносит обычный урон от оружия и пытается отрезать конечность (если есть) по вашему выбору. Существо должно преуспеть в спасброске Телосложения, иначе у него будет отрезанная конечность по вашему выбору. Сложность равняется 10 иначе ему наносится половина урона.
 
-#### Spell Fighter
-You can expend your hero point when you cast a spell, treating your spell attack as a successful hit. When done, the player chooses one of the following effects:
+ - ***Рука / Предплечье.*** Вы отрезаете руку существа, делая его неспособным удерживать два предмета одновременно, или накладывать заклинания, пока их оставшаяся рука несет предмет.
+ - ***Нога / Голень.*** Вы отрезаете ногу существу, уменьшая его скорость передвижения вдвое и давая возможность атаковать его с преимуществом. Кроме того, существо не может совершить действие Рывок.
+ - ***Глаз.*** Вы прокалываете глаз существа, давая ему помеху по проверкам Восприятия и уменьшая его пассивное Восприятие на 5. Если оба глаза удалены или если у существа только один, оно считается Ослепленным. Это увечье не действует, если нанесенный урон дробящий.
 
-**Power Surge.** Your spell attack acts as a Massive Criti&shy;cal Hit, roll the attack's damage dice twice and add them together. Then add any relevant modifiers as normal, and add your character level to the damage.
+#### Боевой заклинатель
+Вы можете потратить свое очко героизма, когда накладываете заклинание, считая свою атаку заклинанием успешным попаданием. Когда закончите, игрок выбирает один из следующих эффектов:
 
-**Precision Spell.** You can choose a number of creatures equal to your spellcasting ability modifier to automatically succeed and fail on a saving throw to resist or negate your spells effect.
+**Всплеск силы.** 
+Ваша атака заклинанием совершается как массивный критический удар, дважды бросьте кости урона атаки и сложите их. Затем добавьте любые соответствующие модификаторы, как обычно, и добавьте уровень вашего персонажа к урону.
 
-#### Defensive
-You can expend your hero point when you're being targeted by a spell or attack. When done, the player chooses one of the following effects:
+**Аккуратное заклинание.** 
+Вы можете выбрать количество существ, равное вашему модификатору базовой характеристики заклинаний, чтобы автоматически преуспеть и потерпеть неудачу в спасброске, чтобы противостоять или нейтрализовать эффект ваших заклинаний.
 
-**Dodger.** One attack roll made against you that you can see automatically misses, no matter what was rolled.
+#### Защита
+Вы можете потратить свое очко героизма, когда на вас нацелены заклинания или атаки. По завершении игрок выбирает один из следующих эффектов:
 
-**Hardy.** You succeed on your saving throw, and gain the effects of rogues *evasion* until the end of the current turn.
+**Ловкач.** Один бросок атаки, сделанный против вас, который вы видите, автоматически промахивается, независимо от того, что было выброшено.
 
-#### Survivor
-You can expend your hero point after failing a death saving throw, or when suffering from massive damage. Changing your health to 0 and making you stable.
+**Стойкий.** Вы преуспеваете в своем спасброске и получаете эффекты разбойников *Уклонение* до конца текущего хода.
 
-At the DM's discretion you may suffer some signature injury (A scar, lost eye, a limp, and so on) befitting the circumstances, as a reminder that hero points will not always be there to save you.
+#### Выживший
+Вы можете потратить свое очко героизма после провала спасброска от смерти или при сильном повреждении. Изменение вашего здоровья до 0 и стабилизация.
 
-#### Born Expert
-You can expend a hero point before or after rolling a skill check, changing the roll to a natural 20. Hero points can't be used to alter the result of skill checks using Intelligence, Wisdom, or Charisma.
+По усмотрению Мастера вы можете получить некоторую характерную травму (шрам, потерянный глаз, конечность и т.д.) в зависимости от обстоятельств, как напоминание о том, что очки героизма не всегда будут спасать вас.
 
-Hero points are meant as a burst of energy or force, they do not suddenly make someone more charismatic, or grant them knowledge of Dalarans vast library.
 
-<div class='footnote'>PART 3 | VARIANT RULES</div>
+<div class='footnote'>ЧАСТЬ 3 | ОПЦИОНАЛЬНЫЕ ПРАВИЛА</div>
 
 \pagebreakNum
 
-# Variant Rule: Mana
-With this variant rule, a character who has the Spellcasting feature uses mana instead of spell slots to fuel spells. Mana gives a caster more flexibility, at the cost of complexity.
-<br>&nbsp;&nbsp;&nbsp; In this variant, each spell has a mana cost based on its level. The Mana Cost table summarizes the cost in mana of slots from 1st to 9th level. Cantrips don't require slots and therefore don't require mana.
+#### Прирождённый специалист
+Вы можете потратить очко героизма до или после броска проверки умения, изменив результат на 20. Очки героизма нельзя использовать для изменения результата проверок умений с использованием Интеллекта, Мудрости или Харизмы.
 
-Instead of gaining a number of spell slots to cast your spells from the Spellcasting feature, you gain a pool of mana instead. You can expend a number of mana points to create a spell slot of a given level, and then use that slot to cast a spell. You can't reduce your mana total to less than 0, and you regain all spent mana when you finish a long rest.
+Очки героизма означают прилив энергии или силы, они не делают кого-то внезапно более харизматичным и не дают ему знаний об обширной библиотеке Даларана.
 
-Spells of 6th level and higher are particularly taxing to cast. You can use mana to create one slot of each level of 6th or higher. You can't create another slot of the same level until you finish a long rest.
+# Опциональное правило: Мана
+C этим опциональным правилом, персонаж, обладающий умением *Накладывание заклинаний*, использует ману вместо ячеек заклинаний для подпитки заклинаний. Мана дает заклинателю большую гибкость за счет сложности.
+<br>&nbsp;&nbsp;&nbsp; 
+В этом варианте у каждого заклинания есть мана-стоимость в зависимости от его уровня. Таблица стоимости маны суммирует стоимость в мане ячеек с 1-го по 9-й уровень. Заговоры не требуют ячеек и, следовательно, не требуют маны.
 
-The number of mana you have to spend is based on your level as a spellcaster, as shown in the Mana by Level table. Your level also determines the maximum-level spell slot you can create. Even though you might have enough mana to create a slot above this maximum, you can't do so.
+Вместо того, чтобы получать количество ячеек заклинаний для накладывания заклинаний с помощью умения *Накладывание заклинаний*, вы вместо этого получаете запас маны. Вы можете потратить некоторое количество очков маны на создание ячейки заклинания определенного уровня, а затем использовать эту ячейку для накладывания заклинания. Вы не можете уменьшить свой запас маны менее чем 0, и вы восстанавливаете всю потраченную ману, когда заканчиваете продолжительный отдых.
 
-The Mana by Level table applies to druids, mages, priests, and shaman. For a death knight, druid (feral), or paladin, halve the character's level in that class and then consult the table.
+Заклинания 6-го уровня и выше особенно трудны для накладывания. Вы можете использовать ману для создания одной ячейки каждого уровня 6 или выше. Вы не можете создать еще один слот того же уровня, пока не закончите длительный отдых.
 
-This system can be applied to monsters that cast spells using spell slots, but it isn't recommended that you do so. Tracking mana expenditures for a monster can be a hassle.
+Количество маны, которое вы должны потратить, зависит от вашего уровня заклинателя, как показано в таблице *Мана по уровням*. Ваш уровень также определяет ячейку заклинания максимального уровня, которую вы можете создать. Даже если у вас может быть достаточно маны для создания ячейки выше этого максимума, вы не можете этого сделать.
 
-##### Mana Cost
-<div style='column-count:2'>
+Таблица маны по уровням применима к друидам, магам, жрецам и шаманам. Для рыцаря смерти, друида (сила зверя) или паладина уменьшите уровень персонажа в этом классе вдвое, а затем обратитесь к таблице.
 
-| Spell Level  | Mana Cost |
-|:---:|:-:|
-| 1st | 2 |
-| 2nd | 3 |
-| 3rd | 5 |
-| 4th | 6 |
-
-| Spell Level  | Mana Cost |
-|:---:|:--:|
-| 5th |  7 |
-| 6th |  9 |
-| 7th | 10 |
-| 8th | 11 |
-| 9th | 13 |
-</div>
+Эту систему можно применить к монстрам, которые накладывают заклинания, используя ячейки заклинаний, но делать это не рекомендуется. Отслеживание расхода маны для монстра может быть проблемой.
 
 \columnbreak
 
-<div style='margin-top:100px;'></div>
+##### Стоимость маны
+<div style='column-count:2'>
+
+| Уровень заклинания| Стоимость маны|
+|:---:|:-:|
+| 1 | 2 |
+| 2 | 3 |
+| 3 | 5 |
+| 4 | 6 |
+
+| Уровень заклинания| Стоимость маны |
+|:---:|:--:|
+| 5 |  7 |
+| 6 |  9 |
+| 7 | 10 |
+| 8 | 11 |
+| 9 | 13 |
+</div>
+
+
+
+<div style='margin-top:70px;'></div>
 
 <div class='classTable'>
 
-##### Mana by Level
-| Class Level  | Mana | Max Spell Level |
+##### Мана по уровням
+| Уровень класса  | Мана | Макс. уровень ячейки заклинания |
 |:----:|:---:|:-:|
-|  1st |   3 |1st|
-|  2nd |   6 |1st|
-|  3rd |  14 |2nd|
-|  4th |  17 |2nd|
-|  5th |  27 |3rd|
-|  6th |  32 |3rd|
-|  7th |  38 |4th|
-|  8th |  44 |4th|
-|  9th |  57 |5th|
-| 10th |  64 |5th|
-| 11th |  73 |6th|
-| 12th |  73 |6th|
-| 13th |  83 |7th|
-| 14th |  83 |7th|
-| 15th |  94 |8th|
-| 16th |  94 |8th|
-| 17th | 107 |9th|
-| 18th | 114 |9th|
-| 19th | 123 |9th|
-| 20th | 133 |9th|
+|  1 |   3 |1|
+|  2 |   6 |1|
+|  3 |  14 |2|
+|  4 |  17 |2|
+|  5 |  27 |3|
+|  6 |  32 |3|
+|  7 |  38 |4|
+|  8 |  44 |4|
+|  9 |  57 |5|
+| 10 |  64 |5|
+| 11 |  73 |6|
+| 12 |  73 |6|
+| 13 |  83 |7|
+| 14 |  83 |7|
+| 15 |  94 |8|
+| 16 |  94 |8|
+| 17 | 107 |9|
+| 18 | 114 |9|
+| 19 | 123 |9|
+| 20 | 133 |9|
 </div>
 
-<div class='footnote'>PART 3 | VARIANT RULES</div>
+<div class='footnote'>ЧАСТЬ 3 | ОПЦИОНАЛЬНЫЕ ПРАВИЛА</div>
 <img src='https://www.gmbinder.com/images/yrSnqwW.jpg' style='position:absolute; top:750px; right:-75px; width:950px' />
 <img src='https://www.gmbinder.com/images/L60ii4e.png' style='position:absolute; top:0px; right:0px; width:900px' />
-<img src='https://www.gmbinder.com/images/fZMAlU8.png' style='position:absolute; top:30px; right:72px; width:300px' />
+<img src='https://www.gmbinder.com/images/fZMAlU8.png' style='position:absolute; top:330px; right:72px; width:300px' />
