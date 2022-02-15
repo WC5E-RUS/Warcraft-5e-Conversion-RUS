@@ -1026,7 +1026,7 @@ Your gnome character has the following racial traits.
 
 ***Artificer's Lore.*** Whenever you make an Intelligence (History) check related to magic items, alchemical <br> objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.
 
-***Escape Artist.*** You can take the Disengage or Dodge action as a bonus action on each of your turns.
+***Escape Artist.*** You can take the Disengage action as a bonus action on each of your turns. In addition, you gain advantage on ability checks and saving throws to end early and avoid the grappled condition. 
 
 ***Languages.*** You can speak, read, and write Common and Gnomish. Gnomish in many ways look like dwarven, it uses the same script, and is renowned for its technical treatises and its catalogs of knowledge about the natural world.
 
@@ -1283,6 +1283,8 @@ As a broken draenei, you were left on Draenor as the legion invaded, your connec
 ***Тёмное зрение.*** Привыкнув к сумраку ночного неба, вы обладаете превосходным зрением в темноте и при тусклом освещении. На расстоянии в 60 футов вы при тусклом освещении можете видеть так, как будто это яркое освещение, и в темноте так, как будто это тусклое освещение. В темноте вы не можете различать цвета, только оттенки серого.
 
 ***Укус.*** Ваша пасть с острыми зубами — природное оружие, которым вы можете совершать безоружные удары. Если вы попадаете укусом, вы наносите колющий урон в размере 1к6 + ваш модификатор Силы.
+
+***Keen Hearing and Smell:*** You have advantage on Wisdom (Perception) checks that rely on hearing or smell.
 
 ***Чутьё охотника.*** Вы получаете владение одним из следующих навыков на ваш выбор: Восприятие, Выживание, Природа, Скрытность или Уход за животными.
 
