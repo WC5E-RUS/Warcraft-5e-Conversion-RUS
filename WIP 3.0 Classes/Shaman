@@ -632,12 +632,9 @@ ___
 
 ***Огонь***. Значение вашей Харизмы увеличивается на 2. Максимальное значение для этой характеристики теперь 22.
 
-#### Удары оружием
-Удары оружием указаны в алфавитном порядке.
+***Bouldering Strike.*** When you hit a creature with a weapon attack, you can spend 1 maelstrom point to force it to make a Strength saving throw. On a failure it is pushed 15 feet directly away from you.
 
-***Камнедробитель.***  Когда вы попадаете по существу атакой оружием, вы можете потратить 1 очко энергии Водоворота, чтобы совершить раздрабливающий удар. Цель должна совершить спасбросок Силы, при провале сбиваясь с ног. 
-
-***Клеймо мороза.*** Когда вы попадаете по существу атакой оружием, вы можете потратить 1 очко энергии Водоворота, чтобы попытаться заклеймить его. Цель должна совершить спасбросок Телосложения, при провале получая помеху на атаки оружием до конца своего хода. 
+***Crashing Strike (Requires 7th level).*** When you hit a creature with a weapon attack, you can spend 3 maelstrom points to attempt a crashing blow. The creature must succeed on a Constitu&shy;tion saving throw or be incapacitated until the start of your next turn.
 
 ***Плеть стихий.*** Когда вы попадаете по существу атакой оружием, вы можете потратить 1 очко энергии Водоворота, чтобы обрушить стихии на другое существо на ваш выбор в пределах 15 футов от цели вашей атаки. Это существо должно совершить спасбросок Ловкости, при провале получая 1к10 урона в зависмости от вашей Стихийной настройки. Если вы настроены на две стихии, вы можете выбрать, какой тип урона нанести.
 
@@ -698,7 +695,6 @@ ___
 <div class='footnote'>Часть 1 | Классы</div>
 <img src='https://www.gmbinder.com/images/owfSJiy.jpg' style='position:absolute; top:590px; right:-200px; width:1000px' />
 <img src='https://www.gmbinder.com/images/wvTUmvu.png' style='position:absolute; top:0px; right:0px; width:1000px' />
-
 \pagebreakNum
 
 <div style='column-count:2'>
