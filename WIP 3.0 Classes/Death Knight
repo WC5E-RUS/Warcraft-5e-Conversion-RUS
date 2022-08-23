@@ -213,6 +213,7 @@
   .inkblot-green {
     filter: hue-rotate(120deg)
   }
+</style>
 
 <div style='margin-top:50px;'></div>
 
